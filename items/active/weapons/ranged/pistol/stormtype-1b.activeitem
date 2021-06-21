@@ -1,0 +1,84 @@
+{
+  "itemName" : "stormtype-1b",
+  "price" : 600,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A reinforced sidearm of the Lyru.",
+  "shortdescription" : "Storm Type-1",
+  "tooltipKind" : "gun",
+  "category" : "machinepistol",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","ranged","machinepistol"],
+  "level" : 1,
+
+  "inventoryIcon" : "stormtype-1b.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "stormtype-1b.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash/crystalenergyflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/plasma_mp1.ogg", "/sfx/gun/plasma_mp2.ogg", "/sfx/gun/plasma_mp3.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.5, 0.15],
+  "muzzleOffset" : [1.5, 0.3],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.18,
+    "baseDps" : 7.0,
+    "energyUsage" : 19.5,
+    "inaccuracy" : 0.04,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "lyruplasma",
+    "projectileParameters" : {
+	  "speed" : 100,
+      "knockback" : 4
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 3,
+        "weaponRotation" : 3,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

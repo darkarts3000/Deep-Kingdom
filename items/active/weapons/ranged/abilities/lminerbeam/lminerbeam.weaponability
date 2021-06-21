@@ -1,0 +1,76 @@
+{
+  "ability" : {
+    "name" : "Lyru Miner Beam",
+    "type" : "lminerbeam",
+    "scripts" : ["/items/active/weapons/ranged/abilities/lminerbeam/lminerbeam.lua"],
+    "class" : "minerbeamfire",
+
+    "fireTime" : 0.1,
+    "baseDps" : 50,
+    "energyUsage" : 10,
+	"tileDamage" : 10,
+
+
+    "damageConfig" : {
+      "statusEffects" : ["cursedfire"],
+      "damageSourceKind" : "fireplasma"
+	  },
+
+    "beamLength" : 40,
+    "beamTransitionTime" : 0.25,
+    "beamTransitionFrames" : 4,
+
+    "chain" : {
+      "startOffset" : [0, 0],
+      "startSegmentImage" : "/items/active/weapons/ranged/abilities/lminerbeam/beamstart.png:<beamFrame>",
+      "segmentImage" : "/items/active/weapons/ranged/abilities/lminerbeam/beam.png:<beamFrame>",
+      "endSegmentImage" : "/items/active/weapons/ranged/abilities/lminerbeam/beamend.png:<beamFrame>",
+      "segmentSize" : 0.48,
+      "overdrawLength" : 0.2,
+      "taper" : 0,
+      "waveform" : {
+        "frequency" : 0.1,
+        "amplitude" : 0.0001,
+        "movement" : 0.1
+      },
+      "fullbright" : true
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : -10,
+        "weaponRotation" : 10,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		  "animationStates" : {
+          "weaponbase" : "squirm"
+        }
+      },
+      "fire" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		  "animationStates" : {
+          "weaponbase" : "fire"
+        }
+      },
+      "cooldown" : {
+        "duration" : 0.5,
+        "armRotation" : -5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true,
+		 "animationStates" : {
+          "weaponbase" : "idle"
+        }
+      }
+    }
+  }
+}

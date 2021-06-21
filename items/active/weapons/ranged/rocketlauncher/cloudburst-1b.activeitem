@@ -1,0 +1,99 @@
+{
+  "itemName" : "cloudburst-1b",
+  "price" : 2400,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A powerful rocketLauncher used by Lyru.",
+  "shortdescription" : "Cloudburst Type-1",
+  "tooltipKind" : "gun",
+  "category" : "rocketLauncher",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged","rocketLauncher"],
+  "level" : 1,
+
+  "inventoryIcon" : "cloudburst-1b.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "cloudburst-1b.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash/crystalenergyflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/rocket1.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.4, 0.15],
+  "muzzleOffset" : [2.3, 0.15],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "cursedfire",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.0,
+    "baseDps" : 10.0,
+    "energyUsage" : 36.0,
+    "inaccuracy" : 0.0,
+	
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "homingenergymissile",
+    "projectileParameters" : {
+      "damageKind" : "plasma",
+      "statusEffects" : ["cursedfire"],
+      "knockback" : 40
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0, 0],
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [-0.2, 0],
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "cooldown" : {
+        "duration" : 0.4,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [-0.2, 0],
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+  "fireSounds" : [ "/sfx/gun/rocket2.ogg" ],
+  
+  "altAbilityType" : "rocketburst",
+  "altAbility" : {
+    "projectileType" : "homingenergymissile",
+    "projectileParameters" : {
+      "damageKind" : "plasma",
+	  "statusEffects" : [ "burning" ],
+	  "speed" : 40
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

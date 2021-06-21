@@ -1,0 +1,88 @@
+{
+  "itemName" : "lyrubeamcannon",
+  "level" : 2,
+  "price" : 3600,
+  "inventoryIcon" : "lyrumininglaser.png",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A powerful energy beam used in lyru mining facilities. ",
+  "shortdescription" : "Lyru Mining Laser",
+  "category" : "uniqueWeapon",
+  "itemTags" : ["weapon","ranged"],
+  "twoHanded" : true,
+
+  "animation" : "lyrubeamcannon.animation",
+  "animationParts" : {
+    "minerbeamorigin" : "minerbeammuzzle.png",
+    "weaponbase" : "lyrubeamcannon.png"
+  },
+  "animationCustom" : {
+  "animatedParts": {
+      "parts": {
+        "weaponbase": {
+          "properties": {"offset": [0.50,-0.4]}
+        },
+		"minerbeamorigin": {
+          "properties": {"offset": [1.50,-0.75]}
+        }
+      }},
+    "sounds" : {
+      "fireStart" : [ "/sfx/gun/aegisaltpistol_start.ogg" ],
+      "fireLoop" : [ "/sfx/gun/aegisaltpistol_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/aegisaltpistol_stop.ogg" ],
+      "beamImpact" : [ "/sfx/projectiles/burning.ogg" ]
+    }
+  },
+  "animationScripts" : ["/items/active/effects/chain.lua"],
+
+  "baseOffset" : [0.6, -0.5],
+  "muzzleOffset" : [1.12, -0.25],
+
+  "scripts" : ["/items/active/weapons/ranged/gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbilityType" : "lminerbeam",
+  "primaryAbility" : {},
+  "altAbilityType" : "lminerbeamalt",
+  "altAbility" : {},
+
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+      "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		  "animationStates" : {
+          "weaponbase" : "squirm"
+        }
+      },
+      "fire" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+		  "animationStates" : {
+          "weaponbase" : "fire"
+        }
+      },
+      "cooldown" : {
+        "duration" : 0.2,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true,
+		 "animationStates" : {
+          "weaponbase" : "idle"
+        }
+      }
+    }
+}
