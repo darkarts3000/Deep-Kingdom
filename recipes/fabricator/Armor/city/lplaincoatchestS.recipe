@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pryphorline", "count" : 3 },
+	{ "item" : "leather", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "lplaincoatchestS", "count" : 1 },
+  "groups" : [ "lyrufabricator", "armors" ]
+}
