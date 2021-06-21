@@ -1,0 +1,11 @@
+[
+  //MONSTERS AND CRITTERS
+  { "op" : "replace",
+	"path" : "/spawnProfile/groups/0/select",
+	"value" : 3
+  },
+  { "op" : "add",
+	"path" : "/spawnProfile/groups/0/pool/-",
+	"value" : [ 0.2, "gianthydnora" ]
+  }
+]

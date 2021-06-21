@@ -1,0 +1,70 @@
+[
+  //MONSTERS AND CRITTERS
+  { "op" : "replace",
+	"path" : "/spawnProfile/groups/0/select",
+	"value" : 3
+  },
+  { "op" : "add",
+	"path" : "/spawnProfile/groups/0/pool/-",
+	"value" : [ 0.1, "crystalray" ]
+  },
+  { "op" : "add",
+	"path" : "/spawnProfile/groups/0/pool/-",
+	"value" : [ 0.2, "quelm" ]
+  },
+  { "op" : "replace",
+	"path" : "/subBlocks",
+	"value" : [ "rock12", "floweryblock" ]
+  },
+  { "op" : "add",
+    "path" : "/undergroundPlaceables/items/-",
+    "value" : {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:undergroundCrops",
+
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [1, "wilddeepshadeseed" ] ],
+          "parameters" : {
+            "startingStage" : 3
+          }
+        }
+      ]
+    }	
+  },
+  { "op" : "add",
+    "path" : "/undergroundPlaceables/items/-",
+    "value" : {
+      "mode" : "floor",
+      "priority" : 2.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:denseLarge",
+
+      "type" : "tree",
+      "treeFoliageHueShiftMax" : 0,
+      "treeStemHueShiftMax" : 15,
+      "treeStemList" : [ "magictree" ],
+      "treeFoliageList" : [ "" ]
+    }
+  },
+  { "op" : "add",
+    "path" : "/undergroundPlaceables/items/-",
+    "value" : {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [0.15, "glowbulb1" ], [0.15, "glowbulb2" ], [0.15, "glowbulb3" ], [0.15, "glowbulb4" ], [0.15, "glowbulb5" ], [0.01, "fancytail1" ], [0.01, "fancytail2" ], [0.01, "fancytail3" ] ],
+          "parameters" : { }
+        }
+      ]
+    }	
+  }
+]

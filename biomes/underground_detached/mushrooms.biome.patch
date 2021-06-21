@@ -1,0 +1,37 @@
+[
+  //MONSTERS AND CRITTERS
+  { "op" : "replace",
+	"path" : "/spawnProfile/groups/0/select",
+	"value" : 3
+  },
+  { "op" : "add",
+	"path" : "/spawnProfile/groups/0/pool/-",
+	"value" : [ 0.03, "quelm" ]
+  },
+  { "op" : "add",
+	"path" : "/spawnProfile/groups/0/pool/-",
+	"value" : [ 0.15, "hydraflora" ]
+  },
+  { "op" : "add",
+	"path" : "/spawnProfile/groups/0/pool/-",
+	"value" : [ 0.15, "gianthydnora" ]
+  },
+  { "op" : "add",
+    "path" : "/undergroundPlaceables/items/-",
+    "value" : {
+        "mode" : "floor",
+        "priority" : 2.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredSmall",
+
+        "type" : "bush",
+        "bushes" : [
+          {
+            "name" : "spiralcones",
+            "baseHueShiftMax" : 0,
+            "modHueShiftMax" : 0
+          }
+        ]
+    }	
+  }
+]

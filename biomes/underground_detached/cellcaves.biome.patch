@@ -1,0 +1,31 @@
+[
+  //MONSTERS AND CRITTERS
+  { "op" : "replace",
+	"path" : "/spawnProfile/groups/0/select",
+	"value" : 3
+  },
+  { "op" : "add",
+	"path" : "/spawnProfile/groups/0/pool/-",
+	"value" : [ 0.08, "creeper" ]
+  },
+  { "op" : "add",
+	"path" : "/spawnProfile/groups/0/pool/-",
+	"value" : [ 0.1, "slimepod" ]
+  },
+  { "op" : "add",
+	"path" : "/spawnProfile/groups/0/pool/-",
+	"value" : [ 0.2, "monomiun" ]
+  },
+  { "op" : "add",
+	"path" : "/spawnProfile/groups/0/pool/-",
+	"value" : [ 0.2, "trimiun" ]
+  },
+  { "op" : "add",
+	"path" : "/spawnProfile/groups/0/pool/-",
+	"value" : [ 0.1, "festerling" ]
+  },
+  { "op" : "replace",
+	"path" : "/subBlocks",
+	"value" : [ "mud", "jellyblock" ]
+  }
+]

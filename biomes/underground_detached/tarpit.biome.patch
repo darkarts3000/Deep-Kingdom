@@ -1,0 +1,34 @@
+[
+  //MONSTERS AND CRITTERS
+  { "op" : "replace",
+	"path" : "/spawnProfile/groups/0/select",
+	"value" : 3
+  },
+  { "op" : "add",
+	"path" : "/spawnProfile/groups/0/pool/-",
+	"value" : [ 0.1, "needleback" ]
+  },
+  { "op" : "add",
+	"path" : "/spawnProfile/groups/0/pool/-",
+	"value" : [ 0.2, "gianthydnora" ]
+  },
+  { "op" : "add",
+    "path" : "/undergroundPlaceables/items/-",
+    "value" : {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/distributions.config:undergroundCrops",
+
+      "type" : "object",
+      "objectSets" : [
+        {
+          "pool" : [ [1, "wildbittercaneseed" ] ],
+          "parameters" : {
+            "startingStage" : 3
+          }
+        }
+      ]
+    }	
+  }
+]

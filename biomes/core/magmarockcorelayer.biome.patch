@@ -1,0 +1,18 @@
+[
+  //MONSTERS AND CRITTERS
+  { "op" : "add",
+	"path" : "/spawnProfile",
+	"value" : {
+		"groups" : [
+		  {
+			"select" : 3,
+			"pool" : [ 
+			  [ 1.0, "coreleech" ],
+			  [ 0.5, "shardspark" ],
+			  [ 0.5, "coregazer" ]
+			]
+		  }
+		] 
+	}
+  }
+]

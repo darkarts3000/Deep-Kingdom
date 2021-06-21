@@ -1,0 +1,63 @@
+[
+  //In the "path" string, use the first number (after the layer name) to indicate the target tier (from 0 (tier 0.5) to 5 (tier 5.5))
+  //Second number has to be 1 at all times!
+  
+  //===================================== Tier 1 planets =====================================
+  
+  //===================================== Tier 2 planets =====================================
+  {
+    "op": "add",
+    "path": "/depth3/1/1/-",
+    "value": [ "prisilite", 0.45 ]
+  },
+  {
+    "op": "add",
+    "path": "/core/1/1/-",
+    "value": [ "prisilite", 0.55 ]
+  },
+  //===================================== Tier 3 planets =====================================
+  {
+    "op": "add",
+    "path": "/depth3/2/1/-",
+    "value": [ "prisilite", 0.65 ]
+  },
+  {
+    "op": "add",
+    "path": "/core/2/1/-",
+    "value": [ "prisilite", 0.65 ]
+  },
+  //===================================== Tier 4 planets =====================================
+  {
+    "op": "add",
+    "path": "/depth3/3/1/-",
+    "value": [ "prisilite", 0.80 ]
+  },
+  {
+    "op": "add",
+    "path": "/core/3/1/-",
+    "value": [ "prisilite", 0.80 ]
+  },
+  //===================================== Tier 5 planets =====================================
+  {
+    "op": "add",
+    "path": "/depth3/4/1/-",
+    "value": [ "prisilite", 1.0 ]
+  },
+  {
+    "op": "add",
+    "path": "/core/4/1/-",
+    "value": [ "prisilite", 1.0 ]
+  },
+  
+  //===================================== Tier 6 planets =====================================
+  {
+    "op": "add",
+    "path": "/depth3/5/1/-",
+    "value": [ "prisilite", 0.80 ]
+  },
+  {
+    "op": "add",
+    "path": "/core/5/1/-",
+    "value": [ "prisilite", 0.80 ]
+  }
+]
