@@ -1,0 +1,52 @@
+{
+  "objectName" : "lyruairchair",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Uncommon",
+  "description" : "An air bag cushion.",
+  "shortdescription" : "Lyru Air Cushion",
+  "race" : "lyru",
+  "category" : "furniture",
+  "printable" : false,
+  "price" : 60,
+
+  "apexDescription" : "A comfortable air bag cushion.",
+  "avianDescription" : "An air bag cushion. Simple, but quite comfortable.",
+  "floranDescription" : "Cussshionsss for sssitting!",
+  "glitchDescription" : "Surprised. This air bag cushion is quite comfortable.",
+  "humanDescription" : "A simple, comfortable cushion.",
+  "hylotlDescription" : "A surprisingly comfortable air bag cushion.",
+  "novakidDescription" : "An ol' cushion filled with air.",
+
+  "lyruDescription" : "A cushion that can be deflated to save space.",
+
+  "inventoryIcon" : "lyruairchairicon.png",
+  "orientations" : [
+    {
+      "image" : "lyruairchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "left",
+      "sitPosition" : [-2, 20]
+    },
+    {
+      "image" : "lyruairchair.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "sitPosition" : [6, 20]
+    }
+	],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+
+}
