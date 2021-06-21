@@ -1,0 +1,11 @@
+{
+  "name" : "coregazer",
+  "category" : "coregazer",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png",
+    "bodyfullbright" : "bodyfullbright.png",
+    "eye" : "eye.png"
+  }
+}
