@@ -1,0 +1,26 @@
+{
+  "id" : "lyruyucada",
+  "species" : "lyru",
+  "title" : "Analysis of the Yucada",
+  "description" : "A researcher's analysis of the Yucada.",
+  "icon" : "lyrupaper1.png",
+  "contentPages" : [
+
+"They're one of the biggest and smartest beast we've ever encounted on our exploration of planet Karo-13.
+
+Covered in thick scale plates, baring large sickle shaped claws, and a skull fuctioning like a hammer. It preyed upon many of us ferociously as if merely for sport.",
+
+"We managed put down the creature and took shelter in a tunnel before night fall with some parts of it. However our safety was soon gone as we heard the calls of the juveniles of this species.
+
+Taking arms once again, and readying ourselves for the attack.",
+
+"Charging at us, this pack of juveniles fought together for food and survival. For their scale plates were not as thick as the adult.
+
+Dispatching those one's wasn't too difficult, but it was clear that we needed better gear in order to withstand the beast of this world."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 250
+  }
+}

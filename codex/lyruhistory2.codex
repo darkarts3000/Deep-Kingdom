@@ -1,0 +1,22 @@
+{
+  "id" : "lyruhistory2",
+  "species" : "lyru",
+  "title" : "Lyru History - Part 2",
+  "description" : "Tale of the first Lyru kingdom.",
+  "icon" : "lyrubook2.png",
+  "contentPages" : [
+
+"It was an age with little left untouched by the hands of time. An age of were our people burned the dead, and grown crops from the ashes.",
+
+"Sacrifice was weekly occurrence to us. For without it, the food supply would not have been plentiful enough to maintane this civilization. Or please our three gods who helped us build it.",
+
+"With the fires of the Torakahli our ancestors created many wonders of clay and metal. Tablets, pots and buildings from red clay. Tools, weapons and armor made of hardend metal.",
+
+"The ancestors were in agreement with their worship of the three gods of mischief for many years. Though some took to praticing under the god they believed to be more important."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 150
+  }
+}

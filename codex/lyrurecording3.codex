@@ -1,0 +1,24 @@
+{
+  "id" : "lyrurecording3",
+  "species" : "lyru",
+  "title" : "Troublesom Bright Ones",
+  "description" : "A brief recording following an encounter with the Novakid.",
+  "icon" : "lyrutransmiter3.png",
+  "contentPages" : [
+
+"We've met many strange beings before, but nothing compares to the natural opposition I felt towards the Novakid.
+
+I needed to use a shader to look at them as we aproached one of their towns. With my skin getting irrited while standing next to them.",
+
+"Though mostly friendly folk, these Novakid had little respect for our cultural pratices. Even to the point that it was insulting.
+
+It's no wonder that our Hylotl uplifters don't contact them that often.",
+
+"Trading with the Novakid might not be as fruitful as the other races. One thing's for sure. I would not want to be on one of their wanted list."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 50
+  }
+}

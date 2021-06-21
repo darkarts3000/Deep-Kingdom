@@ -1,0 +1,26 @@
+Lyru Codex:[
+	Recordings{
+		"lyrurecording1-codex",
+		"lyrurecording2-codex",
+		"lyrurecording3-codex"
+	},
+	Documents{
+		"lyruyucada-codex"
+	},
+	Lyru-Books{
+		"encounterbook1-codex",
+		"encounterbook2-codex",
+		"encounterbook3-codex",
+		"encounterbook4-codex",
+		"encounterbook5-codex",
+		"lyruhistory1-codex",
+		"lyruhistory2-codex"
+	},
+	Hylotl Research-Books{
+		"lyrubiology-codex",
+		"lyruculture-codex"
+	},
+	Other{
+		"enemiesbelow-codex"
+	}
+]

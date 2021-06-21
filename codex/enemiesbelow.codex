@@ -1,0 +1,28 @@
+{
+  "id" : "enemiesbelow",
+  "species" : "avian",
+  "title" : "The Enemies Below",
+  "description" : "A journal written by an Avian temple guard of the Shade raiders.",
+  "icon" : "avian/aviancover2.png",
+  "contentPages" : [
+
+"Many years we fought to protect our tomb and temples from those who come to defile them. But until now, we've always been victorious. I never imagined that something terrible would happen that calm, peaceful night.",
+
+"From under the stone work of our sacred tomb, they crept in undetected. Lyru Shade raiders they were.
+
+Ready to steal anything of value and worst the vessels of our Ascendants. For those greedy Underworlders have aquired a taste for the for other races like the Floran.",
+
+"Once I saw them looting my friend's tomb, I called out to the other guards and attacked.
+
+We could barely hit them as they leapt around us striking with their staffs and daggers. Fear started to take hold of me as I watched some of them fly through the air without wings or flight tech.",
+
+"The Underworlders were truely demons. Welding powers to challenge and corrupt the followers of Kluex.
+
+Eventually we drove them off leaving one as a sacrifice. He laughed at us as he met his demise."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 150
+  }
+}

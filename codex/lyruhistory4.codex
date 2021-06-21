@@ -1,0 +1,24 @@
+{
+  "id" : "lyruhistory4",
+  "species" : "lyru",
+  "title" : "Lyru History - Part 4",
+  "description" : "Legend of Eldu Brok.",
+  "icon" : "lyrubook4.png",
+  "contentPages" : [
+
+"Only one true fear remains within the minds of our Overseers. A fear that stained the once pure feilds of light outside the palace gate, and stands watching from his grave.",
+
+"Welding nothing more than a war pick, he claimed the lives of thousands under the orders of Lord Basili. Eldu Brok was this warrior's name. An acient Ranger who would lead Basili's army into battle.",
+
+"None have been able to match the speed and skills in cobat as Eldu Brok. Thus the Lords Salandir and Lu Duke were forced to give their kingdoms to Basili to end the bloodshed. Or so it was planned.",
+
+"By the warrior's code, Eldu Brok was ment to die in war against a worthy foe. But after the war ended and the warrior's mind became tainted over time. Everone became his emeny as he sought to find someone stronger than him.",
+
+"Ordered by Basili, Eldu Brok would be slain by other Rangers to save the kingdom. It was claimed that he died standing during the fight staring at the palace gate. Reminding all Overseers to beware of the day he would return."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 150
+  }
+}

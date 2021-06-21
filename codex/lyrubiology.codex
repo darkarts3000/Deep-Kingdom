@@ -1,0 +1,20 @@
+{
+  "id" : "lyrubiology",
+  "species" : "hylotl",
+  "title" : "Lyru Biological Study",
+  "description" : "A Hylotl scholar's observations on the Lyru race.",
+  "icon" : "hylotl/hylotlcover6.png",
+  "contentPages" : [
+
+    "A cave dwelling species they are, and have spent several hundreds of years hidden beneath the fires of Illron. Being nimble, able to jump high and withstand long falls while traversing the tunnels of their home. They consume verious underground flora and fauna, staying there due to extreme sensitivity to sunlight. But the most peculiar thing about the Lyru is their eyes. Not only large but also having incredible focus.",
+
+"Even if something is out of the Lyru's sight, their big ears can catch even the slightest bit of noise. However they lack the complete resistance to fire that many fire world creatures have. Worse with electircal resistance from the high traces of metal in their bodies.",
+
+"To many humans they cleary resemble the marsupials of the outback as they say. Eventually leading to them adopting the name Lyru. A sort of combination of the words \"lee\" and \"roo\" meaning protected kangaroo."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 150
+  }
+}

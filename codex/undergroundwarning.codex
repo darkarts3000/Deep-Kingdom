@@ -1,0 +1,20 @@
+{
+  "id" : "undergroundwarning",
+  "species" : "lyru",
+  "title" : "Underground Warning",
+  "description" : "A report of a resent energy outbrake.",
+  "icon" : "lyrufile3.png",
+  "contentPages" : [
+
+"^red;-- Warning --
+
+Unkown surges of crystal energy within the cores of hundreds planets have caused crystal entities to appear inside.
+
+Be on your guard when mining core fragments.^white;"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id" : "lyruorders1",
+  "species" : "lyru",
+  "title" : "Ranger Objective",
+  "description" : "A top secret message, from the mighty Overseer Boa.",
+  "icon" : "lyrufile1.png",
+  "contentPages" : [
+
+"^red;-- CLASSIFIED --^white;
+
+Receiver Ranger.
+
+Your mission is nearly complete, and our rise to power is in our grasp. This self-proclaimed peacekeeping organization has given us much information, and the Lyru presence in this galaxy is spreading.",
+
+"Your reports tell me that this organization was founded several centuries ago by the humans of Earth. To \"protect the universe and help those in need\", Ha! What fools they are.",
+
+"To have a reliable Ranger on the inside. You.
+
+Your goal to infiltrate the Terrene Protectorate. Follow their training programs and learn all you can about its hierarchy, and its motives without being descovered. I'm impressed Ranger.",
+
+"You must obtain one of the Protectorate's matter manipulators. With it we can dominate the universe."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

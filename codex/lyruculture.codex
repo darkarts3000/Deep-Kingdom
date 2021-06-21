@@ -1,0 +1,24 @@
+{
+  "id" : "lyruculture",
+  "species" : "hylotl",
+  "title" : "Lyru Culture Study",
+  "description" : "Summarized hylotl documents of lyru culture.",
+  "icon" : "hylotl/hylotlcover5.png",
+  "contentPages" : [
+
+"They treasure all that is of high material value. Take ideas form others as their own. But this is only part of the Lyru's rich culture, and history.",
+
+"Nearly 700 years after the siege from the Floran hordes, their kingdom was untouched. Until the Letheia Corporation sent a group to voyage down bellow the boiling surface of the Lyru's planet, Illron. With the records describing their society being only in the moddern age.",
+
+"After their unexpected arival into space, they nearly let go of their own traditions in favor of more technical means. However traces of their old cultural ideas still exist along with their old temples.",
+
+"Even the Lyru's style of clothing mimics other races that they've come in contact with. Which was uncommon before due to the heat of the planet.",
+
+"To outsiders, the stylistic diversity within a Lyru city can be overwhelming for the first time. For this is culture where fads come and never die."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 150
+  }
+}

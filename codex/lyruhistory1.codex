@@ -1,0 +1,24 @@
+{
+  "id" : "lyruhistory1",
+  "species" : "lyru",
+  "title" : "Lyru History - Part 1",
+  "description" : "Legend of the Lyru gods and the begining of civilization.",
+  "icon" : "lyrubook1.png",
+  "contentPages" : [
+
+"In this time of wonder and prosperity for our people. Many forget to look back at challenges we had to overcome to stand amoungst the other spacefarers.",
+
+"There were no gods who watched over us. No signs of aid from outside the stone walls of our buring world. We alone and wandered through the tunnels with no purpose except survival. Until the prison holding the three great beast came down to us.",
+
+"Terrors unknown to our world dwelled within as well as the great stone held by all our Overseers. They became our gods of mischief as they manipulated powerful forces that we could not. The event would have ended us if the ancestors were not clever enough to study the three beast.",
+
+"The ancestors saw greatness in the powers of the three beast. But at the cost of feeding them anything that was available, even our own. Dispite this, we gave all that the beast would take.",
+
+"In return our gods gave us gifts that would light the path to civilization. Reciving fires that wouldn't extinguish, gems that healed anyone nearby, and the kin of the storm beast to cary us faster through the tunnels."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 150
+  }
+}

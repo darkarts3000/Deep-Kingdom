@@ -1,0 +1,30 @@
+{
+  "id" : "lyrurecording1",
+  "species" : "lyru",
+  "title" : "Current State of the Univers",
+  "description" : "A recording of a Lyru Avocati scout encountering cultist.",
+  "icon" : "lyrutransmiter1.png",
+  "contentPages" : [
+
+"My agency recently got word of the Ruin destroying Earth. It's no dought that the Occasus cult is behind this.
+
+The task at hand is find out what their next move is and adjust according. We must not let know the whereabouts of Illron.",
+
+"We got a reading on a couple cultist on this planet, armed but seeming unaware of our presence here. It would give us chance to possibly dig up some information on our enemy.
+
+Not long after we found them standing around a stange altar.",
+
+"For five minutes we quietly listened to the cultist banter and bash other races they hated. I don't know how they got the knowledge to sumon the Ruin from its prison.
+
+However it didn't take much longer for them to notice that they were surrounded to start firing.",
+
+"One of them shouted \"You won't be able to hide any longer! The Ruin will erase your monsterous kind from the univers!\", before I shot him dead. With his companions falling soon after,
+
+we came to the conclusion that these fools aren't worth the pain they brought upon us."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 50
+  }
+}

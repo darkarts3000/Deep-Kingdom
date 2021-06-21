@@ -1,0 +1,24 @@
+{
+  "id" : "lyrurecording2",
+  "species" : "lyru",
+  "title" : "Endless Secrets Hidden Below",
+  "description" : "A recording of a Lyru's findings on Ancient challenge doors.",
+  "icon" : "lyrutransmiter2.png",
+  "contentPages" : [
+
+"It is with great luck that I have found and survived the mysterious portals left behind from the Ancients. With many traps and hostile entities inside tyring to keep me away from the reward at the end.",
+
+"Most tested my reflex skills and ability to defend myself. While others merely judged my charaster.
+
+But at the end of it all I'm left wondering what the purpose of these rooms are.",
+
+"They are challenging, but what are they preparing me for? What do all of test hidden down in the dark lead up to?
+
+I may find this answer soon if I'm still alive. One things for sure is a few of these chest make me feel uneasy."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "uncommon",
+    "price" : 50
+  }
+}
