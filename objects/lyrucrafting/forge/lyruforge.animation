@@ -1,0 +1,101 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "stage" : {
+        "default" : "lyruforge",
+        "states" : {
+          "lyruforge" : {
+            "frames" : 4,
+            "cycle" : 0.4,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOn" : [ "lyruglow" ]
+            }
+		  },
+          "lyruforge2" : {
+            "frames" : 4,
+            "cycle" : 0.8,
+            "mode" : "loop",
+            "properties" : {
+              "lightsOn" : [ "lyruglow" ]
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "lights" : {
+        "properties" : {
+          "centered" : true,
+          "fullbright" : true,
+          "zLevel" : 0
+        },
+        "partStates" : {
+          "stage" : {
+            "lyruforge" : {
+              "properties" : {
+                "image" : "lyruforge.png:<color>.<frame>"
+              }
+			},
+
+            "lyruforge2" : {
+              "properties" : {
+                "image" : "lyruforge2.png:<color>.<frame>"
+              }
+			}
+          }
+        }
+      },
+      "chassis" : {
+        "properties" : {
+          "centered" : true,
+          "zLevel" : 1
+        },
+        "partStates" : {
+          "stage" : {
+            "lyruforge" : {
+              "properties" : {
+                "image" : "lyruforgelit.png:<color>.<frame>"
+              }
+            },
+
+            "lyruforge2" : {
+              "properties" : {
+                "image" : "lyruforge2lit.png:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "fanfare" : ["/sfx/cinematics/license_acquired_event.ogg"]
+  },
+
+  "lights" : {
+
+    "lyruglow" : {
+      "active" : false,
+      "color" : [225, 155, 244],
+      "position" : [0, 2],
+
+      "flickerPeriod" : 0.9,
+      "flickerMinIntensity" : 0.75,
+      "flickerMaxIntensity" : 0.8,
+      "flickerPeriodVariance" : 0,
+      "flickerIntensityVariance" : 0
+    }
+  },
+  
+  "particleEmitters" : {
+    "dust" : {
+      "emissionRate" : 0.0,
+      "burstCount"  : 10,
+      "offsetRegion" : [-2, -2, 2, 2],
+      "particles" : [{ "particle" : "dust2"}]
+    }
+  }
+}

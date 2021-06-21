@@ -1,0 +1,53 @@
+{
+  "objectName" : "lyrustove",
+  "colonyTags" : ["lyru","lyrubase","cooking"],
+  "rarity" : "Uncommon",
+  "category" : "crafting",
+  "price" : 100,
+  "printable" : false,
+  "description" : "A simple and sturdy Lyru stove.",
+  "shortdescription" : "Lyru Stove",
+  "race" : "lyru",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingfood.config",
+    "filter" : [ "craftingfood" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Lyru Stove",
+        "subtitle" : " Comforting, cave dweller cooking"
+      }
+    }
+  },
+
+  "apexDescription" : "This cooking surface is quite good.",
+  "avianDescription" : "A simple stove.",
+  "floranDescription" : "Ssstove for a sssmall houssse.",
+  "glitchDescription" : "Pleased. A well made cooking surface.",
+  "humanDescription" : "A lovely little stove for a cave dweller's house.",
+  "hylotlDescription" : "This stove seems to be used frequently.",
+  "novakidDescription" : "A nice lil' stove for a cave dweller's home.",
+  "lyruDescription" : "It's nice to have some good food every now and then.",
+
+  "inventoryIcon" : "lyrustoveicon.png",
+  "orientations" : [
+    {
+      "image" : "lyrustove.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1, 
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "lyrustove.png:<color>",
+      "imagePosition" : [-8, 0],
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

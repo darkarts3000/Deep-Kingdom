@@ -1,0 +1,134 @@
+{
+  "objectName" : "lyrufabricator",
+  "colonyTags" : [ "lyru", "lyrubase", "crafting" ], 
+  "rarity" : "Uncommon",
+  "race" : "lyru",
+  "category" : "crafting",
+  
+  //this is handled by the lua
+  "breakDropOptions" : [],
+  
+  "price" : 400,
+  "printable" : false,
+  
+  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
+  
+  "animation" : "lyrufabricator.animation",
+  "animationPosition" : [0, 12],
+  
+  "inventoryIcon" : "lyrufabricatoricon.png",
+  "placementImage" : "lyrufabricator.png:default.default",
+  "placementImagePosition" : [-16, 0],
+  
+  "description" : "A device that can fuse and reorganize materials into any shape.",
+  "shortdescription" : "Energy Fabricator",
+
+  "apexDescription" : "A device like this is prohibited by the Miniknog.",
+  "avianDescription" : "I could make some nice things with this.",
+  "floranDescription" : "Floran ussse device to make nice housse.",
+  "glitchDescription" : "Intrigued. This device can be used to make a variety of things.",
+  "humanDescription" : "Well this is a nifty device.",
+  "hylotlDescription" : "I'd prefer my items hand-made, though this does the job nicely.",
+  "lyruDescription" : "This device takes feedstock material and shapes it into something new.",
+  "novakidDescription" : "Maybe I can make myself a new shirt on this.",
+
+  "learnBlueprintsOnPickup" : [],
+  
+  "startingUpgradeStage" : 1,
+  "maxUpgradeStage" : 2,
+  "upgradeStages" : [
+    {
+      "animationState" : "lyrufabricator",
+
+      "itemSpawnParameters" : {
+        "price" : 200,
+        "inventoryIcon" : "lyrufabricatoricon.png",
+        "placementImage" : "lyrufabricator.png:default.default",
+        "placementImagePosition" : [-16, 0],
+
+        "description" : "A device that can fuse and reorganize materials into any shape.",
+        "shortdescription" : "Energy Fabricator",
+
+        "apexDescription" : "A device like this is prohibited by the Miniknog.",
+        "avianDescription" : "I could make some nice things with this.",
+        "floranDescription" : "Floran ussse device to make nice housse.",
+        "glitchDescription" : "Intrigued. This device can be used to make a variety of things.",
+        "humanDescription" : "Well this is a nifty device.",
+        "hylotlDescription" : "I'd prefer my items hand-made, though this does the job nicely.",
+        "lyruDescription" : "I can make some nice things with this device.",
+        "novakidDescription" : "Maybe I can make myself a new shirt on this."
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/lyrufabricator.config",
+        "filter" : [ "lyrufabricator" ],
+        "upgradeMaterials" : [
+          { "item" : "circuitplate2", "count" : 5 },
+          { "item" : "siliconboard", "count" : 2 },
+          { "item" : "goldbar", "count" : 2 }
+        ]
+      },
+
+      "learnBlueprintsOnPickup" : [],
+
+      "upgradeSoundEffect" : "fanfare",
+      "upgradeParticleEffect" : "dust"
+    },
+
+    {
+      "animationState" : "lyrufabricator2",
+
+      "itemSpawnParameters" : {
+        "price" : 400,
+        "inventoryIcon" : "lyrufabricator2icon.png",
+        "placementImage" : "lyrufabricator2.png:default.default",
+        "placementImagePosition" : [-16, 0],
+
+        "description" : "A powerful device that can fuse and reorganize materials into any shape.",
+        "shortdescription" : "Energy Fabricator",
+
+        "apexDescription" : "This is impressive. I never seen anything like this.",
+        "avianDescription" : "I've never seen anything like it!",
+        "floranDescription" : "Floaty diamond forming.",
+        "glitchDescription" : "In love. Such technology is art.",
+        "humanDescription" : "Where did the Lyru get this technology?",
+        "hylotlDescription" : "Such craftsmanship is remarkable. Hylotl have nothing like this.",
+        "lyruDescription" : "Some of the finest Lyru carpenters use this.",
+        "novakidDescription" : "I bet this could make some mighty fine furniture."
+      },
+
+      "interactData" : {
+        "config" : "/interface/windowconfig/lyrufabricator.config",
+        "filter" : [ "lyrufabricator", "lyrufabricator2" ]
+      },
+
+      "learnBlueprintsOnPickup" : []
+    }
+  ],
+  
+  "orientations" : [
+    {
+      "image" : "lyrufabricator.png.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      "spaces" : [
+        [-2, 2], [-1, 2], [0, 2], [1, 2],
+        [-2, 1], [-1, 1], [0, 1], [1, 1],
+        [-2, 0], [-1, 0], [0, 0], [1, 0]
+      ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "lyrufabricator.png.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+      "spaces" : [
+        [-2, 2], [-1, 2], [0, 2], [1, 2],
+        [-2, 1], [-1, 1], [0, 1], [1, 1],
+        [-2, 0], [-1, 0], [0, 0], [1, 0]
+      ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
