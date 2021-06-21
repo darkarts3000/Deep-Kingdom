@@ -1,0 +1,47 @@
+{
+  "objectName" : "lyrutalltenttop",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 600,
+  "description" : "A plate and pryphorline sheet used as a roof for lyru structures.",
+  "shortdescription" : "Plate Top Sheet",
+  "race" : "lyru",
+
+  "apexDescription" : "A plate roof with a pryphorline sheet. Very basic.",
+  "avianDescription" : "A basic roof plate with a pryphorline sheet.",
+  "floranDescription" : "Strong metal hides silky material.",
+  "glitchDescription" : "Observation. A basic roof plate with a pryphorline sheet.",
+  "humanDescription" : "A strong plate roof with a pryphorline sheet. How strange.",
+  "hylotlDescription" : "A plate and a pryphorline sheet being used as roof.",
+
+  "lyruDescription" : "A plate and pryphorline top sheet used as a roof. Basic, but functional.",
+
+  "inventoryIcon" : "lyrutalltenttopicon.png",
+  "orientations" : [
+    {
+      "image" : "lyrutalltenttop.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "collision" : "solid",
+      "flipImages" : true,
+      "direction" : "right"
+    },
+    {
+      "image" : "lyrutalltenttop.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "collision" : "solid",
+      "direction" : "left"
+    }
+  ]
+}

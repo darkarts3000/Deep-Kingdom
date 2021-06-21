@@ -1,0 +1,50 @@
+{
+  "objectName" : "lyruentry",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 500,
+  "description" : "A plated awning with a pryphorline sheet, used to protect the entrance of Lyru structures.",
+  "shortdescription" : "Plate Awning",
+  "race" : "lyru",
+
+  "apexDescription" : "A basic awning made of plated pryphorline.",
+  "avianDescription" : "A strong plated pryphorline awning.",
+  "floranDescription" : "Strong metal hides silky material.",
+  "glitchDescription" : "Observation. A basic plated awning with a pryphorline sheet.",
+  "humanDescription" : "A plated awning with a pryphorline sheet? How strange.",
+  "hylotlDescription" : "A plated pryphorline awning. Very basic construction.",
+
+  "lyruDescription" : "A basic but functional pryphorline awning with metal plating.",
+
+
+  "inventoryIcon" : "lyruentryicon.png",
+  "orientations" : [
+    {
+      "image" : "lyruentry.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "flipImages" : true,
+      "direction" : "right"
+    },
+    {
+      "image" : "lyruentry.png:<color>",
+
+      "imagePosition" : [-40, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform",
+      "direction" : "left"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "objectName" : "lyrulargeentry",
+  "colonyTags" : [ "lyru" ],
+  "rarity" : "Uncommon",
+  "description" : "A large plated entrance with a pryphorline sheet, used to protect the entrance of Lyru structures.",
+  "shortdescription" : "Plate Entrance",
+  "race" : "lyru",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 500, 
+
+  "apexDescription" : "A large entrance made of plated pryphorline.",
+  "avianDescription" : "A strong plated pryphorline entrance.",
+  "floranDescription" : "Strong metal hides silky material.",
+  "glitchDescription" : "Observation. A large plated entrance with a pryphorline sheet.",
+  "humanDescription" : "A large plated entrance with a pryphorline sheet? How strange.",
+  "hylotlDescription" : "A plated pryphorline entrance. Very basic construction.",
+  "lyruDescription" : "A basic but functional pryphorline entrance with metal plating.", 
+
+  "inventoryIcon" : "lyrulargeentryicon.png",
+  "orientations" : [
+    {
+      "image" : "lyrulargeentry.png:<color>",
+      "flipImages" : true,
+      "imagePosition" : [-40, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+    "collision" : "platform"
+    },
+    {
+      "image" : "lyrulargeentry.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+    "collision" : "platform"
+    }
+  ]
+}

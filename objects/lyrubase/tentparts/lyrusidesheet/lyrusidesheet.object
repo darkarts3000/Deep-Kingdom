@@ -1,0 +1,50 @@
+{
+  "objectName" : "lyrusidesheet",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 500,
+  "description" : "A pryphorline sheet attached to the side of buildings.",
+  "shortdescription" : "Side Sheet",
+  "race" : "lyru",
+
+  "apexDescription" : "A simple pryphorline sheet.",
+  "avianDescription" : "A pryphorline sheet. Rather dull.",
+  "floranDescription" : "Strong silky material.",
+  "glitchDescription" : "Observation. A simple pryphorline sheet.",
+  "humanDescription" : "A pryphorline sheet, plain and simple.",
+  "hylotlDescription" : "A simplistic pryphorline sheet.",
+  "novakidDescription" : "A pryphorline sheet, plain 'n simple.",
+
+  "lyruDescription" : "A simple sheet of pryphorline, to be attached to the side of a building.",
+
+  "inventoryIcon" : "lyrusidesheeticon.png",
+  "orientations" : [
+    {
+      "image" : "lyrusidesheet.png:<color>",
+
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "collision" : "solid",
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "right"
+    },
+    {
+      "image" : "lyrusidesheet.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "collision" : "solid",
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    }
+  ]
+}
