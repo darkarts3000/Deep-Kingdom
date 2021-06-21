@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "circuitplate1", "count" : 10 },
+	{ "item" : "lightcrystal", "count" : 5 }
+  ],
+  "output" : { "item" : "lyrusmelter", "count" : 1 },
+  "groups" : [ "plain", "all" ]
+}
