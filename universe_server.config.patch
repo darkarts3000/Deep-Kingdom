@@ -1,0 +1,6 @@
+[
+  { "op" : "add"
+  ,"path" : "/speciesShips/lyru"
+  ,"value" : [ "/ships/lyru/lyruT0.structure", "/ships/lyru/lyruT1.structure", "/ships/lyru/lyruT2.structure", "/ships/lyru/lyruT3.structure", "/ships/lyru/kirhosT4.structure", "/ships/lyru/kirhosT5.structure", "/ships/lyru/kirhosT6.structure", "/ships/lyru/kirhosT7.structure", "/ships/lyru/kirhosT8.structure" ]
+  }
+]

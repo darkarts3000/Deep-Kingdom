@@ -1,0 +1,14 @@
+{
+"name" : "Deep Kingdom Mod",
+"version" : "v1.0",
+"path" : ".",
+"requires" : [],
+"includes" : [],
+"metadata":
+{
+"author" : "darkarts3000",
+"version" : "1.0",
+"description" : "Introduces the Lyru into starbound. The most infamous cave dwellers.",
+"support_url" : ""
+}
+}

@@ -1,0 +1,11 @@
+[
+{ "op" : "add",
+	"path" : "/species/-",
+	"value" : "lyru"
+},
+{ "op" : "add", "path" : "/defaultCodexes/lyru", "value" : [ "protectorate1", "protectorate2" ] },
+{ "op" : "add",
+"path" : "/deploymentConfig/speciesStarterMechBody/lyru",
+"value" : "mechbodyhumanproto"
+}
+]
