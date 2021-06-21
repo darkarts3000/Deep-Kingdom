@@ -1,0 +1,29 @@
+{
+  "name" : "spiralcones",
+  "description" : "Cluster of pretty Spiralcones.",
+  "shortdescription" : "Spiralcones.",
+  "floranDescription" : "Funny looking mushroomss.",
+  "glitchDescription" : "Observation. A cluster of mushrooms with spiral like cones.",
+  "shapes" : [
+    {
+      "base" : "base1.png"
+    },
+
+    {
+      "base" : "base2.png"
+    },
+
+    {
+      "base" : "base3.png"
+    },
+
+    {
+      "base" : "base4.png"
+    },
+
+    {
+      "base" : "base5.png"
+    }
+
+  ]
+}
