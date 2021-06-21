@@ -1,0 +1,571 @@
+{
+  "kind" : "crystalize",
+  "elementalType" : "crystalize",
+  "effects" : {
+    "organic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/objects/vase_break_large1.ogg", "/sfx/objects/vase_break_large2.ogg" ],
+        "particles" : [
+          [
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/spark.animation",
+			  "fullbright" : true,
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "stronghit" : {
+        "sounds" : [ "/sfx/melee/sharp_heavy_hit_organic.ogg" ],
+        "particles" : [
+          [
+            // CRITICAL SHATTER
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/shatter1.animation",
+              "position" : [0, 0],
+              "initialVelocity" : [1, 1],
+              "finalVelocity" : [0, 0],
+              "fullbright" : true,
+              "light" : [0, 60, 0],
+              "destructionAction" : "shrink",
+              "destructionTime" : 0.85,
+              "fade" : 1,
+              "size" : 0.5,
+              "layer" : "middle",
+              "timeToLive" : 1.2,
+              "variance" : {
+				"position" : [0.25, 0.25],
+				"initialVelocity" : [-2, -2],
+				"size" : 0.2,
+				"timeToLive" : 0.5,
+				"rotation" : 180
+              },
+              "collidesLiquid" : false
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/shatter1.animation",
+              "position" : [0, 0],
+              "initialVelocity" : [1, 1],
+              "finalVelocity" : [0, 0],
+              "fullbright" : true,
+              "light" : [0, 60, 0],
+              "destructionAction" : "shrink",
+              "destructionTime" : 0.85,
+              "fade" : 1,
+              "size" : 0.5,
+              "layer" : "middle",
+              "timeToLive" : 1.2,
+              "variance" : {
+				"position" : [0.25, 0.25],
+				"initialVelocity" : [-2, -2],
+				"size" : 0.2,
+				"timeToLive" : 0.5,
+				"rotation" : 180
+              },
+              "collidesLiquid" : false
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/shatter2.animation",
+              "position" : [0, 0],
+              "initialVelocity" : [1, 1],
+              "finalVelocity" : [0, 0],
+              "fullbright" : true,
+              "light" : [0, 60, 0],
+              "destructionAction" : "shrink",
+              "destructionTime" : 0.85,
+              "fade" : 1,
+              "size" : 0.5,
+              "layer" : "middle",
+              "timeToLive" : 1.2,
+              "variance" : {
+				"position" : [0.25, 0.25],
+				"initialVelocity" : [-2, -2],
+				"size" : 0.2,
+				"timeToLive" : 0.5,
+				"rotation" : 180
+              },
+              "collidesLiquid" : false
+            },
+
+            // NORMAL PARTICLES
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/spark.animation",
+			  "fullbright" : true,
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/sharp_heavy_hit_organic.ogg" ],
+        "particles" : [
+          [
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/spark.animation",
+			  "fullbright" : true,
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      }
+    },
+    "robotic" : {
+      "hit" : {
+        "sounds" : [ "/sfx/melee/sword_hit_robotic.ogg", "/sfx/melee/sword_parry.ogg", "/sfx/melee/blunt_hit_robotic.ogg" ],
+        "particles" : [
+          [
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/spark.animation",
+			  "fullbright" : true,
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "stronghit" : {
+        "sounds" : [ "/sfx/melee/sharp_heavy_hit_organic.ogg" ],
+        "particles" : [
+          [
+            // CRITICAL SHATTER
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/shatter1.animation",
+              "position" : [0, 0],
+              "initialVelocity" : [1, 1],
+              "finalVelocity" : [0, 0],
+              "fullbright" : true,
+              "light" : [0, 60, 0],
+              "destructionAction" : "shrink",
+              "destructionTime" : 0.85,
+              "fade" : 1,
+              "size" : 0.5,
+              "layer" : "middle",
+              "timeToLive" : 1.2,
+              "variance" : {
+				"position" : [0.25, 0.25],
+				"initialVelocity" : [-2, -2],
+				"size" : 0.2,
+				"timeToLive" : 0.5,
+				"rotation" : 180
+              },
+              "collidesLiquid" : false
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/shatter1.animation",
+              "position" : [0, 0],
+              "initialVelocity" : [1, 1],
+              "finalVelocity" : [0, 0],
+              "fullbright" : true,
+              "light" : [0, 60, 0],
+              "destructionAction" : "shrink",
+              "destructionTime" : 0.85,
+              "fade" : 1,
+              "size" : 0.5,
+              "layer" : "middle",
+              "timeToLive" : 1.2,
+              "variance" : {
+				"position" : [0.25, 0.25],
+				"initialVelocity" : [-2, -2],
+				"size" : 0.2,
+				"timeToLive" : 0.5,
+				"rotation" : 180
+              },
+              "collidesLiquid" : false
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/shatter2.animation",
+              "position" : [0, 0],
+              "initialVelocity" : [1, 1],
+              "finalVelocity" : [0, 0],
+              "fullbright" : true,
+              "light" : [0, 60, 0],
+              "destructionAction" : "shrink",
+              "destructionTime" : 0.85,
+              "fade" : 1,
+              "size" : 0.5,
+              "layer" : "middle",
+              "timeToLive" : 1.2,
+              "variance" : {
+				"position" : [0.25, 0.25],
+				"initialVelocity" : [-2, -2],
+				"size" : 0.2,
+				"timeToLive" : 0.5,
+				"rotation" : 180
+              },
+              "collidesLiquid" : false
+            },
+
+            // NORMAL PARTICLES
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/spark.animation",
+			  "fullbright" : true,
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/kill_robotic1.ogg", "/sfx/melee/kill_robotic2.ogg" ],
+        "particles" : [
+          [
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/spark.animation",
+			  "fullbright" : true,
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      }
+    },
+    "wooden" : {
+      "hit" : {
+        "sounds" : [ "/sfx/objects/vase_break_large1.ogg", "/sfx/objects/vase_break_large2.ogg" ],
+        "particles" : [
+          [
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/spark.animation",
+			  "fullbright" : true,
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "stronghit" : {
+        "sounds" : [ "/sfx/melee/sharp_heavy_hit_organic.ogg" ],
+        "particles" : [
+          [
+            // CRITICAL SHATTER
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/shatter1.animation",
+              "position" : [0, 0],
+              "initialVelocity" : [1, 1],
+              "finalVelocity" : [0, 0],
+              "fullbright" : true,
+              "light" : [0, 60, 0],
+              "destructionAction" : "shrink",
+              "destructionTime" : 0.85,
+              "fade" : 1,
+              "size" : 0.5,
+              "layer" : "middle",
+              "timeToLive" : 1.2,
+              "variance" : {
+				"position" : [0.25, 0.25],
+				"initialVelocity" : [-2, -2],
+				"size" : 0.2,
+				"timeToLive" : 0.5,
+				"rotation" : 180
+              },
+              "collidesLiquid" : false
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/shatter1.animation",
+              "position" : [0, 0],
+              "initialVelocity" : [1, 1],
+              "finalVelocity" : [0, 0],
+              "fullbright" : true,
+              "light" : [0, 60, 0],
+              "destructionAction" : "shrink",
+              "destructionTime" : 0.85,
+              "fade" : 1,
+              "size" : 0.5,
+              "layer" : "middle",
+              "timeToLive" : 1.2,
+              "variance" : {
+				"position" : [0.25, 0.25],
+				"initialVelocity" : [-2, -2],
+				"size" : 0.2,
+				"timeToLive" : 0.5,
+				"rotation" : 180
+              },
+              "collidesLiquid" : false
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/shatter2.animation",
+              "position" : [0, 0],
+              "initialVelocity" : [1, 1],
+              "finalVelocity" : [0, 0],
+              "fullbright" : true,
+              "light" : [0, 60, 0],
+              "destructionAction" : "shrink",
+              "destructionTime" : 0.85,
+              "fade" : 1,
+              "size" : 0.5,
+              "layer" : "middle",
+              "timeToLive" : 1.2,
+              "variance" : {
+				"position" : [0.25, 0.25],
+				"initialVelocity" : [-2, -2],
+				"size" : 0.2,
+				"timeToLive" : 0.5,
+				"rotation" : 180
+              },
+              "collidesLiquid" : false
+            },
+
+            // NORMAL PARTICLES
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/spark.animation",
+			  "fullbright" : true,
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/sharp_heavy_hit_organic.ogg" ],
+        "particles" : [
+          [
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/spark.animation",
+			  "fullbright" : true,
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      }
+    },
+    "stone" : {
+      "hit" : {
+        "sounds" : [ "/sfx/objects/vase_break_large1.ogg", "/sfx/objects/vase_break_large2.ogg" ],
+        "particles" : [
+          [
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/spark.animation",
+			  "fullbright" : true,
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "stronghit" : {
+        "sounds" : [ "/sfx/melee/sharp_heavy_hit_organic.ogg" ],
+        "particles" : [
+          [
+            // CRITICAL FIRE PUFF
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/shatter1.animation",
+              "position" : [0, 0],
+              "initialVelocity" : [1, 1],
+              "finalVelocity" : [0, 0],
+              "fullbright" : true,
+              "light" : [0, 60, 0],
+              "destructionAction" : "shrink",
+              "destructionTime" : 0.85,
+              "fade" : 1,
+              "size" : 0.5,
+              "layer" : "middle",
+              "timeToLive" : 1.2,
+              "variance" : {
+				"position" : [0.25, 0.25],
+				"initialVelocity" : [-2, -2],
+				"size" : 0.2,
+				"timeToLive" : 0.5,
+				"rotation" : 180
+              },
+              "collidesLiquid" : false
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/shatter1.animation",
+              "position" : [0, 0],
+              "initialVelocity" : [1, 1],
+              "finalVelocity" : [0, 0],
+              "fullbright" : true,
+              "light" : [0, 60, 0],
+              "destructionAction" : "shrink",
+              "destructionTime" : 0.85,
+              "fade" : 1,
+              "size" : 0.5,
+              "layer" : "middle",
+              "timeToLive" : 1.2,
+              "variance" : {
+				"position" : [0.25, 0.25],
+				"initialVelocity" : [-2, -2],
+				"size" : 0.2,
+				"timeToLive" : 0.5,
+				"rotation" : 180
+              },
+              "collidesLiquid" : false
+            },
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/shatter2.animation",
+              "position" : [0, 0],
+              "initialVelocity" : [1, 1],
+              "finalVelocity" : [0, 0],
+              "fullbright" : true,
+              "light" : [0, 60, 0],
+              "destructionAction" : "shrink",
+              "destructionTime" : 0.85,
+              "fade" : 1,
+              "size" : 0.5,
+              "layer" : "middle",
+              "timeToLive" : 1.2,
+              "variance" : {
+				"position" : [0.25, 0.25],
+				"initialVelocity" : [-2, -2],
+				"size" : 0.2,
+				"timeToLive" : 0.5,
+				"rotation" : 180
+              },
+              "collidesLiquid" : false
+            },
+
+            // NORMAL PARTICLES
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/spark.animation",
+			  "fullbright" : true,
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      },
+      "kill" : {
+        "sounds" : [ "/sfx/melee/sharp_heavy_hit_organic.ogg" ],
+        "particles" : [
+          [
+
+            {
+              "type" : "animated",
+              "animation" : "/animations/crystalenergy/spark.animation",
+			  "fullbright" : true,
+              "size" : 1,
+              "angularVelocity" : 0,
+              "fade" : 1,
+              "destructionTime" : 1,
+              "position" : [0, 0],
+              "initialVelocity" : [0, 0],
+              "finalVelocity" : [0, 0],
+              "approach" : [1, 0],
+              "timeToLive" : 0.3,
+              "layer" : "middle"
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

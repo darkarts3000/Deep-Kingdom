@@ -1,0 +1,18 @@
+{
+  "name" : "shatter",
+  "blockingStat" : "crystalizeStatusImmunity",
+
+  "effectConfig" : {
+	"damageKind" : "crystalize"
+	},
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "shatter.lua"
+  ],
+
+  "animationConfig" : "shatter.animation",
+
+  "label" : "Shatter",
+  "icon" : "/interface/statuses/shatter.png"
+}

@@ -1,0 +1,29 @@
+[
+  //CRYSTALIZE
+  { "op" : "add",
+	"path" : "/crystalize",
+	"value" : {
+	  "resistanceStat" : "crystalizeResistance",
+	  "damageNumberParticles" : {
+		"hit" : "crystalizedamagenumber",
+		"stronghit" : "crystalizedamagenumberstrong",
+		"weakhit" : "crystalizedamagenumberweak",
+		"shieldhit" : "crystalizedamagenumber",
+		"kill" : "crystalizedamagenumber"
+	  }
+	}
+  },
+  { "op" : "add",
+	"path" : "/crystalphysical",
+	"value" : {
+	  "resistanceStat" : "physicalResistance",
+	  "damageNumberParticles" : {
+		"hit" : "crystalizedamagenumber",
+		"stronghit" : "crystalizedamagenumberstrong",
+		"weakhit" : "crystalizedamagenumberweak",
+		"shieldhit" : "crystalizedamagenumber",
+		"kill" : "crystalizedamagenumber"
+	  }
+	}
+  }
+]

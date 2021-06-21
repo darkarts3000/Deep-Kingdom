@@ -1,0 +1,16 @@
+{
+  "name" : "cursedfire",
+  "blockingStat" : "fireStatusImmunity",
+
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "cursedfire.lua"
+  ],
+
+  "animationConfig" : "cursedfire.animation",
+
+  "label" : "Cursed Fire",
+  "icon" : "/interface/statuses/cursedfire.png"
+}

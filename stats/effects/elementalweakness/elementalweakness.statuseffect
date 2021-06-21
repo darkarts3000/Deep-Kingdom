@@ -1,0 +1,14 @@
+{
+  "name" : "elementalweakness",
+  "effectConfig" : {},
+  "defaultDuration" : 3,
+
+  "scripts" : [
+    "elementalweakness.lua"
+  ],
+
+  "animationConfig" : "elementalweakness.animation",
+
+  "label" : "Weakness",
+  "icon" : "/interface/statuses/weakness.png"
+}

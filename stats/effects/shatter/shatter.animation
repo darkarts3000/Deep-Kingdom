@@ -1,0 +1,24 @@
+{
+  "particleEmitters" : {
+    "flames" : {
+      "enabled" : true,
+      "emissionRate" : 8.0,
+      "particles" : [
+        { "particle" : "energyblade"},
+        { "particle" : "energyblade"},
+        { "particle" : "energyblade2"},
+        { "particle" : "energyblade2"}
+      ]
+    }
+  },
+  "lights" : {
+    "glow" : {
+      "active" : true,
+      "position" : [0, 0],
+      "color" : [255, 156, 244]
+    }
+  },
+  "sounds" : {
+    "shock" : [ "/sfx/objects/vase_break_large1.ogg", "/sfx/objects/vase_break_large2.ogg" ]
+  }
+}

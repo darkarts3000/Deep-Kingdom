@@ -1,0 +1,16 @@
+{
+  "name" : "redmaddness",
+  "effectConfig" : {
+	"directive" : "fade=FF3FE5=0.10"
+  },
+  "defaultDuration" : 5.0,
+
+  "scripts" : [
+    "/stats/effects/redmaddness/redmaddness.lua"
+  ],
+
+  "animationConfig" : "redmaddness.animation",
+
+  "label" : "Rabid Toxin",
+  "icon" : "/interface/statuses/redmaddness.png"
+}
