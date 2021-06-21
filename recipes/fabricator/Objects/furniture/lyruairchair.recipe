@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "lstructureweave", "count" : 5 }
+  ],
+  "output" : { "item" : "lyruairchair", "count" : 1 },
+  "groups" : [ "lyrufabricator", "decoration", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "lstructureweave", "count" : 3 },
+    { "item" : "circuitplate1", "count" : 1 }
+  ],
+  "output" : { "item" : "lyrupillow", "count" : 1 },
+  "groups" : [ "lyrufabricator", "decoration", "all" ]
+}

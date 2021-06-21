@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "lstructureweave", "count" : 3 }
+  ],
+  "output" : { "item" : "lyrubag", "count" : 1 },
+  "groups" : [ "lyrufabricator", "storage", "all" ]
+}

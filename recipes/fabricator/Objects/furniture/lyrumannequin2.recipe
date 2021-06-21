@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "lightcrystal", "count" : 8 },
+    { "item" : "circuitplate2", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "lyrumannequin2",
+  "count" : 1
+  },
+  "groups" : [ "lyrufabricator2", "craftingstations", "all" ]
+}

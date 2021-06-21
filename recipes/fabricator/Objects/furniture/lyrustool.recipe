@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "circuitplate1", "count" : 3 }
+  ],
+  "output" : {
+    "item" : "lyrustool",
+  "count" : 1
+  },
+  "groups" : [ "lyrufabricator", "decoration", "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "circuitplate1", "count" : 5 },
+	{ "item" : "lightcrystal", "count" : 2 }
+  ],
+  "output" : { "item" : "lyrustove", "count" : 1 },
+  "duration" : 0.1,
+  "groups" : [ "lyrufabricator", "craftingstations", "all" ]
+}

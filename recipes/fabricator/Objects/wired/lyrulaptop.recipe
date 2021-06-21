@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "circuitplate1", "count" : 2 },
+    { "item" : "lightcrystal", "count" : 1 },
+	{ "item" : "processor", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "lyrulaptop",
+  "count" : 1
+  },
+  "groups" : [ "lyrufabricator", "wirings", "all" ]
+}

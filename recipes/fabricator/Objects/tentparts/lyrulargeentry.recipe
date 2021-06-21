@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 3 },
+    { "item" : "circuitplate1", "count" : 8 }
+  ],
+  "output" : { "item" : "lyrulargeentry", "count" : 1 },
+  "groups" : [ "lyrufabricator", "decoration", "all" ]
+}

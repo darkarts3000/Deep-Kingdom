@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 2 },
+    { "item" : "circuitplate1", "count" : 3 }
+  ],
+  "output" : { "item" : "lyrutenttopmid", "count" : 1 },
+  "groups" : [ "lyrufabricator", "decoration", "all" ]
+}
