@@ -1,0 +1,154 @@
+{
+  "metadata" : {
+    "name" : "lyrutradecamp",
+    "species" : "lyru",
+    "rules" : [
+    ],
+    "anchor" : [ "entrace_L1", "entrace_R1" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 20,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    //============================================= HOMES =============================================
+    {
+      "name" : "home_L1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "doNotCombineWith", [ "home_L2" ] ],
+        [ "doNotConnectToPart", [ "home_R1", "home_R1" ] ]
+
+      ],
+      "def" : [ "tmx", "home_L1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "home_L2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "doNotCombineWith", [ "home_L1" ] ],
+        [ "doNotConnectToPart", [ "home_R1", "home_R1" ] ]
+
+      ],
+      "def" : [ "tmx", "home_L2.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "home_R1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "doNotCombineWith", [ "home_R2" ] ],
+        [ "doNotConnectToPart", [ "home_L1", "home_L1" ] ]
+
+      ],
+      "def" : [ "tmx", "home_R1.json" ],
+      "chance" : 0.1
+    },
+    {
+      "name" : "home_R2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "doNotCombineWith", [ "home_R1" ] ],
+        [ "doNotConnectToPart", [ "home_L1", "home_L1" ] ]
+
+      ],
+      "def" : [ "tmx", "home_R2.json" ],
+      "chance" : 0.1
+    },
+	
+    //============================================= DECORATION =============================================
+    {
+      "name" : "watertower",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart", [ "Workshop1", "Workshop2" ] ]
+      ],
+      "def" : [ "tmx", "watertower.json" ]
+    },
+    {
+      "name" : "Workshop1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "doNotCombineWith", [ "Workshop2" ] ],
+        [ "doNotConnectToPart", [ "watertower" ] ]
+      ],
+      "def" : [ "tmx", "Workshop1.json" ]
+    },
+    {
+      "name" : "Workshop2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+		[ "doNotCombineWith", [ "Workshop1" ] ],
+        [ "doNotConnectToPart", [ "watertower" ] ]
+      ],
+      "def" : [ "tmx", "Workshop2.json" ]
+    },
+	
+    //============================================= CENTER =============================================
+    {
+      "name" : "comerce1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+		[ "doNotCombineWith", [ "comerce2" ] ],
+        [ "doNotConnectToPart", [ "entrace_L1", "entrace_L2", "entrace_R1", "entrace_R2" ] ]
+      ],
+      "def" : [ "tmx", "comerce1.json" ],
+      "chance" : 1
+    },
+    {
+      "name" : "comerce2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+		[ "doNotCombineWith", [ "comerce1" ] ],
+        [ "doNotConnectToPart", [ "entrace_L1", "entrace_L2", "entrace_R1", "entrace_R2" ] ]
+      ],
+      "def" : [ "tmx", "comerce2.json" ],
+      "chance" : 1
+    },
+	
+    //============================================= SIDES =============================================
+    {
+      "name" : "entrace_L1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+		[ "doNotCombineWith", [ "entrace_L1" ] ],
+        [ "doNotConnectToPart", [ "comerce1", "comerce2", "entrace_R1", "entrace_R2" ] ]
+      ],
+      "def" : [ "tmx", "entrace_L1.json" ],
+      "chance" : 5
+    },
+    {
+      "name" : "entrace_L2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+		[ "doNotCombineWith", [ "entrace_L2" ] ],
+        [ "doNotConnectToPart", [ "comerce1", "comerce2", "entrace_R1", "entrace_R2" ] ]
+      ],
+      "def" : [ "tmx", "entrace_L2.json" ],
+      "chance" : 5
+    },
+    {
+      "name" : "entrace_R1",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+		[ "doNotCombineWith", [ "entrace_R1" ] ],
+        [ "doNotConnectToPart", [ "comerce1", "comerce2", "entrace_L1", "entrace_L2" ] ]
+      ],
+      "def" : [ "tmx", "entrace_R1.json" ],
+      "chance" : 5
+    },
+    {
+      "name" : "entrace_R2",
+      "rules" : [
+        [ "ignorePartMaximumRule" ],
+		[ "doNotCombineWith", [ "entrace_R2" ] ],
+        [ "doNotConnectToPart", [ "comerce1", "comerce2", "entrace_L1", "entrace_L2" ] ]
+      ],
+      "def" : [ "tmx", "entrace_R2.json" ],
+      "chance" : 5
+    }
+  ]
+}

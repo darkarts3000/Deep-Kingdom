@@ -1,0 +1,89 @@
+{
+  "metadata" : {
+    "name" : "lyrurandom",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [
+	"lyrurandom1",
+	"lyrurandom2",
+	"lyrurandom3",
+	"lyrurandom4",
+	"lyrurandom5",
+	"lyrurandom6",
+	"lyrurandom7",
+	"lyrurandom8",
+	"lyrurandom9"
+	],
+    "gravity" : 80,
+    "maxRadius" : 100000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "lyrurandom1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "lyrurandom1.json" ]
+    },
+    {
+      "name" : "lyrurandom2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "lyrurandom2.json" ]
+    },
+    {
+      "name" : "lyrurandom3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "lyrurandom3.json" ]
+    },
+    {
+      "name" : "lyrurandom4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "lyrurandom4.json" ]
+    },
+    {
+      "name" : "lyrurandom5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "lyrurandom5.json" ]
+    },
+    {
+      "name" : "lyrurandom6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "lyrurandom6.json" ]
+    },
+    {
+      "name" : "lyrurandom7",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "lyrurandom7.json" ]
+    },
+    {
+      "name" : "lyrurandom8",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "lyrurandom8.json" ]
+    },
+    {
+      "name" : "lyrurandom9",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "lyrurandom9.json" ]
+    }
+  ]
+}

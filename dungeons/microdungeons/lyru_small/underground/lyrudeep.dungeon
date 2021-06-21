@@ -1,0 +1,65 @@
+{
+  "metadata" : {
+    "name" : "lyrudeep",
+    "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [
+	"lyrudeep1",
+	"lyrudeep2",
+	"lyrudeep3",
+	"lyrudeep4",
+	"lyrudeep5",
+	"lyrudeep6"
+	],
+    "gravity" : 80,
+    "maxRadius" : 100000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "lyrudeep1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "lyrudeep1.json" ]
+    },
+    {
+      "name" : "lyrudeep2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "lyrudeep2.json" ]
+    },
+    {
+      "name" : "lyrudeep3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "lyrudeep3.json" ]
+    },
+    {
+      "name" : "lyrudeep4",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "lyrudeep4.json" ]
+    },
+    {
+      "name" : "lyrudeep5",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "lyrudeep5.json" ]
+    },
+    {
+      "name" : "lyrudeep6",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "lyrudeep6.json" ]
+    }
+  ]
+}
