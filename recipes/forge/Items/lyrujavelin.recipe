@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "circuitplate2", "count" : 10 },
+    { "item" : "solariumore", "count" : 5 }
+  ],
+  "output" : { "item" : "lyrujavelin", "count" : 10 },
+  "duration" : 0.1,
+  "groups" : [ "lyruforge2", "items", "all" ]
+}

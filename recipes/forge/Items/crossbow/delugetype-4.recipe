@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "techchip3", "count" : 5 },
+    { "item" : "delugetype-1", "data" : { "level" : 3, "shortdescription" : "Deluge Type-3", "rarity" : "Uncommon" }, "count" : 1 }
+  ],
+  "output" : { "item" : "delugetype-1b", "data" : { "level" : 4, "shortdescription" : "Deluge Type-4", "rarity" : "Uncommon" }, "count" : 1 },
+  "groups" : [ "lyruforge2", "items", "all" ]
+}

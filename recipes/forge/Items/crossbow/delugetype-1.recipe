@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "circuitplate1", "count" : 5 },
+    { "item" : "techcard", "count" : 1 }
+  ],
+  "output" : { "item" : "delugetype-1", "data" : { "level" : 1, "shortdescription" : "Deluge Type-1" }, "count" : 1 },
+  "groups" : [ "lyruforge", "items", "all" ]
+}

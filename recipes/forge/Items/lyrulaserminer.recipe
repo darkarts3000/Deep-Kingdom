@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "circuitplate2", "count" : 30  },
+    { "item" : "lightcrystal", "count" : 10 },
+	 { "item" : "moltencore", "count" : 4 },
+    { "item" : "techcard", "count" : 4 }
+  ],
+  "output" : { "item" : "lyrubeamcannon", "count" : 1 },
+  "groups" : [ "lyruforge2", "items", "all" ]
+}
