@@ -1,0 +1,56 @@
+{
+  "objectName" : "lyruslidingdoor",
+  "colonyTags" : ["door","lyru"],
+  "rarity" : "Uncommon",
+
+  "category" : "door",
+  "price" : 95,
+  "description" : "Door goes up... Door goes down... Door goes up... Door goes down...",
+  "shortdescription" : "Lyru Door",
+  "race" : "lyru",
+
+  "apexDescription" : "A sturdy door that appears to have burn marks on it.",
+  "avianDescription" : "This door must be holding back something hot.",
+  "floranDescription" : "Floran not ssscared of door.",
+  "glitchDescription" : "Cautious. This door is charred and hot.",
+  "humanDescription" : "This door is as hot as a furnace!",
+  "hylotlDescription" : "This door has been charred by something really hot. I don't want to know what it is holding back.",
+  "novakidDescription" : "This slidin' door is burning.",
+  "lyruDescription" : "It's a door that is used to control water or lava flow.",
+
+  "inventoryIcon" : "lyruslidingdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyruslidingdoor.png:default",
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/bardoor2_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/bardoor2_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "lyruslidingdoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

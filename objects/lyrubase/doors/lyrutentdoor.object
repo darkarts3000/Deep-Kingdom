@@ -1,0 +1,56 @@
+{
+  "objectName" : "lyrutentdoor",
+  "colonyTags" : ["lyru", "door"],
+  "rarity" : "Uncommon",
+  "category" : "door",
+  "printable" : false,
+  "price" : 100,
+  "description" : "A simple pryphorline tent door.",
+  "shortdescription" : "Pryphorline Door",
+  "race" : "lyru",
+
+  "apexDescription" : "A basic pryphorline tent door.",
+  "avianDescription" : "A strong pryphorline tent door.",
+  "floranDescription" : "Strong silky material.",
+  "glitchDescription" : "Observation. A basic pryphorline tent door.",
+  "humanDescription" : "A simple pryphorline tent door. Not very interesting.",
+  "hylotlDescription" : "A simple pryphorline tent door.",
+
+  "lyruDescription" : "A simple pryphorline tent door.",
+
+  "inventoryIcon" : "lyrutentdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyrutentdoor.png:default",
+      "imagePosition" : [0, 0],
+      "renderLayer" : "Object+5",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "background" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/bed_leave.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/bed_enter.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "lyrutentdoor.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [1, 0] ]
+}

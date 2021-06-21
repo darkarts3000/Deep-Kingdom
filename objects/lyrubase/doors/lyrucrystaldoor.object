@@ -1,0 +1,69 @@
+{
+  "objectName" : "lyrucrystaldoor",
+  "colonyTags" : ["lyru","lyrucity","door"],
+  "rarity" : "Uncommon",
+
+  "category" : "door",
+  "price" : 95,
+  "description" : "Light plated iron with two crystals that create a forcefeild.",
+  "shortdescription" : "Lyru Crystal Door",
+  "race" : "lyru",
+
+  "apexDescription" : "This forcefeild door seems strong enough to repel even the strongest Miniknog weapons.",
+  "avianDescription" : "This door's crystals can make forcefeilds! I must know more.",
+  "floranDescription" : "Floran hate shiny forcefeild door.",
+  "glitchDescription" : "Curious. The crystals in this door are creating a powerful forcefeild.",
+  "humanDescription" : "This forcefeild is super strong.",
+  "hylotlDescription" : "A forcefeild generator that is used as a door.",
+  "novakidDescription" : "ain't seen one of these before.",
+  "lyruDescription" : "These doors hold two crystals that repel anything unwanted.",
+
+  "inventoryIcon" : "lyrucrystaldooricon.png",
+
+  "tooltipKind" : "door",
+  "largeImage" : "lyrucrystaldoor.png:right",
+  
+  "orientations" : [
+    {
+      "image" : "lyrucrystaldoor.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+      "flipImages" : true,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "left"
+    },
+    {
+      "image" : "lyrucrystaldoor.png:default",
+      "imagePosition" : [-20, 0],
+      "renderLayer" : "Object+5",
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "direction" : "right"
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/airlock_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/airlock_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "lyrucrystaldoor.png"
+  },
+  "animationPosition" : [-20, 0],
+
+  "inputNodes" : [ [-1, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}
