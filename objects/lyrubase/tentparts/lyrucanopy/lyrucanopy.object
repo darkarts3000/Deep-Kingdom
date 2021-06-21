@@ -1,0 +1,47 @@
+{
+  "objectName" : "lyrucanopy",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 500,
+  "description" : "A plated pryphorline canopy, to provide some shadow at someone's door.",
+  "shortdescription" : "Plate Canopy",
+  "race" : "lyru",
+
+  "apexDescription" : "A plated pryphorline canopy. Effective, but not that interesting.",
+  "avianDescription" : "A strong plated pryphorline canopy.",
+  "floranDescription" : "Strong metal hides silky material.",
+  "glitchDescription" : "Observation. A basic plated pryphorline canopy.",
+  "humanDescription" : "A plated pryphorline canopy, rather generic.",
+  "hylotlDescription" : "A plated pryphorline canopy. Very basic construction.",
+
+  "lyruDescription" : "A basic but functional pryphorline canopy with metal plating.",
+
+  "inventoryIcon" : "lyrucanopyicon.png",
+  "orientations" : [
+    {
+      "image" : "lyrucanopy.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "right"
+    },
+    {
+      "image" : "lyrucanopy.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    }
+  ]
+}
