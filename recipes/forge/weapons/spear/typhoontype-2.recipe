@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "techchip1", "count" : 6 },
+    { "item" : "typhoontype-1", "data" : { "level" : 1, "shortdescription" : "Typhoon Type-1" }, "count" : 1 }
+  ],
+  "output" : { "item" : "typhoontype-1", "data" : { "level" : 2, "shortdescription" : "Typhoon Type-2" }, "count" : 1 },
+  "groups" : [ "lyruforge", "melee", "all" ]
+}

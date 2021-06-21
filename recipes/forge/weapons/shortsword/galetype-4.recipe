@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "techchip3", "count" : 3 },
+    { "item" : "circuitplate2", "count" : 1 },
+    { "item" : "galetype-1b", "data" : { "level" : 3, "shortdescription" : "Gale Type-3", "rarity" : "Uncommon" }, "count" : 1 }
+  ],
+  "output" : { "item" : "galetype-1b", "data" : { "level" : 4, "shortdescription" : "Gale Type-4", "rarity" : "Uncommon" }, "count" : 1 },
+  "groups" : [ "lyruforge2", "melee", "all" ]
+}

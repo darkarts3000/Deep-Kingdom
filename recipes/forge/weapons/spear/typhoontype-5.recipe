@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "techchip4m", "count" : 6 },
+    { "item" : "typhoontype-1b", "data" : { "level" : 4, "shortdescription" : "Typhoon Type-4", "rarity" : "Uncommon" }, "count" : 1 }
+  ],
+  "output" : { "item" : "typhoontype-1c", "data" : { "level" : 5, "shortdescription" : "Typhoon Type-5", "rarity" : "Rare" }, "count" : 1 },
+  "groups" : [ "lyruforge2", "melee", "all" ]
+}

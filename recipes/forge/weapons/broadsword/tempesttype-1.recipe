@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "circuitplate1", "count" : 6 },
+    { "item" : "techcard", "count" : 3 }
+  ],
+  "output" : { "item" : "tempesttype-1", "data" : { "level" : 1, "shortdescription" : "Tempest Type-1" }, "count" : 1 },
+  "groups" : [ "lyruforge", "melee", "all" ]
+}

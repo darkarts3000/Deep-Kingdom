@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "techchip3", "count" : 6 },
+    { "item" : "twistertype-1c", "data" : { "level" : 5, "shortdescription" : "Twister Type-5", "rarity" : "Rare" }, "count" : 1 }
+  ],
+  "output" : { "item" : "twistertype-1c", "data" : { "level" : 6, "shortdescription" : "Twister Type-6", "rarity" : "Legendary" }, "count" : 1 },
+  "groups" : [ "lyruforge2", "melee", "all" ]
+}

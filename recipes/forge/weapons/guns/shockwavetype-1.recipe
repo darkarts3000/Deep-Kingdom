@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "circuitplate1", "count" : 6 },
+    { "item" : "techcard", "count" : 2 }
+  ],
+  "output" : { "item" : "shockwavetype-1", "data" : { "level" : 1, "shortdescription" : "Shockwave Type-1" }, "count" : 1 },
+  "groups" : [ "lyruforge", "ranged", "all" ]
+}

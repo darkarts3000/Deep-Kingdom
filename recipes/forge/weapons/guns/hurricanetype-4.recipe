@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "techchip3", "count" : 6 },
+	{ "item" : "circuitplate2", "count" : 2 },
+    { "item" : "hurricanetype-1", "data" : { "level" : 3, "shortdescription" : "Hurricane Type-3", "rarity" : "Uncommon" }, "count" : 1 }
+  ],
+  "output" : { "item" : "hurricanetype-1b", "data" : { "level" : 4, "shortdescription" : "Hurricane Type-4", "rarity" : "Uncommon" }, "count" : 1 },
+  "groups" : [ "lyruforge2", "ranged", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "techchip1", "count" : 6 },
+    { "item" : "thunderbolttype-1", "data" : { "level" : 1, "shortdescription" : "Thunderbolt Type-1" }, "count" : 1 }
+  ],
+  "output" : { "item" : "thunderbolttype-1", "data" : { "level" : 2, "shortdescription" : "Thunderbolt Type-2" }, "count" : 1 },
+  "groups" : [ "lyruforge", "ranged", "all" ]
+}

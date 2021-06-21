@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "techchip3", "count" : 6 },
+    { "item" : "whirlwindtype-1b", "data" : { "level" : 3, "shortdescription" : "Whirlwind Type-3", "rarity" : "Uncommon" }, "count" : 1 }
+  ],
+  "output" : { "item" : "whirlwindtype-1b", "data" : { "level" : 4, "shortdescription" : "Whirlwind Type-4", "rarity" : "Uncommon" }, "count" : 1 },
+  "groups" : [ "lyruforge2", "melee", "all" ]
+}

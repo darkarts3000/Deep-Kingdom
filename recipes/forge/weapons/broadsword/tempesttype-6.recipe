@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "techchip3", "count" : 6 },
+    { "item" : "tempesttype-1c", "data" : { "level" : 5, "shortdescription" : "Tempest Type-5" }, "count" : 1 }
+  ],
+  "output" : { "item" : "tempesttype-1c", "data" : { "level" : 6, "shortdescription" : "Tempest Type-6", "rarity" : "Legendary" }, "count" : 1 },
+  "groups" : [ "lyruforge2", "melee", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "techchip1", "count" : 6 },
+    { "item" : "shockwavetype-1", "data" : { "level" : 1, "shortdescription" : "Shockwave Type-1" }, "count" : 1 }
+  ],
+  "output" : { "item" : "shockwavetype-1", "data" : { "level" : 2, "shortdescription" : "Shockwave Type-2" }, "count" : 1 },
+  "groups" : [ "lyruforge", "ranged", "all" ]
+}

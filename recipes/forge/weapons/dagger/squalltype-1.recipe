@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "circuitplate1", "count" : 3 },
+    { "item" : "techcard", "count" : 1 }
+  ],
+  "output" : { "item" : "squalltype-1", "data" : { "level" : 1, "shortdescription" : "Squall Type-1" }, "count" : 1 },
+  "groups" : [ "lyruforge", "melee", "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "techchip3", "count" : 3 },
+    { "item" : "circuitplate2", "count" : 1 },
+    { "item" : "squalltype-1b", "data" : { "level" : 3, "shortdescription" : "Squall Type-3", "rarity" : "Uncommon" }, "count" : 1 }
+  ],
+  "output" : { "item" : "squalltype-1b", "data" : { "level" : 4, "shortdescription" : "Squall Type-4", "rarity" : "Uncommon" }, "count" : 1 },
+  "groups" : [ "lyruforge2", "melee", "all" ]
+}
