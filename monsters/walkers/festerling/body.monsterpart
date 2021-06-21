@@ -1,0 +1,9 @@
+{
+  "name" : "festerling",
+  "category" : "festerling",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "festerling.png"
+  }
+}

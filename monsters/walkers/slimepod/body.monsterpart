@@ -1,0 +1,9 @@
+{
+  "name" : "slimepod",
+  "category" : "slimepod",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "body.png"
+  }
+}

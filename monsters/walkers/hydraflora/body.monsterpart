@@ -1,0 +1,10 @@
+{
+  "name" : "hydraflora",
+  "category" : "hydraflora",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "/monsters/walkers/hydraflora/hydraflora.png",
+	"bodylit" : "/monsters/walkers/hydraflora/hydrafloralit.png"
+  }
+}

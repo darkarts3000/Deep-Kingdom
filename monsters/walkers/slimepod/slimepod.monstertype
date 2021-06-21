@@ -1,0 +1,191 @@
+{
+  "type" : "slimepod",
+  "shortdescription" : "Slimepod",
+  "description" : "A hive of Creeper worms covered in slime.",
+
+  "categories" : [ "slimepod" ],
+  "parts" : [ "body" ],
+
+  "animation" : "slimepod.animation",
+
+  "dropPools" : [ { "default" : "slimepodTreasure", "bow" : "slimepodHunting" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+    "deathBehavior" : "monster-death",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "hurtWaitForGround" : false,
+
+      "targetQueryRange" : 20,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 5.0,
+
+      "foundTargetActions" : [ ],
+
+      "fleeActions" : [ ],
+
+      "hostileActions" : [
+        {
+          "name" : "action-fire",
+          "cooldown" : 2.5,
+          "parameters" : {
+            "maximumRange" : 10,
+            "minimumRange" : 1,
+            "windupState" : "firewindup",
+            "windupTime" : 1.5,
+
+            "projectileType" : "creeperball",
+            "fireOffset" : [0, 0.75],
+
+            "aimAtTarget" : false,
+            "projectileCount" : 4,
+            "fireDelay" : 0.15,
+            "projectileInterval" : 0.4,
+            "inaccuracy" : 0.4,
+            "aimDirection" : [0,1],
+            "fireSound" : "fire",
+            "fireState" : "fire",
+
+            "winddownState" : "idle",
+            "winddownTime" : 0.5
+          }
+        }
+      ],
+
+      "periodicActions" : [ ],
+
+      "approachActions" : [
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport"
+        }
+      ],
+
+      "wanderActions" : [ ]
+    },
+
+    "touchDamage" : {
+      "poly" : [ [0.41, 1.0],  [1.0, 0.41],  [1.0, -0.41],  [0.41, -1.0],  [-0.41, -1.0],  [-1.0, -0.41],  [-1.0, 0.41],  [-0.41, 1.0] ],
+      "damage" : 10,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 20,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4, -4, 4, 4],
+    "scale" : 1.0,
+
+    "selfDamagePoly" : [ [1.0, 1.5],  [1.5, 1.0],  [1.5, -1.0],  [1.0, -1.5],  [-1.0, -1.5],  [-1.5, -1.0],  [-1.5, 1.0],  [-1.0, 1.5] ],
+
+    "movementSettings" : {
+      "collisionPoly" : [ [0.41, 1.0],  [1.0, 0.41],  [1.0, -0.41],  [0.41, -1.0],  [-0.41, -1.0],  [-1.0, -0.41],  [-1.0, 0.41],  [-0.41, 1.0] ],
+
+      "mass" : 1.0,
+      "walkSpeed" : 4,
+      "runSpeed" : 12,
+
+      "airFriction" : 0,
+
+      "airJumpProfile" : {
+        "jumpSpeed" : 45.0,
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0.0
+      },
+      "physicsEffectCategories" : ["stationarymonster"]
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "healthLevelFunction" : "spaceMonsterLevelHealthMultiplier",
+    "powerLevelFunction" : "spaceMonsterLevelPowerMultiplier",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/spacemonster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "grit" : {
+          "baseValue" : 1.0
+        },
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 80
+        },
+        "protection" : {
+          "baseValue" : 0.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : true,
+    "captureHealthFraction" : 0.5,
+    "nametagColor" : [64, 200, 255]
+  }
+}

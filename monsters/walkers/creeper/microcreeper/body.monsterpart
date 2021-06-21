@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "microcreeper",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "microcreeper.png"
+  }
+}

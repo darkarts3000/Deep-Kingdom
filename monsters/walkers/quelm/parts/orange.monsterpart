@@ -1,0 +1,9 @@
+{
+  "name" : "orange",
+  "category" : "quelm",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "orange.png"
+  }
+}

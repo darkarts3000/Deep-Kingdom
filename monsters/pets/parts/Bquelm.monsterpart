@@ -1,0 +1,9 @@
+{
+  "name" : "Bquelm",
+  "category" : "petquelm",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "Bquelm.png"
+  }
+}

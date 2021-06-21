@@ -1,0 +1,9 @@
+{
+  "name" : "needlebackeyes",
+  "category" : "needleback",
+  "type" : "eyes",
+
+  "frames" : {
+    "eyes" : "needlebackeyes.png"
+  }
+}

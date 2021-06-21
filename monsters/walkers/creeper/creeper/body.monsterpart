@@ -1,0 +1,9 @@
+{
+  "name" : "body",
+  "category" : "creeper",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "creeper.png"
+  }
+}

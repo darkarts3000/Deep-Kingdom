@@ -1,0 +1,9 @@
+{
+  "name" : "needleback",
+  "category" : "needleback",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "needleback.png"
+  }
+}

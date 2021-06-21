@@ -1,0 +1,9 @@
+{
+  "name" : "black",
+  "category" : "quelm",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "black.png"
+  }
+}
