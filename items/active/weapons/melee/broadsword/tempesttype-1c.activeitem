@@ -1,0 +1,40 @@
+{
+  "itemName" : "tempesttype-1c",
+  "price" : 1500,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A saber wielded by the Lyru.",
+  "shortdescription" : "Tempest Type-1",
+  "tooltipKind" : "sword",
+  "category" : "Broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "tempesttype-1c.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/tempest.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "tempesttype-1c.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "crystalize",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.8,
+    "baseDps" : 12,
+	"damageConfig" : {
+	"damageSourceKind" : "crystalphysical",
+    "statusEffects" : ["shatter"]
+	}
+  },
+
+  "altAbilityType" : "flipslash",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

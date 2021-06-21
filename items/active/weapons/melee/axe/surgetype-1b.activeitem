@@ -1,0 +1,45 @@
+{
+  "itemName" : "surgetype-1b",
+  "level" : 1,
+  "price" : 500,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "An effective chopping weapon for the Lyru.",
+  "shortdescription" : "Surge Type-1",
+  "tooltipKind" : "sword",
+  "category" : "axe",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+
+  "inventoryIcon" : "surgetype-1b.png",
+  
+  "animation" : "/items/active/weapons/melee/axe/surge.animation",
+  "animationParts" : {
+      "blade" : "surgetype-1b.png",
+      "handle" : ""
+	},
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "crystalize",
+  
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.9,
+    "baseDps" : 10,
+	"damageConfig" : {
+	"damageSourceKind" : "crystalphysical",
+    "statusEffects" : ["shatter"],
+	"knockback" : 25
+	}
+  },
+	
+    "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

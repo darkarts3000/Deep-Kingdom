@@ -1,0 +1,42 @@
+{
+  "itemName" : "twistertype-1b",
+  "price" : 1000,
+  "level" : 1,
+  "fixedLevel" : false,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A basic Lyru combat staff.",
+  "shortdescription" : "Twister Type-1",
+  "tooltipKind" : "sword",
+  "category" : "Bowstaff",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","bowstaff","lyru"],
+
+  "inventoryIcon" : "twistertype-1b.png",
+
+  "animation" : "/items/active/weapons/melee/bowstaff/lbowstaff.animation",
+  "animationParts" : {
+    "blade" : "twistertype-1b.png",
+    "bladeFullbright" : ""
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "lbowstaffcombo",
+  "primaryAbility" : {
+    "baseDps" : 9.5,
+	"damageConfig" : {
+	"damageSourceKind" : "crystalphysical",
+    "statusEffects" : []
+	}
+  },
+
+  "altAbilityType" : "lbowstaffspin",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

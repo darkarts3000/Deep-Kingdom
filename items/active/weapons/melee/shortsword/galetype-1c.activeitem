@@ -1,0 +1,38 @@
+{
+  "itemName" : "galetype-1c",
+  "price" : 1200,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A shortsword kept by Lyru when enemies get close.",
+  "shortdescription" : "Gale Type-1",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "galetype-1c.png",
+
+  "animation" : "/items/active/weapons/melee/shortsword/gale.animation",
+  "animationParts" : {
+    "handle": "",
+    "blade" : "galetype-1c.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.67,
+    "baseDps" : 7.5,
+	"damageConfig" : {
+	"damageSourceKind" : "crystalphysical",
+    "statusEffects" : []
+	}
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
