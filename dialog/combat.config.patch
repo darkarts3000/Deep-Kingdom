@@ -1,0 +1,33 @@
+[
+{
+"op": "add",
+"path": "/attack/lyru",
+"value": {
+"default": [
+"Target aquired!",
+"You'll go no further!",
+"Fall to might of Lyru!"
+]
+}
+},
+{
+"op": "add",
+"path": "/killedTarget/lyru",
+"value": {
+"default": [
+"Time to loot!",
+"Your treasure is now mine."
+]
+}
+},
+{
+"op": "add",
+"path": "/lostTarget/lyru",
+"value": {
+"default": [
+"I'll get you next time!",
+"Coward!"
+]
+}
+}
+]

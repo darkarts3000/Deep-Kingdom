@@ -1,0 +1,59 @@
+[
+{
+"op": "add",
+"path": "/tagCriteria/lyru",
+"value": {
+"default": [
+"Everything was in it's proper place before.",
+"Something isn't not right here.",
+"I should file a complaint. Someone messed up my room."
+]
+}
+},
+{
+"op": "add",
+"path": "/enclosedArea/lyru",
+"value": {
+"default": [
+"My home is in need of repairs.",
+"Someone broke my walls. Can you fix it?",
+"I'm filing a complaint about home damage."
+]
+}
+},
+{
+"op": "add",
+"path": "/otherDeed/lyru",
+"value": {
+"default": [
+"This was ment to be a single residency.",
+"Where is the other person going to sleep? There's only one bed.",
+"This place was supposed to be mine.",
+"This wasn't part of our contract."
+]
+}
+},
+{
+"op": "add",
+"path": "/severe/lyru",
+"value": {
+"default": [
+"These conditions are terrible. Might as well just live in a den.",
+"I can't live here. This is just shameful.",
+"I'm filing a complaint. This place won't do at all."
+]
+}
+},
+{
+"op": "add",
+"path": "/final/lyru",
+"value": {
+"default": [
+"I've had enough of this. I'm leaving.",
+"I don't have time for this.",
+"I'm returning to Genesis. There's more there for me.",
+"That does it. I'm ending my contract."
+]
+}
+}
+]

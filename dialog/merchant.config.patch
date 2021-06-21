@@ -1,0 +1,66 @@
+[
+{
+"op": "add",
+"path": "/merchantStart/lyru",
+"value": {
+"default": [
+"Welcome to my shop, traveller.",
+"Wish to trade, traveller?",
+"Have a look at my humble goods, will you?",
+"You'll never find better anywhere else."
+]
+}
+},
+{
+"op": "add",
+"path": "/merchantEnd/lyru",
+"value": {
+"default": [
+"Be seeing you.",
+"Please come back soon",
+"Your pixels are always good here.",
+"Pleasure doing business with you!",
+"It was a pleasure having you here.",
+"Great to see you!",
+"Let's do business again."
+]
+}
+},
+{
+"op": "add",
+"path": "/follow/lyru",
+"value": {
+"default": [
+"Right this way.",
+"Please follow me.",
+"Come with me."
+]
+}
+},
+{
+"op": "add",
+"path": "/welcome/lyru",
+"value": {
+"default": [
+"Welcome!",
+"Let's talk business.",
+"Now that we are here, how may I help you?"
+]
+}
+},
+{
+"op": "add",
+"path": "/tout/lyru",
+"value": {
+"default" : [
+"Goods for sale!",
+"The best wares for the best prices!",
+"Hey you, come check out my great selection!",
+"Stock coming strait from Illron! Find the rarest here!",
+"Best deals around!",
+"Rare and cheap goods here!"
+]
+}
+}
+]
+

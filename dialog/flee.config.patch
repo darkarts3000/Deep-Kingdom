@@ -1,0 +1,25 @@
+[
+{
+"op": "add",
+"path": "/helpme/lyru",
+"value": {
+"default": [
+"I need help!",
+"I've been attacked!",
+"You'll not get me!"
+]
+}
+},
+{
+"op": "add",
+"path": "/safe/lyru",
+"value": {
+"default": [
+"Is the area clear?",
+"I'm glad that's over.",
+"I'm now in need of a medic.",
+"That was quite the ordeal."
+]
+}
+}
+]

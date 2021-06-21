@@ -1,0 +1,281 @@
+[
+{
+"op": "add",
+"path": "/intimidate/intimidated/lyru",
+"value": {
+"default": [
+"Keep that away from me! Tell <questGiver> I'll do what they ask!",
+"Ah! Fine I'll do it for <questGiver>!"
+]
+}
+},
+{
+"op": "add",
+"path": "/intimidate/notIntimidated/lyru",
+"value": {
+"default": [
+"I'm not afraid of You or <questGiver>!",
+"Tell <questGiver> I'm not doing anything."
+]
+}
+},
+{
+"op": "add",
+"path": "/bribe/giftAccepted/lyru",
+"value": {
+"default": [
+"How nice, send my regards to <questGiver>.",
+"Bribing me? Okay great, tell <questGiver> I said thank you."
+]
+}
+},
+{
+"op": "add",
+"path": "/bribe/giftAccepted2/lyru",
+"value": {
+"default": [
+"What does <questGiver> need from me?",
+"<questGiver> isn't working for Boa are they?"
+]
+}
+},
+{
+"op": "add",
+"path": "/bribe/requestAdditionToHouse/lyru",
+"value": {
+"default": [
+"This is great! Can you place it in my home for me?",
+"This will go great in my home, can you put it somewhere nice?",
+"This is perfect for my collection, put it somewhere for me."
+]
+}
+},
+{
+"op": "add",
+"path": "/gift/giftAccepted/lyru",
+"value": {
+"default": [
+"How kind of <questGiver>. Tell them I said thank you",
+"This gift is very nice! Please thank <questGiver> for me!"
+]
+}
+},
+{
+"op": "add",
+"path": "/gift/giftAccepted2/lyru",
+"value": {
+"default": [
+"<questGiver> is a great friend to me."
+]
+}
+},
+{
+"op": "add",
+"path": "/gift/requestAdditionToHouse/lyru",
+"value": {
+"default": [
+"This is a great gift! Can you place it in my home for me?",
+"This gift will go great in my home, can you put it somewhere nice?"
+]
+}
+},
+{
+"op": "add",
+"path": "/return_stolen/objectTaken/lyru",
+"value": {
+"default": [
+"<item> was gifted to me. I'm just passing it on.",
+"This <item> was acquired legally. I swear."
+]
+}
+},
+{
+"op": "add",
+"path": "/collect_fine/fineCollected/lyru",
+"value": {
+"default": [
+"I'll pay the fine, alright...",
+"Mercy no not Boa! I will pay the fine."
+]
+}
+},
+{
+"op": "add",
+"path": "/collect_gift/giftProvided/lyru",
+"value": {
+"default": [
+"I hope <questGiver> is happy with <item>!.",
+"Here is the <item> that <questGiver> asked for."
+]
+}
+},
+{
+"op": "add",
+"path": "/request_craft/giftProvided/lyru",
+"value": {
+"default": [
+"Here is the <item> you asked me to make.",
+"I hope <questGiver> likes their new <item>, I made it with my bare hands."
+]
+}
+},
+{
+"op": "add",
+"path": "/borrow/giftProvided/lyru",
+"value": {
+"default": [
+"Sure, I will lend <questGiver> my <item>.",
+"Here is the <item>, tell <questGiver> to look after it."
+]
+}
+},
+{
+"op": "add",
+"path": "/extort/giftProvided/lyru",
+"value": {
+"default": [
+"Just take the <item> - I value my safety.",
+"<questGiver> lost their bet. Fine then, take the <item>!"
+]
+}
+},
+{
+"op": "add",
+"path": "/hat/crafting/lyru",
+"value": {
+"default": [
+"Great, one moment and I will be right back with it made.",
+"I see you have everything we need! Hold a moment, I just need some time to craft..."
+]
+}
+},
+{
+"op": "add",
+"path": "/hat/crafted/lyru",
+"value": {
+"default": [
+"Here you go! Please, take this to <questGiver> for me.",
+"Thank you for waiting. Take this to <questGiver> for me please."
+]
+}
+},
+{
+"op": "add",
+"path": "/helmet/crafting/lyru",
+"value": {
+"default": [
+"You've secured the materials? Hold a moment, I'll get to work immediately...",
+"Great, one moment and I will be right back with it made."
+]
+}
+},
+{
+"op": "add",
+"path": "/helmet/crafted/lyru",
+"value": {
+"default": [
+"Here you go! Please, take this to <questGiver> for me.",
+"Thank you for waiting. Take this to <questGiver> for me please."
+]
+}
+},
+{
+"op": "add",
+"path": "/new_stock/trade/lyru",
+"value": {
+"default": [
+"Thank you for delivering this. Here's what <questGiver> needed.",
+"Here is <questGiver>'s parcel, take it to them if you will."
+]
+}
+},
+{
+"op": "add",
+"path": "/kidnapping/kidnappersDead/lyru",
+"value": {
+"default": [
+"Thank you for getting me out of that mess!",
+"I owe you my life."
+]
+}
+},
+{
+"op": "add",
+"path": "/kidnapping/followHome/lyru",
+"value": {
+"default": [
+"Could you please take me back home to <questGiver>?",
+"I'm unarmed, can you escort me to <questGiver>?"
+]
+}
+},
+{
+"op": "add",
+"path": "/escort/found/lyru",
+"value": {
+"default": [
+"I've lost my way... Could you please take me back to <questGiver>?",
+"Do you know the way to <questGiver>? Can you be my guide?"
+]
+}
+},
+{
+"op": "add",
+"path": "/barter/trade/lyru",
+"value": {
+"default": [
+"Thank you for the goods. Here's <questGiver>'s <receivedItems>."
+]
+}
+},
+{
+"op": "add",
+"path": "/escort_trade/collectDelivery/lyru",
+"value": {
+"default": [
+"Do you have a delivery for me?",
+"Do you have a parcel for me?"
+]
+}
+},
+{
+"op": "add",
+"path": "/escort_trade/provideDelivery/lyru",
+"value": {
+"default": [
+"Here's your goods. Do enjoy them!",
+"Here are your items Ranger."
+]
+}
+},
+{
+"op": "add",
+"path": "/kill_npcs/assistantIntro/lyru",
+"value": {
+"default": [
+"Hello Ranger! <questGiver> is an old friend of mine, they sent me to help you with <enemy>.",
+"Greetings. <questGiver> has hired me to help you kill <enemy>."
+]
+}
+},
+{
+"op": "add",
+"path": "/kill_npc/surrender/lyru",
+"value": {
+"default": [
+"You win, I will not fight you any longer.",
+"I surrender! Please, put your weapon away!"
+]
+}
+},
+{
+"op": "add",
+"path": "/kill_npc/betray/lyru",
+"value": {
+"default": [
+"My trap has worked again!",
+"It was your mistake to trust me!"
+]
+}
+}
+]

@@ -1,0 +1,189 @@
+
+[
+ {  
+    "op":"add",
+    "path":"/hail/lyru",
+    "value":{  
+      "default":[  
+        "I got my eyes on you.",
+        "Don't touch anything that's not yours.",
+        "Boa will be watching you.",
+        "Praise Boa, the mighty Overseer!",
+        "Boa is the greatest of all Lyru!",
+        "Move along surface dweller.",
+        "I'll be getting a raise soon.",
+        "I'm so is hungry."
+      ],
+      "apex":[  
+        "Hello, Apex rebel.",
+        "We welcome those who seek freedom.",
+        "How goes the rebellion?",
+        "Need weapons? The Forge Masters make powerful weapons.",
+        "Mighty Boa is the greatest. Big Ape is a phony.",
+        "Big Ape locks away variety, and happyness.",
+        "Destruction to the Miniknog oppressors.",
+        "We watch for Miniknog spys."
+      ],
+      "avian":[  
+        "Hello, Avian.",
+        "Did the Stargazers send you down here?",
+        "I don't see too many of you in the deep.",
+        "How good are you at sparring?",
+        "Are you here to challenge us Avian?",
+        "You're always welcome here bird brain.",
+        "Any Avian artifacts here were obtained legally."
+      ],
+      "floran":[  
+        "Hello, Floran hunter.",
+        "Behave yourself plant man.",
+        "I'm hungry, need to kill something. Not Floran.",
+        "Mind the stabbing Floran.",
+        "Why are you here, don't Florans hate fire?",
+        "I'm not hungry for Floran."
+      ],
+      "human":[  
+        "Hello, Human adventurer.",
+        "Freind of all, we welcome you.",
+        "The Protectorate formed the alliance right? What happened?",
+        "Keep moving Human.",
+        "You humans are cute.",
+        "Think you're tough. Let's see what you got.",
+        "Tentacle problems? You won't see that here.",
+        "Roasted tentacles are tasty."
+      ],
+      "hylotl":[  
+        "Hello, Hylotl.",
+        "We take interest in the arts, Hylotl.",
+        "The Collectors protect all knowledge and wisdom.",
+        "Don't be cross fish man.",
+        "We respect Hylotl upliters.",
+        "Lyru are born survivors.",
+        "The gambling joints tend to have fights at times. Just a warning.",
+        "Welcome, Hylotl. Are you here to see our greate collections?"
+      ],
+      "novakid":[  
+        "Hello, Novakid.",
+        "Stranger or not, don't cause trouble.",
+        "Don't bust the bottle. This isn't a shooting range.",
+        "Gah! You're too bright!",
+        "Where did I put my sunglasses?",
+        "I didn't ask for a tan.",
+        "What do you want?"
+      ],
+      "lyru":[  
+        "Hello, Ranger.",
+        "Look after yourself Ranger.",
+        "Good to see you Ranger.",
+        "Any news from the Overseer Ranger?",
+        "I'll be getting a raise soon.",
+        "I'm so is hungry."
+      ],
+      "avali":[  
+        "Hello, Avali hunter.",
+        "How have the packs been hunter?",
+        "No need to be concerned about us Avali.",
+        "I don't see too many of you in the deep.",
+        "Are you here to sell your tech?",
+        "I recall our Genesis network was modeled after Avali's Nexus databases."
+      ],
+      "glitch":[  
+        "Hello, Glitch.",
+        "A Forge Master can repair you if you want.",
+        "You should see our drones.",
+        "You're not going to glitch out on me are you?",
+        "Try not to get scrapped out there.",
+        "You're a little far from home aren't you?"
+      ]
+    }
+  },
+  {  
+    "op":"add",
+    "path":"/hail/apex/lyru",
+    "value":[  
+      "Do not cause any trouble Lyru.",
+      "Keep your ideals to yourself.",
+      "Big Ape won't tolerate gambling.",
+      "Acts of theft will not be tolerated, Lyru.",
+      "Any attempt to brainwash our citizens will force us to take action.",
+      "You respect Big Ape.",
+      "Tell your boss Big Ape won't stand for any more rumours.",
+      "Hold your tung Lyru.",
+      "Bow to the Miniknog."
+    ]
+  },
+  {  
+    "op":"add",
+    "path":"/hail/avian/lyru",
+    "value":[  
+      "Don't try me, Underworlder.",
+      "You want to fight me?",
+      "Move along Underworlder.",
+      "Enjoy your time here and don't touch anything.",
+      "No drinking games here please.",
+      "You're welcome here, as long as you respect our home.",
+      "I can't spar right now...",
+      "We can get along here... I hope.",
+      "As long as you don't steal or eat anyone, you are welcome here."
+    ]
+  },
+  {  
+    "op":"add",
+    "path":"/hail/floran/lyru",
+    "value":[  
+      "Sstay out of trouble caveman.",
+      "Floran does not like caveman.",
+      "No steal caveman!",
+      "Behave yourssself caveman.",
+      "Floran wantsss caveman to go away.",
+      "Caveman not hungry for Floran?",
+      "Give Floran a reassson.",
+      "Don't tempt Floran.",
+      "Keep moving, caveman.",
+      "Cavemans taste terrible."
+    ]
+  },
+  {  
+    "op":"add",
+    "path":"/hail/human/lyru",
+    "value":[  
+      "Watch yourself, Lyru.",
+      "Don't cause trouble Lyru.",
+      "Don't touch that!",
+      "Try not to steal anything.",
+      "I'm watching you.",
+      "Non your games here Lyru.",
+      "I'm super tough, don't test me.",
+      "Hi! I mean... Grrr.",
+      "What's your business here Lyru?",
+      "What are you doing here?"
+    ]
+  },
+  {  
+    "op":"add",
+    "path":"/hail/hylotl/lyru",
+    "value":[  
+      "Enjoy your visit Lyru.",
+      "Keep away your weapons and I won't disturb you.",
+      "Walk well, Lyru.",
+      "Behave yourself and respect our arts.",
+      "Cross me Lyru and I will be forced to strike.",
+      "I hope you aren't hungry. Hylotl isn't on the menu.",
+      "We're happy to see someone who appreciates the work of true masters.",
+      "I ask that you do not touch any of our art pieces.",
+      "Do not test me Lyru.",
+      "Welcome, Lyru. Are you here to gather information?"
+    ]
+  },
+  /*{
+    "op":"add",
+    "path":"/hail/avali/lyru",
+    "value":[  
+      "Hi there Lyru~",
+      "No drinking games here please.",
+      "You're not going to cause any trouble right?",
+      "Welcome to our town, Lyru.",
+      "No stealing tech! I know how you people gained space travel!",
+      "If I see you taking any sheets off our tents, I will attack you."
+    ]
+  }*/
+]

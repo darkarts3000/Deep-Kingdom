@@ -1,0 +1,389 @@
+[
+ {  
+    "op":"add",
+    "path":"/greeting/lyru",
+    "value":{  
+      "default":[  
+        "Hello alien.",
+        "Greetings strange being",
+        "Welcome to our establishment creature!",
+        "How are you my new freind?",
+        "My belly's growling like a dog.",
+        "Have you heard, some humans think aliens are immigrating in space illegally."
+      ],
+      "apex":[  
+        "Hello test subject.",
+        "Greetings furry human.",
+        "Hello there chimp.",
+        "Welcome to our establishment rebel!",
+        "Miniknog? No I hate them.",
+        "The Miniknog are terrible designers.",
+        "Um. That's not what I smelled.",
+        "Why did the monkey like the banana? Because it had appeal!",
+        "I mostly like meaty bananas."
+      ],
+      "avian":[  
+        "Hello clipped wings.",
+        "Greetings happy meal.",
+        "Hello there tall chicken.",
+        "Welcome to our establishment worshiper!",
+        "Are you grounded? You seem friendly.",
+        "Wealth and power is more important to me than wings.",
+        "*sniff* Oh how I love buffalo wings.",
+        "Why did the chicken go to space? Because it had to fly the coop!",
+        "I think wings are pretty tasty."
+      ],
+      "floran":[  
+        "Hello venus fly trap.",
+        "Greetings cabbage patch.",
+        "Hello there salad bar.",
+        "Floran like hunting big prey? Lyru hunt big prey for trophies.",
+        "What big trophies does Floran hunter have?",
+        "Welcome to our establishment hunter!",
+        "Hm. Not really into lettuce today.",
+        "A weed is a plant that has mastered every survival skill except for learning how to grow in rows.",
+        "Floran almost dominated the galaxy. What made Floran stop?"
+      ],
+      "human":[  
+        "Hello hairless monkey.",
+        "Greetings bacon.",
+        "Hello there pig skin.",
+        "Welcome to our establishment wanderer!",
+        "Who needs one home planet when you can have others.",
+        "What about tentacles? Earth? I gotta go get some!",
+        "Mm. BBQ ribbs.",
+        "What do they call human without a home? A spaceman!",
+        "Tentacles are a rare delicacy here."
+      ],
+      "hylotl":[  
+        "Hello mudskipper.",
+        "Greetings fish sandwich.",
+        "Hello there tasty fillet.",
+        "Welcome to our establishment sea creature!",
+        "So are the spawn Hylotl, or are they frog?",
+        "How wonderful to meet you mudskipper.",
+        "Oh. Maybe I'll have frog legs tonight.",
+        "How do you make a fish laugh? Tell a whale of a tale!",
+        "Mudskippers are such nice creatures."
+      ],
+      "novakid":[  
+        "Hello space cowboy.",
+        "Um. Greetings glowstick.",
+        "Hello there light bulb.",
+        "*squints eyes* Welcome to our establishment partner.",
+        "Who brought a sun here!",
+        "Who's there? Can you turn down the light, my eyes are stinging.",
+        "Welp. Guess it just the usual today.",
+        "Why was the cowboy a lot of laughs? He was always horsing around!",
+        "What theif are you chasing space cowboy?"
+      ],
+      "lyru":[  
+        "Hello Ranger",
+        "Greetings Lyru.",
+        "Hello fellow artifact hunter.",
+        "Welcome to our establishment Ranger!",
+        "Got a job here Ranger?",
+        "Watch out for the Miniknog Ranger.",
+        "Hey. Got something tasty on ya?",
+        "What do drunk Lyrus play? Hop-scotch!",
+        "Hey Ranger, bets are being taken at the gambling joint."
+      ],
+      /*"avali":[  
+        "Hello dino beast.",
+        "Greetings fuzzy raptor.",
+        "Hello Avali.",
+        "Welcome to our establishment Avali competitor!",
+        "Is any of your tech for sell?",
+        "Look a Avali competitor is here!",
+        "Hey. Got something tasty on ya?",
+        "What do you call a dinosaur with a extensive vocabulary? a thesaurus!",
+        "Good to see Avali venture to our base."
+      ],*/
+      "glitch":[  
+        "Hello Mr. Roboto.",
+        "Greetings outdated tech.",
+        "Hello there limbed TV set.",
+        "Welcome to our establishment glitchy animatronic!",
+        "Looks like a museum piece broke loose.",
+        "You're not going to mess up our systems are you?",
+        "Welp. Guess it just the usual today.",
+        "Why was the robot bankrupt? He had used all his cache!",
+        "Sorry I don't like the taste of metal."
+      ]
+    }
+  },
+ {  
+    "op":"add",
+    "path":"/converse/lyru",
+    "value":{  
+      "default":[  
+        "Good to meet you alien.",
+        "We don't get too many visitors here.",
+        "Looking for some cool stuff?",
+        "I'm so hungry I could bite my own ears.",
+        "What do aliens cook in a skillet? Unidentified frying objects!",
+        "Did you hear about the human who was captured by extra-terrestrial teddy bears? He had a close encounter of the furred kind!",
+        "Why are aliens messy tea-drinkers? With flying saucers, it's hard not to spill it."
+      ],
+      "apex":[  
+        "You're not working for Big Ape are you?",
+        "Have you heard of the rebellion?",
+        "Furry humans are funny.",
+        "What? No I'm not planing to eat you.",
+        "I stayed at a Miniknog apartment once. Got outa there fast after I got caught replacing the fabric.",
+        "The fake lights don't bother me... Unless there radiant.",
+        "Do Miniknog cameras have a flash on them? I swore one almost blinded me.",
+        "I don't get why the Apex standard looks so plain.",
+        "What do you call a monkey in a minefield? Baboom!",
+        "Where do monkeys go to drink? The monkey bars!",
+        "Did you hear about the awful jungle party? Somebody forgot to bring the chimps and dip!"
+      ],
+      "avian":[  
+        "Who is Kluex to you?",
+        "Your feathers are beautiful.",
+        "Have the Stargazers told you about us?",
+        "So do you sprout wings after doing the jump, or do glide like Lyru acrobats?",
+        "I find Avian ducks cute.",
+        "Lyru aren't demons. Do Stargazers say that because we don't like sunlight?",
+        "Underworlder? Yeah I guess I am.",
+        "What? No I'm not planing to eat you.",
+        "What happens when you drop a hand gren-egg? It eggs-plodes!",
+        "What do you say to an Avian that's been bad? Your Grounded!",
+        "What do chickens study in school? Eggonomics!"
+      ],
+      "floran":[  
+        "Are you down here hunting?",
+        "Floran trophies are impressive.",
+        "Have you hunted a Yucada?",
+        "Lyru hunt Yucada to get big trophies. Yucada are so fierce.",
+        "I can't say have seen a Ixodoom before.",
+        "Does Floran hunting grounds have good cover from sunlight?",
+        "They say Floran hunt in the dark. Do Floran hate sunlight too?",
+        "What? No I'm not planing to eat you.",
+        "What vegetable can tie your stomach in knots? String beans!",
+        "What did one hungry plant say to the other plant? I could use a light snack.",
+        "Why wouldn’t one plant date the other? They didn’t want no shrubs!"
+      ],
+      "human":[  
+        "Nice to know you survived.",
+        "Where did you say you got that device?",
+        "Good luck finding a new home.",
+        "I've seen some cultists around, but they don't scare me.",
+        "Some Protectorate right. Couldn't even protect itself from selfish humans.",
+        "Me? I'm looking for good pay. The sunlight can burn though.",
+        "I'm not a mole, but I can see why you think that.",
+        "What? No I'm not planing to eat you.",
+        "What do you call a human who likes a human? A homo-sapien!",
+        "Why did the human attack the alien? It was planing an invasion!",
+        "Did you here about the cultists plan? It went to Ruin!"
+      ],
+      "hylotl":[  
+        "Your underwater cities are impressive.",
+        "Are you interested in my collection?",
+        "We have wonderful parties if you'd like to join.",
+        "The Uncovered Underworlder Records is my favorite book to read.",
+        "It's a shame that there's no sea shells on Illron.",
+        "I envy you mudskipper. You're fine in sunlight but I burn.",
+        "You know why Lyru only like to come out at night right?",
+        "What? No I'm not planing to eat you.",
+        "What do you get when you cross a banker with a fish? A Loan shark!",
+        "Did you know the Octopus is the only fish that can squirt ink? Just Squidding.",
+        "Who cleans the bottom of the ocean? A Mer-Maid!"
+      ],
+      "novakid":[  
+        "Mind the breakables.",
+        "Are you as bright as you look?",
+        "Want somethink to drink?",
+        "How do you sleep with all that light?",
+        "I don't want to be rude, but I can't stand your glow.",
+        "Wow your glow is just as bad as sunlight.",
+        "My skin is burning! Can you leave me alone.",
+        "I'm so hungry I could bite my own ears.",
+        "What advice to cows give? Turn the udder cheek and mooooove on!",
+        "Why did the cowboy ride his horse? Because the horse was too heavy to carry.",
+        "Where do cowboys cook their meals? On the range."
+      ],
+      "lyru":[  
+        "Hello Ranger, I am glad to see you.",
+        "What's happing with the others on Illron?",
+        "It's great to see you Ranger.",
+        "There's plenty here for you.",
+        "Honoured to meet you, Ranger.",
+        "I know some Collectors who might want your help.",
+        "Do you have to wear a lot of sunscreen when traveling out in sunlight?",
+        "It must be rough traveling during the day sometimes huh.",
+        "What's a Lyru's favorite kind of music? Hip Hop!",
+        "How does a Lyru pick his favorite baseball team? He jumps on the bandwagon.",
+        "What do stylish Lyrus wear? Jumpsuits!"
+      ],
+      /*"avali":[  
+        "Hello Avali, hater of humans.",
+        "What do you get if you cross a pig with a dinosaur? Jurassic Pork!",
+        "So you when lose feathers you bleed?",
+        "Your feathers are so soft, like fresh snow.",
+        "Doesn't sunlight hurt your eyes?",
+        "Your lucky that sunlight doesn't bother you.",
+        "Why are there old dinosaur bones in the museum? Because they can't afford new ones!",
+        "Why did the T-Rex eat hamburgers? Because he is a meat eater!",
+        "Looking for some cool stuff?",
+        "We don't get too many visitors here.",
+        "I'm so hungry I could bite my own ears."
+      ],*/
+      "glitch":[  
+        "Which castle did you come from?",
+        "You look like you need some oil.",
+        "Your heat resistant? That's nice.",
+        "I saw one of you with they're brain exposed. Is that ok?",
+        "You know, the dark ages don't sound to bad compared to years in burning sunlight.",
+        "Do you have something to prevent glare off you? My eyes would appreciate it.",
+        "Could Glitch lend me some robo chicks? I'm out of batteries.",
+        "What’s a robot’s favorite cereal? Rob-os!",
+        "Why was the robot angry? Because someone kept pushing his buttons!",
+        "What’s a robot’s favorite book? Harry Potter and the Goblet of Wire."
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/converse/apex/lyru",
+    "value": [
+        "You're not hungry are you?",
+        "There's nothing interesting here.",
+        "What are you up to?",
+        "Good day to you, my friend.",
+        "Don't ask about Big Ape. Miniknog is watching.",
+        "Are you crazy, the Miniknog will come for you being here!",
+        "Don't talk to me Lyru! Big Ape is always watching.",
+        "I'd ask if you like bananas, but I don't think I want to know.",
+        "Why do you hate Big Ape so much? I don't here any problems about him.",
+        "I don't want your items, they'll get me into trouble.",
+        "Um. Hi."
+      ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/avian/lyru",
+    "value": [
+        "An Underworlder! Here!",
+        "I wish I could fly.",
+        "You're not hungry are you?",
+        "I hear Underworlders like telling jokes. Could you tell me one?",
+        "They say Underworlders eat eyes... Is that true?",
+        "I'd like to spar with you some time.",
+        "My father says that Lyrus are demons, but I don't really see why.",
+        "I'd offer you some seeds, but you don't seem hungry for that.",
+        "What collections do Lyrus have?",
+        "What gold? I don't have any gold.",
+        "You seem to carry a strong energy about you.",
+        "Do you like our ducks?"
+      ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/floran/lyru",
+    "value": [
+        "Floran greetsss caveman.",
+        "Sssuspicious Caveman.",
+        "Caveman live by fire. Floran hate fire.",
+        "Floran ssstab Caveman if Caveman hunt Floran.",
+        "Floran like hunting in the dark. Caveman hunt in dark too.",
+        "Sssup friendly Caveman?",
+        "Nice meeting Caveman.",
+        "Floran happy to meet Caveman.",
+        "Caveman no chassse Floran. Floran chassse Caveman!",
+        "Can Floran help Caveman?",
+        "Caveman not eat Floran?",
+        "Floran smell meat, Caveman hunt recently?"
+      ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/glitch/lyru",
+    "value": [
+        "Eager. Salutations.",
+        "Welcoming. I will always welcome new friends!",
+        "Anxious. You seem polite, but I cannot be sure you won't steal from me.",
+        "Friendly. It is wonderful to meet you.",
+        "Jealous. I wish I had big collections like cave dwellers.",
+        "Brave. You are not so frightening.",
+        "Kind. We do have batteries if you need some.",
+        "Excited. Yay! A new friend from the deep!",
+        "Curious. Do cave dwellers burn in sunlight?",
+        "Cordial. Hello cave dweller.",
+        "Surly. Hi...",
+        "Merry. Welcome, welcome, welcome!"
+      ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/human/lyru",
+    "value": [
+        "I've got nothing Lyru.",
+        "Just camping with some friends.",
+        "What are looking for?",
+        "Giant Rat!",
+        "Ah! A Giant Rat! Oh wait you're a Lyru.",
+        "See this? It's my poker face.",
+        "Don't ask for food. I barely have enough for myself.",
+        "You know what, I really could use a joke right now.",
+        "What kind of games do you play?",
+        "Why are you licking your lips?",
+        "Man if I don't find food soon I'll end up like you.",
+        "I heard about a Lyru mother that had a kid. She named him Joey."
+      ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/hylotl/lyru",
+    "value": [
+        "Would you like some tea?",
+        "Please keep your hands to yourself.",
+        "Do you read many books?",
+        "It's good to have a sense of humour.",
+        "You don't look to pleasing, but you make me laugh and that's ok.",
+        "No stealing here Lyru.",
+        "I've seen Lyru mushroom arrangments, they certainly made progress.",
+        "After the Floran invasion, the Lyru gained space travel. How strange.",
+        "How are the nights like on the boiling sea?",
+        "Do you produce art?",
+        "Why do you live in the caves?",
+        "What treasures have you found?"
+      ]
+  },
+  {
+    "op": "add",
+    "path": "/converse/novakid/lyru",
+    "value": [
+        "Howdy Howdy Howdy",
+        "Your a cave dweller ain't ya?",
+        "Howdy my hairy partner.",
+        "You're a cave dweller, huh? You best not to steal things from our town!",
+        "I'll be glowin' all day and night, won't dim it.",
+        "I heard some folks say you cave dweller are tricky types, you won't be foolin' me!",
+        "You sure do have some big eyes. I'm sure yer have a big heart as well!",
+        "Boa? You mean like those nasty things that get in my boot?",
+        "You got a look of suspicion about you. Are you a theif or somethin'?",
+        "I hear you folks are pretty smart. Would you wager you can beat me in a game o' cards?",
+        "What in tarnation are you doin' here?",
+        "I can tell y'all aren't from around here."
+      ]
+  }/*,
+  {
+    "op": "add",
+    "path": "/converse/avali/lyru",
+    "value": [
+        "Um... hello, Lyru.",
+        "Find anything interesting out there?",
+        "Hmm? Oh! Sorry, I wasn't expecting to see you here.",
+        "Got any interesting things you wish to trade?",
+        "We heard Lyru hunt Yucada. Are they big?",
+        "You've got good eyes right? Can you help me find my gun.",
+        "Why are you on the surface, aren't Lyrus sensitive to sunlight?",
+        "It must be hard to live in shadows your whole life.",
+        "Do you like music? I've got some songs you could listen to.",
+        "Um. What are you doing with that?",
+        "You're not tampering with my devices are you?",
+        "Stop staring at the tent sheets, they're not for sale."
+      ]
+  }*/
+]

@@ -1,0 +1,28 @@
+[
+{
+"op": "add",
+"path": "/beacon/lyru",
+"value": {
+"default": [
+"I've arrived.",
+"Hello.",
+"What do you want?"
+],
+"lyru": [
+"Well look who's here.",
+"Hello Ranger.",
+"Got something good?"
+]
+}
+},
+{
+"op": "add",
+"path": "/rent/lyru",
+"value": {
+"default": [
+"A gift for you.",
+"I am happy to help."
+]
+}
+}
+]

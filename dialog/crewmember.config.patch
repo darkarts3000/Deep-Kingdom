@@ -1,0 +1,13 @@
+[
+{
+"op": "add",
+"path": "/converse/lyru",
+"value": {
+"default": [
+"What's the mission today?",
+"I have your back, Captain.",
+"Found anything good lately?"
+]
+}
+}
+]
