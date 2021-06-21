@@ -1,0 +1,52 @@
+{
+  "objectName" : "lyrulaptop",
+  "colonyTags" : [ "lyru", "lyrubase", "wired" ], 
+  "rarity" : "Uncommon",
+  "category" : "wire",
+  "price" : 60,
+  
+  "printable" : false,  
+  "description" : "A cute little laptop with a hologram screen.",
+  "shortdescription" : "Lyru Laptop",
+  "race" : "lyru",
+  
+  "apexDescription" : "What a nice little laptop.",
+  "avianDescription" : "Cute. I could use one of these.",
+  "floranDescription" : "Tiny magical device.",
+  "glitchDescription" : "Enamoured. What an adorable laptop.",
+  "humanDescription" : "An adorable little laptop.",
+  "hylotlDescription" : "A small travel computer.",
+  "lyruDescription" : "I used one of these during my time on Earth.", 
+
+  "lightColor" : [128, 0, 128],
+  
+  "inventoryIcon" : "lyrulaptopicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyrulaptop.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+  
+  "scripts" : [
+    "/objects/wired/switch/switch.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/switch/switchtoggle.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/screen1.ogg" ],
+      "off" : []
+    }
+  },
+  "animationParts" : {
+    "switch" : "lyrulaptop.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "outputNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,42 @@
+{
+  "objectName" : "lyruring",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 60,
+  "description" : "A jade ring with feathers.",
+  "shortdescription" : "Lyru Ring",
+  "race" : "lyru",
+
+  "apexDescription" : "A jade ring. Maybe for decoration.",
+  "avianDescription" : "This jade ring is beautiful.",
+  "floranDescription" : "Floran likesss stone ring.",
+  "glitchDescription" : "Observation. This jade ring appears to have other purposes than just decoration.",
+  "humanDescription" : "A jade ring. Quite decorative.",
+  "hylotlDescription" : "This jade ring has been polished to profection.",
+
+  "lyruDescription" : "Jade rings hold healing properties. It's good to have them around.",
+  
+  "inventoryIcon" : "lyruringicon.png",
+  "orientations" : [
+    {
+      "image" : "lyruring.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+	{
+      "image" : "lyruring.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "objectName" : "lyrusmallrings",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 40,
+  "description" : "Small jade rings strung together.",
+  "shortdescription" : "Small Lyru Rings",
+  "race" : "lyru",
+
+  "apexDescription" : "Small jade rings. Maybe for decoration.",
+  "avianDescription" : "These jade rings are beautiful.",
+  "floranDescription" : "Floran likesss stone rings.",
+  "glitchDescription" : "Observation. These jade rings appears to have other purposes than just decoration.",
+  "humanDescription" : "Small jade rings. Quite decorative.",
+  "hylotlDescription" : "These jade rings has been polished to profection.",
+
+  "lyruDescription" : "Jade rings hold healing properties. It's good to have them around.",
+  
+  "inventoryIcon" : "lyrusmallringsicon.png",
+  "orientations" : [
+    {
+      "image" : "lyrusmallrings.png:<color>",
+      "imagePosition" : [0, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+	{
+      "image" : "lyrusmallrings.png:<color>",
+      "imagePosition" : [0, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}

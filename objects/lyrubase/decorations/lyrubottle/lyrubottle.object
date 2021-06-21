@@ -1,0 +1,34 @@
+{
+  "objectName" : "lyrubottle",
+  "colonyTags" : [ "lyru", "lyrubase", "pretty" ], 
+  "rarity" : "Uncommon",
+  "category" : "furniture",
+  "retainObjectParametersInItem" : true, 
+  "printable" : false,
+  "description" : "Its smells strongly of poison.",
+  "shortdescription" : "Lyru Bottle",
+  "race" : "lyru",
+
+  "apexDescription" : "It smells like poison, and not the drinkable kind.",
+  "avianDescription" : "Ugh, it smells of death.",
+  "floranDescription" : "Bottle smellss of old meat.",
+  "glitchDescription" : "Analysis. Over 90% of toxic plant matter, including alcohols.",
+  "humanDescription" : "Yep. Definitely poison.",
+  "hylotlDescription" : "Someone picked the poison. Literally!",
+  "lyruDescription" : "Oh, how many have died from Abyssal Greed.", 
+
+  "inventoryIcon" : "lyrubottleicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyrubottle.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
+

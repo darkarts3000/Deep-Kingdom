@@ -1,0 +1,42 @@
+{
+  "objectName" : "lyrubanner3",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 60,
+  "description" : "A banner with the lyru symbol on it.",
+  "shortdescription" : "Lyru Symbol Banner",
+  "race" : "lyru",
+
+  "apexDescription" : "A banner with the lyru symbol on it.",
+  "avianDescription" : "This banner has the lyru symbol on it.",
+  "floranDescription" : "Eye of beast on banner.",
+  "glitchDescription" : "Curious. Could this be a sign of some kind?",
+  "humanDescription" : "This banner tells me that lyru are in the area.",
+  "hylotlDescription" : "Lyru tend to mark trading post with these.",
+
+  "lyruDescription" : "Lyru trading post sign.",
+  
+  "inventoryIcon" : "lyrubanner3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyrubanner3.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+	{
+      "dualImage" : "lyrubanner3.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}

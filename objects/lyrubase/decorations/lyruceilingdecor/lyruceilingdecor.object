@@ -1,0 +1,33 @@
+{
+  "objectName" : "lyruceilingdecor",
+  "colonyTags" : ["lyru","lyrubase","pretty"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "price" : 120,
+  "description" : "A string of metal chimes hang from the ceiling.",
+  "shortdescription" : "Metal Chimes",
+  "race" : "lyru",
+
+  "apexDescription" : "These ivori chimes click and clack in the wind.",
+  "avianDescription" : "These ivori chimes sound pleasing.",
+  "floranDescription" : "Floran enjoy ssound of bone chimess.",
+  "glitchDescription" : "Observant. These chimes are made of bone, but they make nice sounds.",
+  "humanDescription" : "Wind chimes! They sound nice dispite there origin.",
+  "hylotlDescription" : "The wind is playing with the wind chimes. Lovely.",
+  "novakidDescription" : "A wind chime.",
+  "lyruDescription" : "A string of ivori chimes. A common thing in our bases and trading post.",
+
+  "inventoryIcon" : "lyruceilingdecoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyruceilingdecor.png:<color>",
+      "imagePosition" : [-16, -13],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

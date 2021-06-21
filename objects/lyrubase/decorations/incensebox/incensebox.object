@@ -1,0 +1,44 @@
+{
+  "objectName" : "incensebox",
+  "colonyTags" : ["lyru","pretty"],
+  "rarity" : "Uncommon",
+  "price" : 30,
+  "description" : "A small metal incense box.",
+  "shortdescription" : "Incense Box",
+  "category" : "decorative",
+  "race" : "lyru",
+
+  "apexDescription" : "The scent from this box is sweet and uplifting.",
+  "avianDescription" : "This reminds me of the lamps in temples.",
+  "floranDescription" : "Ssmellss nice.",
+  "glitchDescription" : "Delighted. The sweet sent of a flowers is coming from this box.",
+  "humanDescription" : "It smells like being in a meadow.",
+  "hylotlDescription" : "The smell brings joy to all of my senses.",
+  "novakidDescription" : "I understand what's the purpose of this.",
+  "lyruDescription" : "Hmm. The scent from these boxes always calms the nerves.",
+
+  "inventoryIcon" : "incenseboxicon.png",
+  "orientations" : [
+    {
+      "image" : "incensebox.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 7,
+      "animationCycle" : 1.15,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "incensebox.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 7,
+      "animationCycle" : 1.15,
+      "direction" : "right",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

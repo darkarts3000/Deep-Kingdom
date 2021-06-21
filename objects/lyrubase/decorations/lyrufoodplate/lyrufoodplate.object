@@ -1,0 +1,35 @@
+{
+  "objectName" : "lyrufoodplate",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 220,
+  "description" : "A plate full of poisonous eyeballs.",
+  "shortdescription" : "Snake Eyes Plate",
+  "race" : "lyru",
+
+  "apexDescription" : "This looks like something a floran would eat.",
+  "avianDescription" : "A plate of eyes. Not for me.",
+  "floranDescription" : "These look tasty.",
+  "glitchDescription" : "Disturbed. Who's eyes are these?",
+  "humanDescription" : "Food. Yummy food!",
+  "hylotlDescription" : "Creepy. I do not wish to know where these came from.",
+
+  "lyruDescription" : "Ah. A lyru's favorite dish.",
+
+  "inventoryIcon" : "lyrufoodplateicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyrufoodplate.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

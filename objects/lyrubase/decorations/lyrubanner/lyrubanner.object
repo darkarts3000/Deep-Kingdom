@@ -1,0 +1,42 @@
+{
+  "objectName" : "lyrubanner",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 60,
+  "description" : "A long decorative banner.",
+  "shortdescription" : "Long Lyru Banner",
+  "race" : "lyru",
+
+  "apexDescription" : "A long decorative banner.",
+  "avianDescription" : "Not as beautiful as avian tapestry.",
+  "floranDescription" : "A boring banner.",
+  "glitchDescription" : "Statement. It's a long banner used as decoration.",
+  "humanDescription" : "It would be nice if it looked golden.",
+  "hylotlDescription" : "Well it's not bland like apex decor.",
+
+  "lyruDescription" : "Decor is very basic at our bases.",
+  
+  "inventoryIcon" : "lyrubannericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyrubanner.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+	{
+      "dualImage" : "lyrubanner.png:<color>",
+      "imagePosition" : [-8, -16],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "objectName" : "lweaponrack1",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 120,
+  "description" : "A Lyru short sword mounted on the wall.",
+  "shortdescription" : "Lyru Sword Display",
+  "race" : "lyru",
+
+  "apexDescription" : "A short sword mounted in a metal frame.",
+  "avianDescription" : "A rather generic looking short sword.",
+  "floranDescription" : "Floran wants to know how to get stabby stabby.",
+  "glitchDescription" : "Bored. It's a generic short sword mounted on the wall.",
+  "humanDescription" : "I've seen Lyru carry cooler weapons than this one.",
+  "hylotlDescription" : "Hylotl katanas are more beautiful display pieces.",
+
+  "lyruDescription" : "Low rank, low quality weaponry. Just like old times.",
+  
+  "inventoryIcon" : "lweaponrack1icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "lweaponrack1.png", "fullbright" : true }, { "image" : "lweaponrack1lit.png" } ],
+      "imagePosition" : [-8, -16],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "left"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "objectName" : "lweaponrack2",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 120,
+  "description" : "A Lyru bow staff mounted on the wall.",
+  "shortdescription" : "Lyru Staff Display",
+  "race" : "lyru",
+
+  "apexDescription" : "A bow staff is somewhat interesting.",
+  "avianDescription" : "I think a spear would look better here.",
+  "floranDescription" : "Floran likesss spearsss more.",
+  "glitchDescription" : "Curious. Bow staffs are an unusual weapon among the alien species.",
+  "humanDescription" : "It's weird that the Lyru use these since they also have spears.",
+  "hylotlDescription" : "The skill to weld a bow staff effectively is quite impressive.",
+
+  "lyruDescription" : "Litteral slap stick. It's funny watching noobs use these.",
+  
+  "inventoryIcon" : "lweaponrack2icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "lweaponrack2.png", "fullbright" : true }, { "image" : "lweaponrack2lit.png" } ],
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "left"
+    }
+  ]
+}

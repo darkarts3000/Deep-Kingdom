@@ -1,0 +1,32 @@
+{
+  "objectName" : "lweaponrack3",
+  "colonyTags" : ["lyru","combat"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 400,
+  "description" : "A wall-mounted weapons rack.",
+  "shortdescription" : "Lyru Weapon Rack",
+  "race" : "lyru",
+
+  "apexDescription" : "The Miniknog would store weapons like this in a case.",
+  "avianDescription" : "The grounded tend use weapons like these.",
+  "floranDescription" : "Floran doesss not want to hang weaponss here. Floran keepss their weaponsss.",
+  "glitchDescription" : "Statement. This is a type of wall-mounted weapon storage.",
+  "humanDescription" : "These would be handy if I could get them down.",
+  "hylotlDescription" : "Nothing too special. Just some basic firearms used by the Lyru.",
+  
+  "lyruDescription" : "Boom sticks are pretty handy. Helps keep the pest away.",
+
+  "inventoryIcon" : "lweaponrack3icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "lweaponrack3.png", "fullbright" : true }, { "image" : "lweaponrack3lit.png" } ],
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ],
+      "direction" : "left"
+    }
+  ]
+}

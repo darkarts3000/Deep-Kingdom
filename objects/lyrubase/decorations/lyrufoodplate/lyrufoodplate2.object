@@ -1,0 +1,35 @@
+{
+  "objectName" : "lyrufoodplate2",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Uncommon",
+  "category" : "decorative",
+  "printable" : false,
+  "price" : 220,
+  "description" : "A lyru feast for a special occasion.",
+  "shortdescription" : "Lyru Feast Plate",
+  "race" : "lyru",
+
+  "apexDescription" : "A feast fit for a underworlder.",
+  "avianDescription" : "A plate underworld foods. Kluex worshipers would condemn this on Avos.",
+  "floranDescription" : "Caveman food, Floran accept.",
+  "glitchDescription" : "Worried. It looks nice, but I don't want to be poisoned again.",
+  "humanDescription" : "Is there a festival going on? There's so much food here.",
+  "hylotlDescription" : "It appears like the Lyru are perparing for a special occasion.",
+
+  "lyruDescription" : "The hunters must be returning soon.",
+
+  "inventoryIcon" : "lyrufoodplate2icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyrufoodplate2.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
