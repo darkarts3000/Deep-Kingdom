@@ -1,0 +1,25 @@
+{
+  "materialId" : 431,
+  "materialName" : "lancienttech",
+  "particleColor" : [50, 50, 50, 255],
+  "itemDrop" : "lancienttech",
+  
+  "description" : "Ancient tech pannels powered by core fragments.",
+  "shortdescription" : "Ancient Lyru Pannels",
+  "lyruDescription" : "Is this place still active?",
+  
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lancienttech.png",
+    "variants" : 6,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 2000,
+    "radiantLight" : [100, 60, 0]
+  }
+}

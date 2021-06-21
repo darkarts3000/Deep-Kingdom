@@ -1,0 +1,24 @@
+{
+  "materialId" : 433,
+  "materialName" : "lancientwall",
+  "particleColor" : [81, 37, 37, 255],
+  "itemDrop" : "lancientwall", 
+  "shortdescription" : "Ancient Lyru Wall",
+  
+  "description" : "Ancient Lyru temple stonework. It looks smooth.",
+  "lyruDescription" : "It still looks good after all this time.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 10,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lancientwall.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 2100
+  }
+}

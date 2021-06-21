@@ -1,0 +1,25 @@
+{
+  "materialId" : 425,
+  "materialName" : "lscaleplate",
+  "particleColor" : [89, 127, 52, 255],
+  "itemDrop" : "lscaleplate",
+  "description" : "Light plates of durasteel that lock together, forming strong walls and roofs.",
+  "shortdescription" : "Scale Plate",
+  "glitchDescription" : "Impressed. This plate is exceptionally strong.",
+  "floranDescription" : "Sstrong durasteel plate.",
+  "novakidDescription" : "Shiny lookin' durasteel plate.",
+  "lyruDescription" : "This plate protects our structures from the crushing weight of the earth.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lscaleplate.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2300
+  }
+}

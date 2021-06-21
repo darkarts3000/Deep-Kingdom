@@ -1,0 +1,22 @@
+{
+  "materialId" : 426,
+  "materialName" : "lslopedhull",
+  "particleColor" : [89, 127, 52, 255],
+  "itemDrop" : "lslopedhull",
+
+  "description" : "Tight inset plates made for lyru space ships.",
+  "shortdescription" : "Sloped Inset Plates",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lslopedhull.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 4998
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "materialId" : 427,
+  "materialName" : "lslopedpanel",
+  "particleColor" : [176, 182, 198, 255],
+  "itemDrop" : "lslopedpanel",
+
+  "description" : "Strong resilient panelling used in underground lyru structures.",
+  "glitchDescription" : "Observant. This panelling is very strong.",
+  "floranDescription" : "Shiny sssmooth metal.",
+  "novakidDescription" : "Some thick metal plating, looks mighty solid.",
+  "lyruDescription" : "Panels like these form sturdy beams that hold up many of our structures.",
+  "shortdescription" : "Structure Panel",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lslopedpanel.png",
+    "variants" : 8,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 5000
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 420,
+  "materialName" : "ltapestry",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "ltapestry",
+  "description" : "An embroidered trim, ideal for wall hangings or providing some style",
+  "shortdescription" : "Pryphorline Trim",
+
+
+  "footstepSound" : "/sfx/blocks/footstep_sand.ogg",
+  "health" : 1,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ltapestry.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2100
+  }
+}

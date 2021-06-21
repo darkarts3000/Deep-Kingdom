@@ -1,0 +1,26 @@
+{
+  "materialId" : 423,
+  "materialName" : "ltechboard",
+  "particleColor" : [89, 127, 52, 255],
+  "itemDrop" : "ltechboard",
+  "description" : "Circuit boards powered by light crystals.",
+  "shortdescription" : "Crystal Circuit Board",
+  "glitchDescription" : "Amazed. This board is filled with energy.",
+  "floranDescription" : "Floran ssmash circuit board.",
+  "novakidDescription" : "Strange lookin' circuit board with a bunch of crystals.",
+  "lyruDescription" : "A lot of information flows through this circuit board.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ltechboard.png",
+    "variants" : 6,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2000,
+    "radiantLight" : [128, 0, 128]
+  }
+}

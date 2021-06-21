@@ -1,0 +1,23 @@
+{
+  "materialId" : 429,
+  "materialName" : "lplatform",
+  "collisionKind" : "platform",
+  "itemDrop" : "lplatform",
+  "shortdescription" : "Plated Platform",
+  "description" : "Smooth and easy to clean platforms.",
+  "glitchdescription" : "Approving. This platform is easy to clean.",
+  "florandescription" : "Smooth metal iss pretty.",
+  "novakiddescription" : "Some fancy lookin' metal platform.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "lplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 3460
+  }
+}

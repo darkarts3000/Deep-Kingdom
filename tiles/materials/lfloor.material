@@ -1,0 +1,25 @@
+{
+  "materialId" : 411,
+  "materialName" : "lfloor",
+  "particleColor" : [112, 98, 56, 255],
+  "itemDrop" : "lfloor",
+  "description" : "Smooth and easy to clean flooring.",
+  "shortdescription" : "Plated Floor",
+  "glitchDescription" : "Approving. This flooring is easy to clean.",
+  "floranDescription" : "Smooth metal iss pretty.",
+  "novakidDescription" : "Some fancy lookin' metal floorin'.",
+  "lyruDescription" : "This floor is easy to clean when there's a mess.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lfloor.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2000
+  }
+}

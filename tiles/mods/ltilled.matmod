@@ -1,0 +1,16 @@
+{
+  "modId" : 419,
+  "modName" : "ltilled",
+  "description" : "Vein that brings life to plants.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "tilled" : true,
+  "health" : 0,
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ltilled.png",
+    "variants" : 1,
+    "multiColored" : false,
+    "zLevel" : 0
+  }
+}

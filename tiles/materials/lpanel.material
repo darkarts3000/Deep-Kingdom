@@ -1,0 +1,23 @@
+{
+  "materialId" : 415,
+  "materialName" : "lpanel",
+  "particleColor" : [74, 74, 74, 255],
+  "itemDrop" : "lpanel",
+  "description" : "Blach pryphorline panels used to hide and protect electronics.",
+  "shortdescription" : "Dark Tech Panels",
+
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 1,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lpanel.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2300
+  }
+}

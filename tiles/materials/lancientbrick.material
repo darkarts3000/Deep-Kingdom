@@ -1,0 +1,24 @@
+{
+  "materialId" : 413,
+  "materialName" : "lancientbrick",
+  "particleColor" : [81, 37, 37, 255],
+  "itemDrop" : "lancientbrick", 
+  "shortdescription" : "Ancient Lyru Bricks",
+  
+  "description" : "Ancient Lyru temple bricks. They are arranged quite nicely.",
+  "lyruDescription" : "Who knows how long this wall will hold up.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 10,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lancientbrick.png",
+    "variants" : 9,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 2100
+  }
+}

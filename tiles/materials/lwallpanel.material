@@ -1,0 +1,27 @@
+{
+  "materialId" : 412,
+  "materialName" : "lwallpanel",
+  "particleColor" : [203, 212, 203, 255],
+  "itemDrop" : "lwallpanel", 
+  "shortdescription" : "Lyru Circuit Panel",
+  
+  "description" : "A metal panel covering crystal circuit boards.",
+  "glitchDescription" : "Informed. This metal panel is protecting crystal circuit boards.",
+  "floranDescription" : "Floran seess circuit board hiding under panels.",
+  "novakidDescription" : "A metal panel protecting circuit boards.",
+  "lyruDescription" : "This metal panel is mostly used to hide circuitry.",
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lwallpanel.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2000
+  }
+}

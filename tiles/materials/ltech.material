@@ -1,0 +1,25 @@
+{
+  "materialId" : 414,
+  "materialName" : "ltech",
+  "particleColor" : [182, 182, 182, 255],
+  "itemDrop" : "ltech",
+  "description" : "Energy flows beneath this reinforced tech plate.",
+  "shortdescription" : "Lyru Wall Plate",
+  "glitchDescription" : "Amazed. This plating covers large amounts of energy.",
+  "floranDescription" : "Floran feel vibrationsss in wall.",
+  "novakidDescription" : "Fancy lookin' plate with energy flowing beneath it.",
+  "lyruDescription" : "This strong plate protects Lyru tech.",
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 16,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ltech.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2010
+  }
+}

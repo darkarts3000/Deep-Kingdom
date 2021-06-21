@@ -1,0 +1,21 @@
+{
+  "materialId" : 416,
+  "materialName" : "lsteelscaffolding",
+  "particleColor" : [89, 89, 89, 255],
+  "itemDrop" : "lsteelscaffolding",
+  "shortdescription" : "Plate Scaffolding",
+  "description" : "Sturdy plated beams great for underground structures.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/rowtemplate.config",
+  "renderParameters" : {
+    "texture" : "lsteelscaffolding.png",
+    "variants" : 3,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 2050
+  }
+}

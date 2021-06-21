@@ -1,0 +1,22 @@
+{
+  "materialId" : 428,
+  "materialName" : "lslopedplate",
+  "particleColor" : [176, 182, 198, 255],
+  "itemDrop" : "lslopedplate",
+
+  "description" : "Smooth structure panels used to add detail.",
+  "shortdescription" : "Smooth Structure Panel",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lslopedplate.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 4998
+  }
+}

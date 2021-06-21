@@ -1,0 +1,22 @@
+{
+  "materialId" : 417,
+  "materialName" : "lglass",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "lglass",
+
+  "description" : "Glass made from melted prisilite.",
+  "shortdescription" : "Lyru Glass",
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lglass.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 2000
+  }
+}

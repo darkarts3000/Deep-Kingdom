@@ -1,0 +1,24 @@
+{
+  "materialId" : 435,
+  "materialName" : "lancientpillar",
+  "particleColor" : [81, 37, 37, 255],
+  "itemDrop" : "lancientpillar", 
+  "shortdescription" : "Ancient Lyru Pillar",
+  
+  "description" : "Ancient red pillar. Just strong enough to hold the roof up.",
+  "lyruDescription" : "Looks like it will hold up this place for now.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 10,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/columntemplate.config",
+  "renderParameters" : {
+    "texture" : "lancientpillar.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 3350
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 430,
+  "materialName" : "lfancyplatform",
+  "collisionKind" : "platform",
+  "transparent" : true,
+  "itemDrop" : "lfancyplatform",  
+  "shortdescription" : "Fancy Glass Platform",
+  "description" : "A fancy yet sturdy glass platform.",
+  
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "category" : "Supports",
+  
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "lfancyplatform.png",
+    "variants" : 2,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0,
+    "platform" : true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "materialId" : 432,
+  "materialName" : "lancientstone",
+  "particleColor" : [81, 37, 37, 255],
+  "itemDrop" : "lancientstone", 
+  "shortdescription" : "Ancient Lyru Stone",
+  
+  "description" : "Ancient carved stone. The markings are oddly furmiliar.",
+  "lyruDescription" : "The carvings on these stones are Lyru.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 10,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lancientstone.png",
+    "variants" : 10,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 2100
+  }
+}

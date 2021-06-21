@@ -1,0 +1,23 @@
+{
+  "materialId" : 422,
+  "materialName" : "lstructureweave",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "lstructureweave",
+  "description" : "Heat resistant and super strong. Lyru structures can hold up the weight of the earth.",
+  "shortdescription" : "Pryphorline Insulaton",
+
+
+  "footstepSound" : "/sfx/blocks/footstep_sand.ogg",
+  "health" : 4,
+  "category": "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lstructureweave.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2100
+  }
+}

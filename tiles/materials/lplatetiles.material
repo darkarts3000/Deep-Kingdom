@@ -1,0 +1,25 @@
+{
+  "materialId" : 424,
+  "materialName" : "lplatetiles",
+  "particleColor" : [112, 98, 56, 255],
+  "itemDrop" : "lplatetiles",
+  "description" : "Sloped metal plates that allow easy run off.",
+  "shortdescription" : "Plated Roof",
+  "glitchDescription" : "Observant. These roof plates are sloped to allow for easy run off.",
+  "floranDescription" : "Metal roofing tiless.",
+  "novakidDescription" : "These tiles look perfect for makin' a roof.",
+  "lyruDescription" : "This roof allows any liquid to flow off easy. Plus it looks nice.",
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 10,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "lplatetiles.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 3460
+  }
+}

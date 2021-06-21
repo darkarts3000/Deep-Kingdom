@@ -1,0 +1,22 @@
+{
+  "materialId" : 421,
+  "materialName" : "ltapestry2",
+  "particleColor" : [161, 86, 190, 255],
+  "itemDrop" : "ltapestry2", 
+  "shortdescription" : "Pryphorline Tapestry",
+  "description" : "A decorative tapestry often used indoors.",
+
+  "footstepSound" : "/sfx/blocks/footstep_sand.ogg",
+  "health" : 1,
+  "category" : "materials",
+  
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "ltapestry2.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2100
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "materialId" : 418,
+  "materialName" : "lcrystaltube",
+  "particleColor" : [110, 110, 110, 255],
+  "itemDrop" : "lcrystaltube",
+  "shortdescription" : "Crystal Tube",
+  "description" : "A large tube made from melted prisilite.",
+
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "tillableMod" : 419,
+  "soil" : true,
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "lcrystaltube.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 2300
+  }
+}
