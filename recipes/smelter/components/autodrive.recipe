@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "durasteelore", "count" : 2 },
+	{ "item" : "goldore", "count" : 1 },
+	{ "item" : "autochip", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "autodrive",
+    "count" : 1
+  },
+  "groups" : [ "lyrusmelter2", "components", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "aegisaltore", "count" : 1 },
+	{ "item" : "goldore", "count" : 1 },
+	{ "item" : "lightcrystal", "count" : 1 }
+  ],
+  "output" : { "item" : "techchip4a", "count" : 1 },
+  "duration" : 0.15,
+  "groups" : [ "lyrusmelter2", "chips", "all" ]
+}

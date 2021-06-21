@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironore", "count" : 2 },
+	{ "item" : "clay", "count" : 2 }
+  ],
+  "output" : { "item" : "circuitplate1", "count" : 1 },
+  "duration" : 0.15,
+  "groups" : [ "lyrusmelter", "chips", "all" ]
+}

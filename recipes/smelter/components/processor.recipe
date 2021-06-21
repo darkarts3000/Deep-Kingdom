@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "ironore", "count" : 2 },
+	{ "item" : "coalore", "count" : 1 },
+	{ "item" : "sand2", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "processor",
+    "count" : 1
+  },
+  "groups" : [ "lyrusmelter", "components", "all" ]
+}

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "solariumore", "count" : 2 },
+	{ "item" : "clay", "count" : 2 },
+	{ "item" : "lightcrystal", "count" : 1 }
+  ],
+  "output" : { "item" : "circuitplate3", "count" : 1 },
+  "duration" : 0.15,
+  "groups" : [ "lyrusmelter2", "chips", "all" ]
+}

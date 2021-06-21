@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "titaniumore", "count" : 2 },
+	{ "item" : "goldore", "count" : 2 },
+	{ "item" : "diamond", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "upgrademodule",
+    "count" : 1
+  },
+  "groups" : [ "lyrusmelter2", "components", "all" ]
+}

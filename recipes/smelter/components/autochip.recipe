@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "titaniumore", "count" : 2 },
+	{ "item" : "wire", "count" : 1 },
+	{ "item" : "diamond", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "autochip",
+    "count" : 1
+  },
+  "groups" : [ "lyrusmelter", "components", "all" ]
+}

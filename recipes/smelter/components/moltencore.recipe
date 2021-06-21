@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "titaniumore", "count" : 2 },
+	{ "item" : "volatilepowder", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "moltencore",
+    "count" : 1
+  },
+  "groups" : [ "lyrusmelter", "components", "all" ]
+}

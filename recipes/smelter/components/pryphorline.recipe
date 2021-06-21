@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "prisiliteore", "count" : 1 },
+	{ "item" : "liquidpoison", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "pryphorline",
+    "count" : 5
+  },
+  "groups" : [ "lyrusmelter", "components", "all" ]
+}

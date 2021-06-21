@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "durasteelore", "count" : 1 },
+	{ "item" : "goldore", "count" : 1 },
+	{ "item" : "lightcrystal", "count" : 1 }
+  ],
+  "output" : { "item" : "techchip3", "count" : 1 },
+  "duration" : 0.15,
+  "groups" : [ "lyrusmelter2", "chips", "all" ]
+}

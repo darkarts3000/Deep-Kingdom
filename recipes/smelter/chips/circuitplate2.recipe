@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumore", "count" : 2 },
+	{ "item" : "clay", "count" : 2 },
+	{ "item" : "goldore", "count" : 1 }
+  ],
+  "output" : { "item" : "circuitplate2", "count" : 1 },
+  "duration" : 0.15,
+  "groups" : [ "lyrusmelter", "chips", "all" ]
+}
