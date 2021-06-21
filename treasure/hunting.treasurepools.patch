@@ -1,0 +1,253 @@
+[  
+  {"op" : "add",
+	"path" : "/hunting/0/1/pool/-",
+	"value" :
+	  {"weight" : 0.02, "item" : "brain"}
+  },
+  {"op" : "replace",
+   "path" : "/crutterHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.597, "item" : "alienmeat"},
+        {"weight" : 0.400, "item" : "venomsample"},
+        {"weight" : 0.001, "item" : "crutteraf"},
+        {"weight" : 0.002, "item" : "brain"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "replace",
+   "path" : "/gleapHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.996, "item" : "livingroot"},
+        {"weight" : 0.002, "item" : "gleapaf"},
+        {"weight" : 0.002, "item" : "brain"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+   ]		
+  },
+  {"op" : "replace",
+   "path" : "/hemogoblinHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.597, "item" : "rawribmeat"},
+        {"weight" : 0.400, "item" : "sharpenedclaw"},
+        {"weight" : 0.001, "item" : "hemogoblinaf"},
+        {"weight" : 0.002, "item" : "brain"}
+      ]
+    } ]
+   ]		
+  },
+  {"op" : "replace",
+   "path" : "/iguarmorHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.597, "item" : "alienmeat"},
+        {"weight" : 0.400, "item" : "hardenedcarapace"},
+        {"weight" : 0.001, "item" : "iguarmoraf"},
+        {"weight" : 0.002, "item" : "brain"}
+      ]
+    } ]
+   ]		
+  },
+  {"op" : "replace",
+   "path" : "/lilodonHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.597, "item" : "alienmeat"},
+        {"weight" : 0.400, "item" : "sharpenedclaw"},
+        {"weight" : 0.001, "item" : "lilodonaf"},
+        {"weight" : 0.002, "item" : "brain"}
+      ]
+    } ]
+   ]		
+  },
+  {"op" : "replace",
+   "path" : "/taroniHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.597, "item" : "alienmeat"},
+        {"weight" : 0.400, "item" : "leather"},
+        {"weight" : 0.001, "item" : "taroniaf"},
+        {"weight" : 0.002, "item" : "brain"}
+      ]
+    } ]
+   ]		
+  },
+  {"op" : "replace",
+   "path" : "/tinticHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.996, "item" : "hardenedcarapace"},
+        {"weight" : 0.002, "item" : "tinticaf"},
+        {"weight" : 0.002, "item" : "brain"}
+      ],
+      "poolRounds" : [
+        [0.6, 0],
+        [0.4, 1]
+      ],
+      "allowDuplication" : false
+    } ]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/crystalrayHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.598, "item" : "rawribmeat"},
+        {"weight" : 0.200, "item" : "leather"},
+        {"weight" : 0.200, "item" : "staticcell"},
+        {"weight" : 0.002, "item" : "brain"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/shardsparkHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 1.0, "item" : "lightcrystal"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/ocliusHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.499, "item" : "staticcell"},
+        {"weight" : 0.300, "item" : "stickofram"},
+        {"weight" : 0.201, "item" : "lightcrystal"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/coreleechHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.6, "item" : "scorchedcore"},
+        {"weight" : 0.4, "item" : "corefragmentore"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/needlebackHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.6, "item" : "leather"},
+        {"weight" : 0.2, "item" : "alienmeat"},
+        {"weight" : 0.2, "item" : "sharpenedclaw"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/seekerpodHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.499, "item" : "staticcell"},
+        {"weight" : 0.300, "item" : "circuitplate1"},
+        {"weight" : 0.201, "item" : "lightcrystal"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/frozenphantasmHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.6, "item" : "cryonicextract"},
+        {"weight" : 0.4, "item" : "phasematter"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/creeperHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.6, "item" : "venomsample"},
+        {"weight" : 0.4, "item" : "alienmeat"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/slimepodHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.6, "item" : "venomsample"},
+        {"weight" : 0.4, "item" : "alienmeat"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/gianthydnoraHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.6, "item" : "livingroot"},
+        {"weight" : 0.4, "item" : "sharpenedclaw"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/festerlingHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.6, "item" : "rawtentacle"},
+        {"weight" : 0.4, "item" : "alienmeat"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/trimiunHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.6, "item" : "alienmeat"},
+        {"weight" : 0.4, "item" : "biosample"}
+      ]
+    }]
+   ]		
+  },
+  {"op" : "add",
+   "path" : "/embermiteHunting",
+   "value" : [
+    [1, {
+      "pool" : [
+        {"weight" : 0.6, "item" : "scorchedcore"},
+        {"weight" : 0.4, "item" : "geode"}
+      ]
+    }]
+   ]		
+  }
+]

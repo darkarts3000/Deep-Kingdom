@@ -1,0 +1,179 @@
+[
+  //Additions to default drop pools
+  //Ground Monsters
+  {"op" : "add",
+	"path" : "/basicMonsterTreasure/0/1/pool/-",
+	"value" :
+	  {"weight" : 0.01, "item" : "brain"}
+  },
+  //Flying Monsters
+  {"op" : "add",
+	"path" : "/flyingMonsterTreasure/0/1/pool/-",
+	"value" :
+	  {"weight" : 0.01, "item" : "brain"}
+  },
+  
+  //Unique Monster Drops
+  {"op" : "add",
+   "path" : "/crystalrayTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.6, "pool" : "basicMonsterTreasure"},
+		{"weight" : 0.2, "item" : "leather"},
+		{"weight" : 0.2, "item" : "staticcell"}
+      ]
+    }]
+   ]		
+  },
+  
+  {"op" : "add",
+   "path" : "/shardsparkTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.6, "pool" : "noMeatMonsterTreasure"},
+		{"weight" : 0.4, "item" : "lightcrystal"}
+      ]
+    }]
+   ]		
+  },
+  
+  {"op" : "add",
+   "path" : "/ocliusTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.6, "pool" : "robotTreasure"},
+		{"weight" : 0.2, "item" : "stickofram"},
+		{"weight" : 0.2, "item" : "circuitplate1"}
+      ]
+    }]
+   ]		
+  },
+  
+  {"op" : "add",
+   "path" : "/coreleechTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.6, "pool" : "noMeatMonsterTreasure"},
+		{"weight" : 0.2, "item" : "corefragmentore"},
+		{"weight" : 0.2, "item" : "scorchedcore"}
+      ]
+    }]
+   ]		
+  },
+  
+  {"op" : "add",
+   "path" : "/needlebackTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.6, "pool" : "basicMonsterTreasure"},
+		{"weight" : 0.2, "item" : "bone"},
+		{"weight" : 0.2, "item" : "sharpenedclaw"}
+      ]
+    }]
+   ]		
+  },
+  
+  {"op" : "add",
+   "path" : "/seekerpodTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+        {"weight" : 0.6, "pool" : "robotTreasure"},
+		{"weight" : 0.4, "item" : "circuitplate1"}
+      ]
+    }]
+   ]	
+  },
+  
+  {"op" : "add",
+   "path" : "/frozenphantasmTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+        {"weight" : 0.6, "pool" : "noMeatMonsterTreasure"},
+		{"weight" : 0.2, "item" : "cryonicextract"},
+		{"weight" : 0.2, "item" : "phasematter"}
+      ]
+    }]
+   ]
+  },
+  
+  {"op" : "add",
+   "path" : "/creeperTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+        {"weight" : 0.8, "pool" : "money"},
+		{"weight" : 0.2, "item" : "venomsample"}
+      ]
+    }]
+   ]
+  },
+  
+  {"op" : "add",
+   "path" : "/slimepodTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+        {"weight" : 0.6, "pool" : "basicMonsterTreasure"},
+		{"weight" : 0.2, "item" : "greenslime"},
+		{"weight" : 0.2, "item" : "venomsample"}
+      ]
+    }]
+   ]
+  },
+  
+  {"op" : "add",
+   "path" : "/gianthydnoraTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+        {"weight" : 0.99, "pool" : "noMeatMonsterTreasure"},
+		{"weight" : 0.2, "item" : "livingroot"},
+		{"weight" : 0.2, "item" : "sharpenedclaw"}
+      ]
+    }]
+   ]
+  },
+  
+  {"op" : "add",
+   "path" : "/festerlingTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+        {"weight" : 0.6, "pool" : "basicMonsterTreasure"},
+		{"weight" : 0.2, "item" : "fleshstrand"}
+      ]
+    }]
+   ]
+  },
+  
+  {"op" : "add",
+   "path" : "/trimiunTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+        {"weight" : 0.6, "pool" : "basicMonsterTreasure"},
+		{"weight" : 0.2, "item" : "cellmatter"}
+      ]
+    }]
+   ]
+  },
+  {"op" : "add",
+   "path" : "/embermiteTreasure",
+   "value" : [
+	[1, {
+      "pool" : [
+	    {"weight" : 0.6, "pool" : "basicMonsterTreasure"},
+		{"weight" : 0.2, "item" : "geode"},
+		{"weight" : 0.2, "item" : "scorchedcore"}
+      ]
+    }]
+   ]		
+  }
+]
