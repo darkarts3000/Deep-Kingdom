@@ -1,0 +1,26 @@
+{
+  "itemName" : "pala",
+  "rarity" : "Common",
+  "price" : 120,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "palaicon.png",
+  "description" : "colorful and cold.",
+  "shortdescription" : "Pala",
+  "effects" : [ [
+    {
+        "effect" : "frostslow",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "palasmoothie", "cavestirfry" ]
+}

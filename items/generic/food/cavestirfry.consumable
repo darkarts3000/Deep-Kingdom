@@ -1,0 +1,28 @@
+{
+  "itemName" : "cavestirfry",
+  "rarity" : "Uncommon",
+  "price" : 365,
+  "category" : "preparedFood",
+  "inventoryIcon" : "cavestirfry.png",
+  "description" : "Pala, boneboo and mushrooms make for a cool, spooky meal.",
+  "shortdescription" : "Cave Stir Fry",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 315
+    },
+    {
+        "effect" : "ragefood",
+        "duration" : 180
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

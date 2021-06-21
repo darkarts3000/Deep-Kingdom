@@ -1,0 +1,10 @@
+{
+  "itemName" : "lightcrystal",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "lightcrystal.png",
+  "description" : "These crystals of light contain immense power.", 
+  "shortdescription" : "Light Crystal",
+  "itemTags" : [ "reagent" ]
+}

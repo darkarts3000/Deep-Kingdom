@@ -1,0 +1,26 @@
+{
+  "itemName" : "deepshade",
+  "rarity" : "Common",
+  "price" : 210,
+  "category" : "food",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "deepshade.png",
+  "description" : "Poisonous cave fruit.",
+  "shortdescription" : "Deepshade",
+  "effects" : [ [
+    {
+        "effect" : "weakpoison",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 3.75,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "abyssalgreed", "cavebread", "snakeeyes", "deepshadejam" ]
+}

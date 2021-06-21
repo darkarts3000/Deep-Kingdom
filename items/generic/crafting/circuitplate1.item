@@ -1,0 +1,10 @@
+{
+  "itemName" : "circuitplate1",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "circuitplate1.png",
+  "description" : "Medium quality circuit plating.",
+  "shortdescription" : "Iron Circuit Plate",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "mecharmlyrucannon",
+  "price" : 3200,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mecharm",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mecharmlyrucannon.png",
+  "description" : "A Lyru mech weapon that fires super hot plasma.",
+  "shortdescription" : "Plasma Cannon Mech Arm",
+  "itemTags" : [ ],
+
+  "mechPart" : ["arm", "lyrucannon"]
+}

@@ -1,0 +1,29 @@
+{
+  "itemName" : "cavesausage",
+  "rarity" : "Uncommon",
+  "price" : 365,
+  "category" : "preparedFood",
+  "inventoryIcon" : "cavesausage.png",
+  "description" : "A sausage made from various unidentified meats.",
+  "shortdescription" : "Cave Sausage",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 540
+    },
+    {
+        "effect" : "ragefood",
+        "duration" : 450
+    }
+  ] ],
+  "foodValue" : 60,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "learnBlueprintsOnPickup" : [ "lyrufeast" ]
+}

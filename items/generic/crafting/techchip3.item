@@ -1,0 +1,10 @@
+{
+  "itemName" : "techchip3",
+  "price" : 150,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "techchip3.png",
+  "description" : "Immune tech chip. This can greatly enhance my equipment.",
+  "shortdescription" : "Immune Tech Chip",
+  "itemTags" : [ "reagent" ]
+}

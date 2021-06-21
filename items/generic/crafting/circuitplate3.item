@@ -1,0 +1,10 @@
+{
+  "itemName" : "circuitplate3",
+  "price" : 500,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "circuitplate3.png",
+  "description" : "Top-notch quality circuit plating used against the most dangerous things in space.",
+  "shortdescription" : "Solarium Circuit Plate",
+  "itemTags" : [ "reagent" ]
+}

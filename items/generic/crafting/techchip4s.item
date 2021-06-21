@@ -1,0 +1,10 @@
+{
+  "itemName" : "techchip4s",
+  "price" : 150,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "techchip4s.png",
+  "description" : "Signifier tech chip. This can greatly enhance my equipment and stength.",
+  "shortdescription" : "Signifier Tech Chip",
+  "itemTags" : [ "reagent" ]
+}

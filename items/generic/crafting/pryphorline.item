@@ -1,0 +1,10 @@
+{
+  "itemName" : "pryphorline",
+  "price" : 500,
+  "rarity" : "Legendary",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "pryphorline.png",
+  "description" : "A bolt of exceptionally strong pryphorline.",
+  "shortdescription" : "Pryphorline Bolt",
+  "itemTags" : [ "reagent" ]
+}

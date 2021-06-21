@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechbodylyru",
+  "price" : 9600,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodylyru.png",
+  "description" : "An armored mech body with a cutting-edge energy field, designed for the best Lyru pilots.",
+  "shortdescription" : "Charger Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "lyru"]
+}

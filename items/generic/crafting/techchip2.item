@@ -1,0 +1,10 @@
+{
+  "itemName" : "techchip2",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "techchip2.png",
+  "description" : "Decunion tech chip. This can greatly enhance my equipment.",
+  "shortdescription" : "Decunion Tech Chip",
+  "itemTags" : [ "reagent" ]
+}

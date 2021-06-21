@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechbodylyruproto",
+  "price" : 6400,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbody",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechbodylyruproto.png",
+  "description" : "A prototype mech body that uses a energy field, designed for Lyru pilots.",
+  "shortdescription" : "Charger-00 Mech Body",
+  "itemTags" : [ ],
+
+  "mechPart" : ["body", "lyruproto"]
+}

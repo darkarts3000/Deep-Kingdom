@@ -1,0 +1,12 @@
+{
+  "itemName" : "bitterdust",
+  "rarity" : "Common",
+  "price" : 90,
+  "category" : "cookingIngredient",
+  "eventCategory" : "eventCrop",
+  "inventoryIcon" : "bitterdust.png",
+  "description" : "Pure, bitter remedy.",
+  "shortdescription" : "bitterdust",
+  "maxStack" : 1000,
+  "learnBlueprintsOnPickup" : [ "cavebread", "bloodpie" ]
+}

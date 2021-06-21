@@ -1,0 +1,28 @@
+{
+  "itemName" : "snakeeyes",
+  "rarity" : "Uncommon",
+  "price" : 515,
+  "category" : "preparedFood",
+  "inventoryIcon" : "snakeeyes.png",
+  "description" : "Careful, they're poisonous!",
+  "shortdescription" : "Snake Eyes",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 158
+    },
+    {
+        "effect" : "weakpoison",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

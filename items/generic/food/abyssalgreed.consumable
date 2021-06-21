@@ -1,0 +1,29 @@
+{
+  "itemName" : "abyssalgreed",
+  "rarity" : "Uncommon",
+  "price" : 50,
+  "category" : "drink",
+  "inventoryIcon" : "abyssalgreed.png",
+  "description" : "A sour and deadly beverage that might make you crazy.",
+  "shortdescription" : "Abyssal Greed",
+  "effects" : [ [
+    {
+        "effect" : "lowgrav",
+        "duration" : 180
+    },
+	{
+        "effect" : "weakpoison",
+        "duration" : 5
+    }
+  ] ],
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1000,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

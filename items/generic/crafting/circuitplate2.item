@@ -1,0 +1,10 @@
+{
+  "itemName" : "circuitplate2",
+  "price" : 150,
+  "rarity" : "Rare",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "circuitplate2.png",
+  "description" : "High quality circuit plating for more powerful devices.",
+  "shortdescription" : "Titanium Circuit Plate",
+  "itemTags" : [ "reagent" ]
+}

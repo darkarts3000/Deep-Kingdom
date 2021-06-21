@@ -1,0 +1,10 @@
+{
+  "itemName" : "techchip1",
+  "price" : 100,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "techchip1.png",
+  "description" : "Avocati tech chip. This can enhance my equipment.",
+  "shortdescription" : "Avocati Tech Chip",
+  "itemTags" : [ "reagent" ]
+}

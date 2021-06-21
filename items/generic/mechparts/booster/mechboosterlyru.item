@@ -1,0 +1,15 @@
+{
+  "itemName" : "mechboosterlyru",
+  "price" : 6720,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "category" : "mechPart",
+  "tooltipKind" : "mechbooster",
+  "builder" : "/items/buildscripts/buildmechpart.lua",
+  "inventoryIcon" : "mechboosterlyru.png",
+  "description" : "A set of high quality mech boosters powered by light crystals.",
+  "shortdescription" : "Charger Mech Boosters",
+  "itemTags" : [ ],
+
+  "mechPart" : ["booster", "lyru"]
+}
