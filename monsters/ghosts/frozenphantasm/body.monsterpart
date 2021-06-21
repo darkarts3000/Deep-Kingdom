@@ -1,0 +1,9 @@
+{
+  "name" : "frozenphantasm",
+  "category" : "frozenphantasm",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "frozenphantasm.png"
+  }
+}

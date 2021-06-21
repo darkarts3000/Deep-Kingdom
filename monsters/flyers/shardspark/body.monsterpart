@@ -1,0 +1,12 @@
+{
+  "name" : "shardspark",
+  "category" : "shardspark",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "shardspark.png",
+    "bodyfullbright" : "shardsparkfullbright.png",
+    "orbiter1" : "orbiter1.png",
+    "orbiter2" : "orbiter2.png"
+  }
+}

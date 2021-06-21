@@ -1,0 +1,9 @@
+{
+  "name" : "crystalray",
+  "category" : "crystalray",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "crystalray.png"
+  }
+}

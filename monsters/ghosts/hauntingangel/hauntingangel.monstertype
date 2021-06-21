@@ -1,0 +1,197 @@
+{
+  "type" : "hauntingangel",
+  "shortdescription" : "Haunting Angel",
+  "description" : "A ghostly manifestation of what was prosperous.",
+
+  "categories" : [ "hauntingangel" ],
+  "parts" : [ "body" ],
+
+  "animation" : "hauntingangel.animation",
+
+  "dropPools" : [ { "default" : "gosmetTreasure", "bow" : "gosmetHunting" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+
+    "seeThroughLiquid" : true,
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 50,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 100,
+      "targetOutOfSightTime" : 5.0,
+
+      "hurtWaitForGround" : false,
+	  
+      "hostileActions" : [
+        {
+          "name" : "action-charge",
+          "cooldown" : 1.5,
+          "parameters" : {
+            "maximumRange" : 30,
+            "windupStopForce" : 35,
+            "windupTime" : 0.6,
+
+            "onGround" : false,
+            "wallCollide" : false,
+            "aimAtTarget" : true,
+            "chargeTime" : 0.35,
+            "chargeSpeed" : 55,
+            "chargeControlForce" : 160,
+
+            "winddownState" : "",
+            "winddownStopForce" : 35,
+            "winddownTime" : 0.05
+          }
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "emerge-fly"
+        },
+        {
+          "name" : "wander-fly",
+          "parameters" : {
+            "flyState": "idle",
+            "wanderTime" : 10,
+            "groundDistance" : 4,
+            "ceilingDistance" : 4,
+            "xVelocity" : 4,
+            "yVelocity" : 8
+          }
+        }
+      ],
+
+      "approachActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-fly",
+          "parameters" : {
+            "flyState": "idle",
+            "usePathfinding" : false
+          }
+        }
+      ]
+    },
+
+    "touchDamage" : {
+      "poly" : [ [0.75, 2.25], [2.25, 0.75], [2.25, -0.75], [0.75, -2.25], [-0.75, -2.25], [-2.25, -0.75], [-2.25, 0.75], [-0.75, 2.25] ]	,
+      "damage" : 20,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "lash",
+      "knockback" : 30,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4, -4, 4, 4],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionEnabled" : false,
+      "collisionPoly" : [ [0.75, 2.25], [2.25, 0.75], [2.25, -0.75], [0.75, -2.25], [-0.75, -2.25], [-2.25, -0.75], [-2.25, 0.75], [-0.75, 2.25] ]	,
+
+      "mass" : 2.0,
+      "walkSpeed" : 4,
+      "runSpeed" : 12,
+      "gravityEnabled" : false,
+
+      "airForce" : 60,
+      "flySpeed" : 15
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "stunDamageSuppression" : 0.2,
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 100
+        },
+        "protection" : {
+          "baseValue" : 0.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "electricResistance" : {
+          "baseValue" : -0.5
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "poisonResistance" : {
+          "baseValue" : -0.5
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 0.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : true,
+    "captureHealthFraction" : 0.6,
+    "nametagColor" : [64, 200, 255]
+  }
+}

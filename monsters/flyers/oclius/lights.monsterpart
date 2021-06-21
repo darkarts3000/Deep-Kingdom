@@ -1,0 +1,9 @@
+{
+  "name" : "ocliuseye",
+  "category" : "oclius",
+  "type" : "lights",
+
+  "frames" : {
+    "lights" : "ocliuseye.png"
+  }
+}

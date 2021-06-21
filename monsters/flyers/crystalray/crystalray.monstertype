@@ -1,0 +1,258 @@
+{
+  "type" : "crystalray",
+  "shortdescription" : "Crystal Ray",
+  "description" : "They hang from the ceiling and attract prey with their tail lures.",
+
+  "categories" : [ "crystalray" ],
+  "parts" : [ "body" ],
+
+  "animation" : "crystalray.animation",
+
+  "dropPools" : [ { "default" : "crystalrayTreasure", "bow" : "crystalrayHunting" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+
+    "seeThroughLiquid" : false,
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+	  
+      "queryTargets" : true,
+      "targetQueryRange" : 35,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 60,
+      "targetOutOfSightTime" : 5.0,
+
+      "foundTargetActions" : [ ],
+
+      "fleeActions" : [ ],
+
+      "hostileActions" : [
+        {
+          "name" : "action-charge",
+          "cooldown" : 1.0,
+          "parameters" : {
+            "maximumRange" : 50,
+            "windupStopForce" : 35,
+            "windupTime" : 0.6,
+
+            "onGround" : false,
+            "wallCollide" : false,
+            "aimAtTarget" : true,
+            "chargeTime" : 0.75,
+            "chargeSpeed" : 80,
+            "chargeControlForce" : 160,
+
+            "winddownState" : "fly",
+            "winddownStopForce" : 35,
+            "winddownTime" : 0.05
+          }
+        },
+        {
+          "name" : "action-fire",
+          "cooldown" : 2.0,
+          "parameters" : {
+            "onGround" : false,
+            "requireLineOfSight" : true,
+            "maximumRange" : 10,
+            "minimumRange" : 2,
+            "windupState" : "chargewindup",
+            "windupTime" : 0.0,
+
+            "projectileType" : "largeelectriccloud",
+            "projectileParameters" : {
+              "speed" : 12,
+              "timeToLive" : 1.0
+            },
+            "fireOffset" : [-0.5, 0.5],
+            "aimDirection" : [0, 1],
+            "inaccuracy" : 2.0,
+            "projectileCount" : 10,
+            "projectileInterval" : 0.00,
+            "fireDelay" : 0.0,
+            "fireSound" : "fire",
+            "fireState" : "",
+
+            "winddownState" : "",
+            "winddownTime" : 0.1
+          }
+        }
+      ],
+
+      "periodicActions" : [ ],
+
+      "approachActions" : [
+        {
+          "name" : "approach-fly",
+          "parameters" : {
+            "minRange" : 14,
+            "maxRange" : 18
+          }
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {}
+        },
+        {
+          "name" : "approach-fly",
+          "parameters" : {
+			"minRange": 14,
+			"maxRange": 18
+          }
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "land-fly",
+          "cooldown" : 6,
+          "parameters" : {
+            "landDirection" : [0, 1],
+            "flySpeed" : 12,
+            "flyControlForce" : 20,
+            "idleTime" : [5,10],
+            "landState" : "idle"
+          }
+        },
+        {
+          "name" : "wander-fly",
+          "parameters" : {
+            "wanderTime" : [2,4],
+            "groundDistance" : 12,
+            "ceilingDistance" : 8,
+            "xVelocity" : 16,
+            "yVelocity" : 18
+          }
+        }
+      ],
+
+      "concurrentActions" : [ ],
+
+      "concurrentHostileActions" : [ ]
+    },
+
+    "touchDamage" : {
+      "poly" : [ [1.1, 1.4], [1.5, 1.0], [1.5, -3.6], [1.1, -4.0], [-1.1, -4.0], [-1.5, -3.6], [-1.5, 1.0], [-1.1, 1.4] ],
+      "damage" : 20,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "lash",
+      "knockback" : 50,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4, -4, 4, 4],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [5, 3.5], [4, 2.6], [4, -1.6], [3, -2.6], [-3, -2.6], [-4, -1.6], [-4, 2.6], [-5, 3.5] ],
+
+      "mass" : 2.0,
+      "walkSpeed" : 10,
+      "runSpeed" : 15,
+      "gravityEnabled" : false,
+
+      "airFriction" : 3.5,
+      "airForce" : 60,
+      "flySpeed" : 25
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "maxHealth" : {
+          "baseValue" : 150
+        },
+        "protection" : {
+          "baseValue" : 0.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        },
+        "physicalResistance" : {
+          "baseValue" : 0.0
+        },
+        "fireResistance" : {
+          "baseValue" : 0.5
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "iceResistance" : {
+          "baseValue" : 0.0
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "electricResistance" : {
+          "baseValue" : -0.5
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "poisonResistance" : {
+          "baseValue" : 0.5
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : true,
+    "captureHealthFraction" : 0.6,
+    "nametagColor" : [64, 200, 255]
+  }
+}

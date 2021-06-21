@@ -1,0 +1,9 @@
+{
+  "name" : "monomiun",
+  "category" : "monomiun",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "monomiun.png"
+  }
+}

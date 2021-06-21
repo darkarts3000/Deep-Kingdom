@@ -1,0 +1,10 @@
+{
+  "name" : "hauntingangel",
+  "category" : "hauntingangel",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "hauntingangel.png",
+	"bodylit" : "hauntingangelfullbright.png"
+  }
+}

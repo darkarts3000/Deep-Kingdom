@@ -1,0 +1,9 @@
+{
+  "name" : "scornet",
+  "category" : "scornet",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "scornet.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "oclius",
+  "category" : "oclius",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "oclius.png"
+  }
+}

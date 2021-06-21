@@ -1,0 +1,9 @@
+{
+  "name" : "trimiun",
+  "category" : "trimiun",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "trimiun.png"
+  }
+}
