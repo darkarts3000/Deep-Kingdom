@@ -1,0 +1,51 @@
+[	
+  //TIER 3 (starter)
+  {
+    "op" : "add",
+    "path" : "/lyruproto",
+    "value" : {
+	  "stats" : {
+		"energy" : 3,
+		"protection" : 3
+	  },
+	  "partParameters" : {},
+	  "partImages" : {
+		"bodyBack" : "body/lyruproto_back.png",
+		"bodyFront" : "body/lyruproto_front.png",
+		"bodyFullbright" : "body/lyruproto_fullbright.png"
+	  },
+	  "defaultPrimaryColors" : ["9da8af", "676f83", "3d3d51", "24232f"],
+	  "defaultSecondaryColors" : ["e6e6e6", "b6b6b6", "7b7b7b", "373737"],
+	  "animationCustom" : {
+		"animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+		  "sitPosition" : [0.55, 0.28]
+		}}}}
+	  }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/lyru",
+    "value" : {
+	  "stats" : {
+		"energy" : 5,
+		"protection" : 5
+	  },
+	  "partParameters" : {
+		"hazardImmunities" : ["biomeradiation", "biomecold", "biomeheat", "lavaImmunity"]
+	  },
+	  "partImages" : {
+		"bodyBack" : "body/lyru_back.png",
+		"bodyFront" : "body/lyru_front.png",
+		"bodyFullbright" : "body/lyru_fullbright.png"
+	  },
+	  "defaultPrimaryColors" : ["9da8af", "676f83", "3d3d51", "24232f"],
+	  "defaultSecondaryColors" : ["e6e6e6", "b6b6b6", "7b7b7b", "373737"],
+	  "animationCustom" : {
+		"animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+		  "sitPosition" : [0.55, 0.28]
+		}}}}
+	  }
+    }
+  }
+]

@@ -1,0 +1,212 @@
+[
+  //==========================================================================================================================
+  // LYRUCANNON
+  //==========================================================================================================================
+  {
+    "op" : "add",
+    "path" : "/lyrucannon",
+    "value" : {
+	  "stats" : {
+		"power" : 6,
+		"energy" : 5
+	  },
+	  "partParameters" : {
+		"script" : "/vehicles/modularmech/armscripts/gunarm.lua",
+		"armClass" : "GunArm",
+
+		"rotationLimits" : [-1.0, 1.0],
+		"fireOffset" : [5.0, -0.1],
+
+		"extendTime" : 1.0,
+
+		"fireTime" : 0.66,
+
+		"projectileType" : "lyrucannonbullet",
+		"projectileParameters" : {
+		"power" : 100
+		}
+	  },
+	  "partImages" : {
+	  "<armName>" : "arm/lyrucannon.png",
+	  "<armName>Fullbright" : "arm/lyrucannon_fullbright.png"
+	  },
+	  "defaultPrimaryColors" : ["9da8af", "676f83", "3d3d51", "24232f"],
+	  "defaultSecondaryColors" : ["e6e6e6", "b6b6b6", "7b7b7b", "373737"],
+	  "animationCustom" : {
+	  "particleEmitters" : {
+		"<armName>Fire" : {
+		  "active" : false,
+		  "burstCount" : 5,
+		  "anchorPart" : "<armName>",
+		  "offsetRegion" : [4.0, 2.875, 4.05, 2.375],
+		  "particles" : [
+			{ "particle" : {
+				"type" : "ember",
+				"size" : 1.0,
+				"color" : [255, 155, 255],
+				"light" : [128, 0, 128],
+				"fullbright" : true,
+				"fade" : 0.9,
+				"initialVelocity" : [10.0, 0],
+				"finalVelocity" : [0.0, -50.0],
+				"approach" : [0, 20],
+				"timeToLive" : 0.6,
+				"layer" : "middle",
+				"variance" : {
+				  "initialVelocity" : [5, 5],
+				  "timeToLive" : 0.2
+				}
+			  } }
+			]
+		 }
+	  },
+	  "sounds" : {
+		"<armName>Fire" : ["/sfx/gun/mech_flakcannon1.ogg", "/sfx/gun/mech_flakcannon2.ogg", "/sfx/gun/mech_flakcannon3.ogg"]
+	  }
+	}
+  }
+  },
+  
+  //==========================================================================================================================
+  // LYRUBEAMDRILL
+  //==========================================================================================================================
+  {
+    "op" : "add",
+    "path" : "/lyrubeamdrill",
+    "value" : {
+	  "stats" : {
+	  "power" : 7,
+	  "energy" : 5
+	  },
+	  "partParameters" : {
+		"script" : "/vehicles/modularmech/armscripts/beamarm.lua",
+		"armClass" : "BeamArm",
+
+		"rotationLimits" : [-1.75, 1.75],
+		"fireOffset" : [3.25, 0],
+
+		"windupTime" : 0.5,
+		"fireTime" : 0.1,
+		"winddownTime" : 0.5,
+
+		"repeatFire" : true,
+		"lockAim" : false,
+
+		"beamSourceOffset" : [3.25, 2.5625],
+		"beamHeight" : 0.5,
+		"beamLength" : 30,
+		"beamParticleDensity" : 0.75,
+		"beamTileDamage" : 8,
+		"beamTileDamageDepth" : 2
+	  },
+	  "damageSources" : {
+	  "<armName>Beam" : {
+		"enabled" : false,
+		"attachToPart" : "<armName>",
+
+		"line" : [ [3.25, 2.5], [33.25, 2.5] ],
+		"damage" : 16,
+		"damageSourceKind" : "fireplasma",
+		"damageRepeatTimeout" : 0.1,
+		"damageRepeatGroup" : "<armName>Beam",
+		"knockback" : 0,
+
+		"rayCheck" : true
+	  }
+	},
+	"partImages" : {
+	  "<armName>" : "arm/lyrubeamdrill.png",
+	  "<armName>Fullbright" : "arm/lyrubeamdrill_fullbright.png"
+	},
+	"defaultPrimaryColors" : ["9da8af", "676f83", "3d3d51", "24232f"],
+	"defaultSecondaryColors" : ["e6e6e6", "b6b6b6", "7b7b7b", "373737"],
+	"animationCustom" : {
+	  "animatedParts" : {
+		"stateTypes" : {
+		  "<armName>" : { "states" : {
+			"active" : {
+			  "properties" : {
+				"persistentSound" : "/sfx/gun/mech_beamdrill_loop.ogg",
+				"persistentSoundStopTime" : 0.5
+			  },
+			  "cycle" : 0.1
+			},
+			"windup" : {
+			  "cycle" : 0.5
+			},
+			"winddown" : {
+			  "cycle" : 0.5
+			}
+		  }},
+		  "<armName>Beam" : {
+			"default" : "off",
+			"states" : {
+			  "off" : {},
+			  "fire" : {
+				"frames" : 4,
+				"cycle" : 0.25,
+				"mode" : "transition",
+				"transition" : "off"
+			  }
+			}
+		  }
+		},
+		"parts" : {
+		  "<armName>Beam" : {
+			"properties" : {
+			  "zLevel" : 10,
+			  "offset" : [3.25, 2.0625],
+			  "anchorPart" : "<armName>",
+			  "fullbright" : true,
+			  "centered" : false,
+			  "transformationGroups" : ["<armName>Beam"]
+			},
+			"partStates" : {
+			  "<armName>Beam" : {
+				"fire" : {
+				  "properties" : {
+					"image" : "/vehicles/modularmech/beam/lyrudrillbeam.png:<frame>"
+				  }
+				}
+			  }
+			}
+		  }
+		}
+	  },
+	  "particleEmitters" : {
+		"<armName>Beam" : {
+		  "active" : false,
+		  "anchorPart" : "<armName>",
+		  "particles" : [
+			{ "particle" : {
+				"type" : "ember",
+				"fullbright" : true,
+				"color" : [255, 155, 255],
+				"light" : [128, 0, 128],
+				"fade" : 0.5,
+				"destructionAction" : "shrink",
+				"destructionTime" : 0.25,
+				"initialVelocity" : [0, 0],
+				"timeToLive" : 0.4,
+				"layer" : "middle",
+				"variance" : {
+				  "initialVelocity" : [1, 1],
+				  "timeToLive" : 0.2
+				}
+			  } }
+		   ]
+		}
+	  },
+	  "transformationGroups" : {
+		"<armName>Beam" : {}
+	  },
+	  "sounds" : {
+		"<armName>Windup" : [ "/sfx/gun/mech_beamdrill_windup.ogg" ],
+		"<armName>WinddownNoFire" : [],
+		"<armName>Winddown" : [ "/sfx/gun/mech_beamdrill_winddown.ogg" ],
+		"<armName>Fire" : []
+	  }
+	}
+  }
+  }
+]

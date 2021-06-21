@@ -1,0 +1,25 @@
+[
+  {
+    "op" : "add",
+    "path" : "/lyru",
+    "value" : {
+    "stats" : {
+      "speed" : 6,
+      "jump" : 6
+    },
+    "partParameters" : {},
+    "partImages" : {
+      "backLeg" : "leg/lyru.png",
+      "backLegFullbright" : "leg/lyru_fullbright.png",
+      "backLegJoint" : "legjoint/lyru_back.png",
+      "frontLeg" : "leg/lyru.png",
+      "frontLegFullbright" : "leg/lyru_fullbright.png",
+      "frontLegJoint" : "legjoint/lyru_front.png",
+      "hips" : "hips/lyru.png"
+    },
+    "defaultPrimaryColors" : ["9da8af", "676f83", "3d3d51", "24232f"],
+    "defaultSecondaryColors" : ["e6e6e6", "b6b6b6", "7b7b7b", "373737"],
+    "animationCustom" : {}
+  }
+  }
+]
