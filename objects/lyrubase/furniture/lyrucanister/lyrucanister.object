@@ -1,0 +1,48 @@
+{
+  "objectName" : "lyrucanister",
+  "colonyTags" : ["storage","lyrubase", "science"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 85,
+  "description" : "A sealed glass canister, used by Lyru to store liquids.",
+  "shortdescription" : "Lyru Canister",
+  "race" : "lyru",
+  "health" : 1.5,
+
+  "apexDescription" : "This canister seems to hold hazardous substances.",
+  "avianDescription" : "A glass canister. Might contain dangerous fluids.",
+  "floranDescription" : "Crystal tube. Might have ssstuff inside.",
+  "glitchDescription" : "Observant. A short analysis concludes that this canister is built to safely store hazardous liquid substances.",
+  "humanDescription" : "I wonder if I can store ship fuel in here.",
+  "hylotlDescription" : "What a curious looking storage container. It appears to be built to store liquids.",
+  "novakidDescription" : "This is mighty odd barrel if I say so myself.",
+  "lyruDescription" : "These canisters are great at storing many liquids.",
+
+  "inventoryIcon" : "lyrucanistericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "lyrucanister.png:<color>.<key>", "fullbright" : true }, { "image" : "lyrucanisterlit.png:<color>.<key>" } ],
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "imageLayers" : [ { "image" : "lyrucanister.png:<color>.<key>", "fullbright" : true }, { "image" : "lyrucanisterlit.png:<color>.<key>" } ],
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/metaldoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metaldoor_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

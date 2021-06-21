@@ -1,0 +1,41 @@
+{
+  "objectName" : "lyrubasetable",
+  "colonyTags" : [ "lyru", "lyrubase" ], 
+  "rarity" : "Uncommon",
+  "category" : "furniture",
+  "price" : 100,
+  "printable" : false,
+  "description" : "A low table with a pryphorline sheet on top.",
+  "shortdescription" : "Low Lyru Table",
+  "race" : "lyru",
+
+  "apexDescription" : "A small table. It looks rather nice though.",
+  "avianDescription" : "This table is very low, maybe a coffee table.",
+  "floranDescription" : "Table is strong, Floran chop meat on it.",
+  "glitchDescription" : "Confused. Why would you have a table so low?",
+  "humanDescription" : "Reminds me of traditional Japanese tables, made for kneeling.",
+  "hylotlDescription" : "It's not the most elegant table, but it will do.",
+  "lyruDescription" : "Many lyru bases have low tables, that are easy to transport.",
+
+  "inventoryIcon" : "lyrubasetableicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "lyrubasetable.png", "fullbright" : true }, { "image" : "lyrubasetablelit.png" } ],
+      "flipImages" : true,
+      "imagePosition" : [-24, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "lyrubasetable.png", "fullbright" : true }, { "image" : "lyrubasetablelit.png" } ],
+      "imagePosition" : [-24, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "collision" : "platform"
+    }
+  ]
+}
+

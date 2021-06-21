@@ -1,0 +1,50 @@
+{
+  "objectName" : "lyruchest",
+  "colonyTags" : ["lyru", "storage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "printable" : false,
+  "price" : 70,
+  "description" : "A small iron case with a lid that floats up when opened",
+  "shortdescription" : "Lyru Chest",
+  "race" : "lyru",
+  
+  "health" : 6,
+
+  "apexDescription" : "A well crafted metal case.",
+  "avianDescription" : "The lid on this metal case floats. Cool.",
+  "floranDescription" : "Whatss inside little container?",
+  "glitchDescription" : "Observation. The lid seems to levatate off the container when opened.",
+  "humanDescription" : "A metal with floating lid. What could it contain?",
+  "hylotlDescription" : "A well crafted case, for storing your belongings.",
+
+  "lyruDescription" : "A simple lyru chest, used mostly by munifex and avocati.",
+
+  "inventoryIcon" : "lyruchesticon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "lyruchest.png:<color>.<key>", "fullbright" : true }, { "image" : "lyruchestlit.png:<color>.<key>" } ],
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left"
+    },
+    {
+      "imageLayers" : [ { "image" : "lyruchest.png:<color>.<key>", "fullbright" : true }, { "image" : "lyruchestlit.png:<color>.<key>" } ],
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right"
+    }
+  ],
+  
+  "openSounds" : [ "/sfx/objects/chest_medium_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_medium_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 30,
+  "autoCloseCooldown" : 3600
+}

@@ -1,0 +1,45 @@
+{
+  "objectName" : "lyruhammock",
+  "colonyTags" : [ "lyru", "lyrubase" ], 
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "description" : "A simple and easy to setup hammock.",
+  "shortdescription" : "Lyru Hammock",
+  "race" : "lyru",
+  "category" : "furniture",
+  "price" : 100, 
+  
+  "apexDescription" : "I prefer my beds to be on solid ground. Safety first.",
+  "avianDescription" : "To be suspended from the ground whilst you sleep is wonderful.",
+  "floranDescription" : "Floran prefer sssleeping on ground.",
+  "glitchDescription" : "Worried. Would this hammock support my weight?",
+  "humanDescription" : "Hammocks! The bed of the wandering everyman.",
+  "hylotlDescription" : "There is no elegance in sleeping in such a simple bed.",
+  "lyruDescription" : "A hammock, munifex and avocati sleep in these.", 
+
+  "inventoryIcon" : "lyruhammockicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyruhammock.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1
+
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 9],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/lyrubase/furniture/lyruhammock/lyruhammockcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ]
+}

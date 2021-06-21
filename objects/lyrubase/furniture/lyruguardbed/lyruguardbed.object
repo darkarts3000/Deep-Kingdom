@@ -1,0 +1,58 @@
+{
+  "objectName" : "lyruguardbed",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Uncommon",
+  "description" : "A surprisingly comfortable leather bed.",
+  "shortdescription" : "Lyru Guard Bed",
+  "race" : "lyru",
+  "category" : "furniture",
+  "printable" : false,
+  "price" : 80,
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-6, 9],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "apexDescription" : "A small guard bed. Quite comfortable, somehow.",
+  "avianDescription" : "A small guard bed. Surpisingly comfortable.",
+  "floranDescription" : "Bedsss for sssleeping!",
+  "glitchDescription" : "Surprised. This small guard bed is quite comfortable.",
+  "humanDescription" : "A small but comfortable guard bed. Time for a nap!",
+  "hylotlDescription" : "This guard bed is surprisingly comfortable for its size.",
+  "novakidDescription" : "This lil' ol' bed is mighty comfy.",
+
+  "lyruDescription" : "A small bed, but it works for any Lyru on duty.",
+
+  "inventoryIcon" : "lyruguardbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyruguardbed.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "dualImage" : "lyruguardbed.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}
