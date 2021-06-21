@@ -1,0 +1,52 @@
+{
+  "objectName" : "lyrumediumcrate",
+  "colonyTags" : ["lyru", "storage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "printable" : false,
+  "price" : 140,
+  "description" : "A sturdy metal crate that could contain anything.",
+  "shortdescription" : "Lyru Crate, Medium",
+  "race" : "lyru",
+  
+  "health" : 6,
+
+  "apexDescription" : "A surprisingly spacious metal crate.",
+  "avianDescription" : "A metal crate. What is it carrying?",
+  "floranDescription" : "Cratesss full of goodiesss!",
+  "glitchDescription" : "Surprised. This chest is more spacious inside despite it's bulky appearance.",
+  "humanDescription" : "What could this be carrying?",
+  "hylotlDescription" : "A sturdy metal crate. What it holds is a mystery.",
+
+  "lyruDescription" : "A cargo crate! Search with caution.",
+
+  "inventoryIcon" : "lyrumediumcrateicon.png",
+  "orientations" : [
+     {
+      "imageLayers" : [ { "image" : "lyrumediumcrate.png", "fullbright" : true }, { "image" : "lyrumediumcratelit.png" } ],
+      "flipImages" : true,
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "collision" : "platform"
+    },
+    {
+      "imageLayers" : [ { "image" : "lyrumediumcrate.png", "fullbright" : true }, { "image" : "lyrumediumcratelit.png" } ],
+      "imagePosition" : [-8, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "collision" : "platform"
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 30,
+  "autoCloseCooldown" : 3600
+}

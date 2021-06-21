@@ -1,0 +1,45 @@
+{
+  "objectName" : "lyrupillow",
+  "colonyTags" : [ "lyru", "lyrubase" ],
+  "rarity" : "Uncommon",
+  "category" : "furniture",
+  "price" : 33,
+  "printable" : true,
+  "description" : "A pillow filled with air.",
+  "shortdescription" : "Lyru Pillow",
+  "race" : "lyru",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [8, 7],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "apexDescription" : "An inflatable pillow. Comfortable, but a little odd.",
+  "avianDescription" : "An Air bag pillow. I'll have to find more of these.",
+  "floranDescription" : "Floran hear humansssss fight with these. Which end is pointy end?",
+  "glitchDescription" : "Uncertainty. Is this for sitting or sleeping on?",
+  "humanDescription" : "I'd like a little more than a pillow.",
+  "hylotlDescription" : "I wish I'd never have to sleep with just a pillow.",
+  "lyruDescription" : "Lyru tend to have these when there's no space for a bed.", 
+
+  "inventoryIcon" : "lyrupillowicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyrupillow.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
+

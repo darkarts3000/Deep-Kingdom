@@ -1,0 +1,54 @@
+{
+  "objectName" : "lyrustool",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Uncommon",
+  "description" : "A small Lyru stool.",
+  "shortdescription" : "Lyru Stool",
+  "race" : "lyru",
+  "category" : "furniture",
+  "price" : 20,
+
+  "apexDescription" : "A small iron stool.",
+  "avianDescription" : "An iron stool for cave dwellers to rest on.",
+  "floranDescription" : "Tiny cave dweller ssseat.",
+  "glitchDescription" : "Unimpressed. A very small stool.",
+  "humanDescription" : "A cute little iron stool.",
+  "hylotlDescription" : "A charming iron stool.",
+  "novakidDescription" : "A lil iron stool.",
+  "lyruDescription" : "An iron stool that mostly used in bathhouses.",
+
+  "inventoryIcon" : "lyrustoolicon.png",
+  "orientations" : [
+    {
+      "image" : "lyrustool.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+
+      "sitPosition" : [1, 19],
+
+      "direction" : "right"
+    },
+    {
+      "image" : "lyrustool.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+
+      "sitPosition" : [-1, 19],
+
+      "direction" : "left"
+    }
+  ],
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false
+}
