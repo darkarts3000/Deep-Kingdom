@@ -1,0 +1,129 @@
+{
+  "lyruEncounterLoot" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.5, "pool" : "money"},
+          {"weight" : 0.3, "pool" : "lyruMaterialLoot"},
+          {"weight" : 0.1, "pool" : "valuableTreasure"},
+		  {"weight" : 0.1, "pool" : "lyruCodexLoot"}
+        ],
+        "poolRounds" : [
+          [0.20, 1],
+          [0.80, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "lyruFuelLoot" : [
+    [0, {
+        "fill" : [
+          {"item" : [ "liquidfuel", 20]}
+         ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+    } ]
+  ],
+  "lyruMedicalLoot" : [
+    [0, {
+        "pool" : [
+          {"weight" : 1.0, "pool" : "healingItem"}
+        ],
+        "poolRounds" : [
+          [0.2, 1],
+          [0.8, 2]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ],
+  "lyruCodexLoot" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.3, "item" : "lyruyucada-codex"},
+          {"weight" : 0.3, "item" : "lyrurecording1-codex"},
+          {"weight" : 0.3, "item" : "lyrurecording2-codex"},
+          {"weight" : 0.3, "item" : "lyrurecording3-codex"}
+        ],
+        "poolRounds" : [
+          [1.0, 1]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : false
+      } ]
+  ],
+  "lyruMaterialLoot" : [
+    [0, {
+        "pool" : [
+          {"weight" : 0.3, "item" : "circuitplate1"},
+          {"weight" : 0.2, "item" : "lightcrystal"},
+          {"weight" : 0.2, "item" : "pryphorline"}
+        ],
+        "poolRounds" : [
+          [0.4, 2],
+		  [0.6, 4]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ],
+	[1.9, {
+        "pool" : [
+          {"weight" : 0.3, "item" : "circuitplate1"},
+          {"weight" : 0.2, "item" : "lightcrystal"},
+          {"weight" : 0.2, "item" : "pryphorline"},
+          {"weight" : 0.05, "item" : "techchip1"}
+        ],
+        "poolRounds" : [
+          [0.4, 2],
+		  [0.6, 4]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ],
+	[2.9, {
+        "pool" : [
+          {"weight" : 0.3, "item" : "circuitplate2"},
+          {"weight" : 0.2, "item" : "lightcrystal"},
+          {"weight" : 0.2, "item" : "pryphorline"},
+          {"weight" : 0.05, "item" : "techchip2"}
+        ],
+        "poolRounds" : [
+          [0.4, 2],
+		  [0.6, 4]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ],
+	[3.9, {
+        "pool" : [
+          {"weight" : 0.3, "item" : "circuitplate2"},
+          {"weight" : 0.2, "item" : "lightcrystal"},
+          {"weight" : 0.2, "item" : "pryphorline"},
+          {"weight" : 0.05, "item" : "techchip3"}
+        ],
+        "poolRounds" : [
+          [0.4, 2],
+		  [0.6, 4]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ],
+	[4.9, {
+        "pool" : [
+          {"weight" : 0.3, "item" : "circuitplate2"},
+          {"weight" : 0.2, "item" : "lightcrystal"},
+          {"weight" : 0.2, "item" : "pryphorline"},
+          {"weight" : 0.05, "item" : "techchip4a"},
+          {"weight" : 0.05, "item" : "techchip4m"},
+          {"weight" : 0.05, "item" : "techchip4s"}
+        ],
+        "poolRounds" : [
+          [0.4, 2],
+		  [0.6, 4]
+        ],
+        "levelVariance" : [0, 0],
+        "allowDuplication" : true
+      } ]
+  ]
+}
+

@@ -1,0 +1,67 @@
+  // ==============================================================================================
+  //                                       CROP HARVEST POOLS
+  // ==============================================================================================
+{
+  "bittercaneHarvest" : [
+    [0, {
+      "fill" : [
+        {"item" : "bittercaneseed"}
+      ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "bitterdust"},
+        {"weight" : 0.01, "item" : "bittercaneseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+
+  "deepshadeHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "deepshade"},
+        {"weight" : 0.01, "item" : "deepshadeseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+  
+  "palaHarvest" : [
+    [0, {
+      "fill" : [
+        {"item" : "palaseed"}
+      ],
+      "pool" : [
+        {"weight" : 0.89, "item" : "pala"},
+        {"weight" : 0.01, "item" : "palaseed"},
+        {"weight" : 0.1, "item" : "plantfibre"}
+      ],
+      "poolRounds" : [
+        [0.6, 1],
+        [0.4, 2]
+      ]
+    } ]
+  ],
+  
+  "lcrystalHarvest" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.89, "item" : "prisiliteore"},
+        {"weight" : 0.01, "item" : "diamond"},
+        {"weight" : 0.1, "item" : "crystal"}
+      ],
+      "poolRounds" : [
+        [0.33, 1],
+        [0.34, 2],
+        [0.33, 3]
+      ]
+    } ]
+  ]
+}

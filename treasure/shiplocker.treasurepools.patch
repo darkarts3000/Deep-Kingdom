@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/lyruStarterTreasure",
+    "value": [[0, {
+      "fill" : [
+        {"item" : [ "circuitplate1", 10 ]},
+        {"item" : [ "lightcrystal", 10 ]},
+        {"item" : [ "undergroundwarning-codex", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]}
+      ]
+    }]]
+  }
+]
