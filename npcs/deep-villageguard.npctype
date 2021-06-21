@@ -1,0 +1,212 @@
+{
+  //Use this as a base for all guards of custom races. Quests are disabled by default
+  
+  "type" : "deep-villageguard",
+  "baseType" : "base",
+
+  "levelVariance" : [3, 3],
+  "persistent" : true,
+
+  "damageTeamType" : "friendly",
+
+  "dropPools" : [ "guardtreasure" ],
+
+  "scriptConfig" : {
+    "behavior" : "villageguard",
+
+    "behaviorConfig" : {
+      "greetingChance" : 0.67,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+    "dialog" : {
+      "greeting" : "/dialog/converse.config:greeting",
+      "converse" : "/dialog/converse.config:converse",
+
+      "attack" : "/dialog/combat.config:attack",
+      "reattack" : "/dialog/combat.config:reattack",
+      "killedTarget" : "/dialog/combat.config:killedTarget",
+      "lostTarget" : "/dialog/combat.config:lostTarget",
+      "outOfSight" : "/dialog/combat.config:outOfSight",
+      "cheerOn" : "/dialog/combat.config:cheerOn",
+      "cantReach" : "/dialog/combat.config:cantReach",
+
+      "hail" : "/dialog/guard.config:hail",
+
+      "accuse" : "/dialog/thief.config:accuse"
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+	//LYRU EQUIPMENT
+    "lyru" : [
+      [0, [
+          {
+            "head" : [ { "name" : "lyrutier1head", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "chest" : [ { "name" : "lyrutier1chest", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "legs" : [ { "name" : "lyrutier1pants", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "primary" : [
+			  { "name" : "tempesttype-1", "data" : { "level" : 2 } },
+			  { "name" : "twistertype-1", "data" : { "level" : 2 } }
+            ],
+            "sheathedprimary" : [
+			  { "name" : "stormtype-1", "data" : { "level" : 2 } },
+			  { "name" : "shockwavetype-1", "data" : { "level" : 2 } }
+            ],
+            "alt" : [
+			  { "name" : "squalltype-1", "data" : { "level" : 2 } },
+			  { "name" : "galetype-1", "data" : { "level" : 2 } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "lyrutier1head", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "chest" : [ { "name" : "lyrutier1chest", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "legs" : [ { "name" : "lyrutier1pants", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "primary" : [
+			  { "name" : "stormtype-1", "data" : { "level" : 2 } },
+			  { "name" : "shockwavetype-1", "data" : { "level" : 2 } },
+			  { "name" : "thunderbolttype-1", "data" : { "level" : 2 } }
+            ],
+            "sheathedprimary" : [
+			  { "name" : "squalltype-1", "data" : { "level" : 2 } }
+            ],
+            "alt" : [
+			  { "name" : "squalltype-1", "data" : { "level" : 2 } },
+			  { "name" : "galetype-1", "data" : { "level" : 2 } }
+            ]
+          }
+        ] ],
+      [2, [
+          {
+            "head" : [ { "name" : "lyrutier2head", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "chest" : [ { "name" : "lyrutier2chest", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "legs" : [ { "name" : "lyrutier2pants", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "primary" : [
+			  { "name" : "tempesttype-1b", "data" : { "level" : 3 } },
+			  { "name" : "twistertype-1b", "data" : { "level" : 3 } }
+            ],
+            "sheathedprimary" : [
+			  { "name" : "stormtype-1", "data" : { "level" : 3 } },
+			  { "name" : "shockwavetype-1", "data" : { "level" : 3 } }
+            ],
+            "alt" : [
+			  { "name" : "squalltype-1b", "data" : { "level" : 3 } },
+			  { "name" : "galetype-1b", "data" : { "level" : 3 } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "lyrutier2head", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "chest" : [ { "name" : "lyrutier2chest", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "legs" : [ { "name" : "lyrutier2pants", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "primary" : [
+			  { "name" : "stormtype-1", "data" : { "level" : 3 } },
+			  { "name" : "shockwavetype-1", "data" : { "level" : 3 } },
+			  { "name" : "thunderbolttype-1", "data" : { "level" : 3 } }
+            ],
+            "sheathedprimary" : [
+			  { "name" : "squalltype-1b", "data" : { "level" : 3 } }
+            ],
+            "alt" : [
+			  { "name" : "squalltype-1b", "data" : { "level" : 3 } },
+			  { "name" : "galetype-1b", "data" : { "level" : 3 } }
+            ]
+          }
+        ] ],
+      [3, [
+          {
+            "head" : [ { "name" : "lyrutier3head", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "chest" : [ { "name" : "lyrutier3chest", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "legs" : [ { "name" : "lyrutier3pants", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "primary" : [
+			  { "name" : "tempesttype-1b", "data" : { "level" : 3 } },
+			  { "name" : "twistertype-1b", "data" : { "level" : 3 } }
+            ],
+            "sheathedprimary" : [
+			  { "name" : "stormtype-1b", "data" : { "level" : 3 } },
+			  { "name" : "shockwavetype-1b", "data" : { "level" : 3 } }
+            ],
+            "alt" : [
+			  { "name" : "squalltype-1b", "data" : { "level" : 3 } },
+			  { "name" : "galetype-1b", "data" : { "level" : 3 } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "lyrutier3head", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "chest" : [ { "name" : "lyrutier3chest", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "legs" : [ { "name" : "lyrutier3pants", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "primary" : [
+			  { "name" : "stormtype-1b", "data" : { "level" : 3 } },
+			  { "name" : "shockwavetype-1b", "data" : { "level" : 3 } },
+			  { "name" : "thunderbolttype-1b", "data" : { "level" : 3 } }
+            ],
+            "sheathedprimary" : [
+			  { "name" : "squalltype-1b", "data" : { "level" : 3 } }
+            ],
+            "alt" : [
+			  { "name" : "squalltype-1b", "data" : { "level" : 3 } },
+			  { "name" : "galetype-1b", "data" : { "level" : 3 } }
+            ]
+          }
+        ] ],
+      [4, [
+          {
+            "head" : [ { "name" : "lyrutier4head", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "chest" : [ { "name" : "lyrutier4chest", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "legs" : [ { "name" : "lyrutier4pants", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "primary" : [
+			  { "name" : "tempesttype-1b", "data" : { "level" : 4 } },
+			  { "name" : "twistertype-1b", "data" : { "level" : 4 } }
+            ],
+            "sheathedprimary" : [
+			  { "name" : "stormtype-1b", "data" : { "level" : 4 } },
+			  { "name" : "shockwavetype-1b", "data" : { "level" : 4 } }
+            ],
+            "alt" : [
+			  { "name" : "squalltype-1b", "data" : { "level" : 4 } },
+			  { "name" : "galetype-1b", "data" : { "level" : 4 } }
+            ]
+          },
+          {
+            "head" : [ { "name" : "lyrutier4head", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "chest" : [ { "name" : "lyrutier4chest", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "legs" : [ { "name" : "lyrutier4pants", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } } ],
+            "primary" : [
+			  { "name" : "stormtype-1b", "data" : { "level" : 4 } },
+			  { "name" : "shockwavetype-1b", "data" : { "level" : 4 } },
+			  { "name" : "thunderbolttype-1b", "data" : { "level" : 4 } }
+            ],
+            "sheathedprimary" : [
+			  { "name" : "squalltype-1b", "data" : { "level" : 4 } }
+            ],
+            "alt" : [
+			  { "name" : "squalltype-1b", "data" : { "level" : 4 } },
+			  { "name" : "galetype-1b", "data" : { "level" : 4 } }
+            ]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 100.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.5
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

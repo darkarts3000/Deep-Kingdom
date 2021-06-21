@@ -1,0 +1,228 @@
+[
+  {
+    "op": "add",
+    "path": "/items/lyru",
+    "value": [
+      [ 0, [ {
+            "head" : [
+              { "name" : "lyrutier5ahead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5shead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5mhead", "data" : { "colorIndex" : [9] } }
+            ],
+            "chest" : [
+              { "name" : "lyrutier4chest", "data" : { "colorIndex" : [9] } }
+            ],
+            "legs" : [
+              { "name" : "lyrutier4pants", "data" : { "colorIndex" : [9] } }
+            ],
+            "primary" : [
+              { "name" : "hurricanetype-1", "data" : { "level" : 1 } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "surgetype-1", "data" : { "level" : 1 } }
+            ],
+            "alt" : [
+              { "name" : "galetype-1", "data" : { "level" : 1 } }
+            ]
+      },
+      {
+            "head" : [
+              { "name" : "lyrutier5ahead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5shead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5mhead", "data" : { "colorIndex" : [9] } }
+            ],
+            "chest" : [
+              { "name" : "lyrutier4chest", "data" : { "colorIndex" : [9] } }
+            ],
+            "legs" : [
+              { "name" : "lyrutier4pants", "data" : { "colorIndex" : [9] } }
+            ],
+            "primary" : [
+              { "name" : "hurricanetype-1", "data" : { "level" : 1 } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "typhoontype-1", "data" : { "level" : 1 } }
+            ],
+            "alt" : [
+              { "name" : "galetype-1", "data" : { "level" : 1 } }
+            ]
+      } ] ],
+      [2, [ {
+            "head" : [
+              { "name" : "lyrutier5ahead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5shead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5mhead", "data" : { "colorIndex" : [9] } }
+            ],
+            "chest" : [
+              { "name" : "lyrutier4chest", "data" : { "colorIndex" : [9] } }
+            ],
+            "legs" : [
+              { "name" : "lyrutier4pants", "data" : { "colorIndex" : [9] } }
+            ],
+            "primary" : [
+              { "name" : "hurricanetype-1", "data" : { "level" : 2 } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "surgetype-1b", "data" : { "level" : 2 } }
+            ],
+            "alt" : [
+              { "name" : "galetype-1b", "data" : { "level" : 2 } }
+            ]
+      },
+      {
+            "head" : [
+              { "name" : "lyrutier5ahead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5shead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5mhead", "data" : { "colorIndex" : [9] } }
+            ],
+            "chest" : [
+              { "name" : "lyrutier4chest", "data" : { "colorIndex" : [9] } }
+            ],
+            "legs" : [
+              { "name" : "lyrutier4pants", "data" : { "colorIndex" : [9] } }
+            ],
+            "primary" : [
+              { "name" : "hurricanetype-1", "data" : { "level" : 2 } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "typhoontype-1b", "data" : { "level" : 2 } }
+            ],
+            "alt" : [
+              { "name" : "galetype-1b", "data" : { "level" : 2 } }
+            ]
+      } ] ],
+      [3, [ {
+            "head" : [
+              { "name" : "lyrutier5ahead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5shead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5mhead", "data" : { "colorIndex" : [9] } }
+            ],
+            "chest" : [
+              { "name" : "lyrutier4chest", "data" : { "colorIndex" : [9] } }
+            ],
+            "legs" : [
+              { "name" : "lyrutier4pants", "data" : { "colorIndex" : [9] } }
+            ],
+            "primary" : [
+              { "name" : "hurricanetype-1b", "data" : { "level" : 3 } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "surgetype-1b", "data" : { "level" : 3 } }
+            ],
+            "alt" : [
+              { "name" : "galetype-1b", "data" : { "level" : 3 } }
+            ]
+      },
+      {
+            "head" : [
+              { "name" : "lyrutier5ahead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5shead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5mhead", "data" : { "colorIndex" : [9] } }
+            ],
+            "chest" : [
+              { "name" : "lyrutier4chest", "data" : { "colorIndex" : [9] } }
+            ],
+            "legs" : [
+              { "name" : "lyrutier4pants", "data" : { "colorIndex" : [9] } }
+            ],
+            "primary" : [
+              { "name" : "hurricanetype-1b", "data" : { "level" : 3 } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "typhoontype-1b", "data" : { "level" : 3 } }
+            ],
+            "alt" : [
+              { "name" : "galetype-1b", "data" : { "level" : 3 } }
+            ]
+      } ] ],
+      [4, [ {
+            "head" : [
+              { "name" : "lyrutier5ahead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5shead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5mhead", "data" : { "colorIndex" : [9] } }
+            ],
+            "chest" : [
+              { "name" : "lyrutier4chest", "data" : { "colorIndex" : [9] } }
+            ],
+            "legs" : [
+              { "name" : "lyrutier4pants", "data" : { "colorIndex" : [9] } }
+            ],
+            "primary" : [
+              { "name" : "hurricanetype-1b", "data" : { "level" : 4 } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "surgetype-1c", "data" : { "level" : 4 } }
+            ],
+            "alt" : [
+              { "name" : "galetype-1c", "data" : { "level" : 4 } }
+            ]
+      },
+      {
+            "head" : [
+              { "name" : "lyrutier5ahead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5shead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5mhead", "data" : { "colorIndex" : [9] } }
+            ],
+            "chest" : [
+              { "name" : "lyrutier4chest", "data" : { "colorIndex" : [9] } }
+            ],
+            "legs" : [
+              { "name" : "lyrutier4pants", "data" : { "colorIndex" : [9] } }
+            ],
+            "primary" : [
+              { "name" : "hurricanetype-1b", "data" : { "level" : 4 } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "typhoontype-1c", "data" : { "level" : 4 } }
+            ],
+            "alt" : [
+              { "name" : "galetype-1c", "data" : { "level" : 4 } }
+            ]
+      } ] ],
+      [5, [ {
+            "head" : [
+              { "name" : "lyrutier5ahead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5shead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5mhead", "data" : { "colorIndex" : [9] } }
+            ],
+            "chest" : [
+              { "name" : "lyrutier4chest", "data" : { "colorIndex" : [9] } }
+            ],
+            "legs" : [
+              { "name" : "lyrutier4pants", "data" : { "colorIndex" : [9] } }
+            ],
+            "primary" : [
+              { "name" : "hurricanetype-1b", "data" : { "level" : 5 } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "surgetype-1c", "data" : { "level" : 5 } }
+            ],
+            "alt" : [
+              { "name" : "galetype-1c", "data" : { "level" : 5 } }
+            ]
+      },
+      {
+            "head" : [
+              { "name" : "lyrutier5ahead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5shead", "data" : { "colorIndex" : [9] } },
+              { "name" : "lyrutier5mhead", "data" : { "colorIndex" : [9] } }
+            ],
+            "chest" : [
+              { "name" : "lyrutier4chest", "data" : { "colorIndex" : [9] } }
+            ],
+            "legs" : [
+              { "name" : "lyrutier4pants", "data" : { "colorIndex" : [9] } }
+            ],
+            "primary" : [
+              { "name" : "hurricanetype-1b", "data" : { "level" : 5 } }
+            ],
+            "sheathedprimary" : [
+              { "name" : "typhoontype-1c", "data" : { "level" : 5 } }
+            ],
+            "alt" : [
+              { "name" : "galetype-1c", "data" : { "level" : 5 } }
+            ]
+      } ] ]
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  { "op" : "add", 
+    "path" : "/scriptConfig/merchant/categories/lyru", 
+    "value" : [ "basicmerchant", "randomguns", "lyrumelee", "lyruguns", "lyruingredients", "musicalinstruments" ] 
+  },
+  { "op" : "add",
+    "path" : "/items/lyru",
+    "value" : 
+    [ [0, [ {
+        "chest" : [
+          { "name" : "avocatichest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9] } },
+          { "name" : "lseekerchest", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9] } },
+          { "name" : "ltie", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9] } }
+        ],
+        "legs" : [
+          { "name" : "avocatipants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9] } },
+          { "name" : "lseekerpants", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9] } },
+          { "name" : "ljumpsuit", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9] } },
+          { "name" : "ljumpsuit2", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9] } }
+        ],
+        "head" : [
+          { "name" : "lfancy", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+          { "name" : "glasses2head", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9] } },
+          { "name" : "tophathead", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9] } },
+          { "name" : "hottophathead", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9] } },
+          { "name" : "floppyhathead", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9] } },
+          { "name" : "ladyhathead", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9] } }
+        ],
+        "back" : [
+          { "name" : "moneybagsback", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9] } },
+          { "name" : "hikerback", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9] } },
+          { "name" : "survivalgearback", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9] } },
+          { "name" : "foundryforemanback", "parameters" : { "colorIndex" : [1,2,3,4,5,6,7,8,9] } }
+        ]		
+    } ] ]
+    ]
+  }
+]

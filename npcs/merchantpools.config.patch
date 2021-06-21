@@ -1,0 +1,215 @@
+[
+  { "op" : "add",
+    "path" : "/lyruguns",
+    "value" : [
+      [ 0, [
+        { "item": { "name": "stormtype-1" }, "rarity" : 0.1 },
+        { "item": { "name": "shockwavetype-1" }, "rarity" : 0.1 },
+        { "item": { "name": "thunderbolttype-1" }, "rarity" : 0.1 },
+        { "item": { "name": "cloudburst-1" }, "rarity" : 0.1 }
+      ] ],
+      [ 2, [
+        { "item": { "name": "stormtype-1", "data" : { "level" : 2, "shortdescription" : "Storm Type-2" } }, "rarity" : 0.1 },
+        { "item": { "name": "shockwavetype-1", "data" : { "level" : 2, "shortdescription" : "Shockwave Type-2" } }, "rarity" : 0.1 },
+        { "item": { "name": "thunderbolttype-1", "data" : { "level" : 2, "shortdescription" : "Thunderbolt Type-2" } }, "rarity" : 0.1 },
+        { "item": { "name": "cloudburst-1", "data" : { "level" : 2, "shortdescription" : "Cloudburst Type-2" } }, "rarity" : 0.1 }
+      ] ],
+      [ 3, [
+        { "item": { "name": "stormtype-1", "data" : { "level" : 3, "shortdescription" : "Storm Type-3", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "shockwavetype-1", "data" : { "level" : 3, "shortdescription" : "Shockwave Type-3", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "thunderbolttype-1", "data" : { "level" : 3, "shortdescription" : "Thunderbolt Type-3", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "cloudburst-1", "data" : { "level" : 3, "shortdescription" : "Cloudburst Type-3", "rarity" : "Uncommon" } }, "rarity" : 0.1 }
+      ] ],  
+      [ 4, [
+        { "item": { "name": "stormtype-1b", "data" : { "level" : 4, "shortdescription" : "Storm Type-4", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "shockwavetype-1b", "data" : { "level" : 4, "shortdescription" : "Shockwave Type-4", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "thunderbolttype-1b", "data" : { "level" : 4, "shortdescription" : "Thunderbolt Type-4", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "cloudburst-1b", "data" : { "level" : 4, "shortdescription" : "Cloudburst Type-4", "rarity" : "Uncommon" } }, "rarity" : 0.1 }
+      ] ],  
+      [ 5, [
+        { "item": { "name": "stormtype-1b", "data" : { "level" : 5, "shortdescription" : "Storm Type-5", "rarity" : "Rare" } }, "rarity" : 0.1 },
+        { "item": { "name": "shockwavetype-1b", "data" : { "level" : 5, "shortdescription" : "Shockwave Type-5", "rarity" : "Rare" } }, "rarity" : 0.1 },
+        { "item": { "name": "thunderbolttype-1b", "data" : { "level" : 5, "shortdescription" : "Thunderbolt Type-5", "rarity" : "Rare" } }, "rarity" : 0.1 },
+        { "item": { "name": "cloudburst-1b", "data" : { "level" : 5, "shortdescription" : "Cloudburst Type-5", "rarity" : "Rare" } }, "rarity" : 0.1 }
+      ] ],  
+      [ 6, [
+        { "item": { "name": "stormtype-1b", "data" : { "level" : 6, "shortdescription" : "Storm Type-6", "rarity" : "Legendary" } }, "rarity" : 0.1 },
+        { "item": { "name": "shockwavetype-1b", "data" : { "level" : 6, "shortdescription" : "Shockwave Type-6", "rarity" : "Legendary" } }, "rarity" : 0.1 },
+        { "item": { "name": "thunderbolttype-1b", "data" : { "level" : 6, "shortdescription" : "Thunderbolt Type-6", "rarity" : "Legendary" } }, "rarity" : 0.1 },
+        { "item": { "name": "cloudburst-1b", "data" : { "level" : 6, "shortdescription" : "Cloudburst Type-6", "rarity" : "Legendary" } }, "rarity" : 0.1 }
+      ] ]
+    ]
+  },
+  { "op" : "add",
+    "path" : "/lyruingredients",
+    "value" : [
+      [ 0, [
+        { "item": { "name": "bitterdust" }, "rarity" : 0.05 },
+        { "item": { "name": "deepshade" }, "rarity" : 0.05 },
+        { "item": { "name": "pala" }, "rarity" : 0.05 },
+        { "item": { "name": "cavebread" }, "rarity" : 0.05 },
+        { "item": { "name": "cavebreadbowl" }, "rarity" : 0.05 },
+        { "item": { "name": "cavesausage" }, "rarity" : 0.05 },
+        { "item": { "name": "cavestirfry" }, "rarity" : 0.05 },
+        { "item": { "name": "bloodpie" }, "rarity" : 0.05 },
+        { "item": { "name": "deepshadejam" }, "rarity" : 0.05 },
+        { "item": { "name": "palasmoothie" }, "rarity" : 0.05 },
+        { "item": { "name": "jellybone" }, "rarity" : 0.05 },
+        { "item": { "name": "greycheese" }, "rarity" : 0.05 },
+        { "item": { "name": "lyrufeast" }, "rarity" : 0.05 },
+        { "item": { "name": "bittercaneseed" } },
+        { "item": { "name": "deepshadeseed" } },
+        { "item": { "name": "palaseed" } }
+      ] ]
+    ]
+  },
+  { "op" : "add",
+    "path" : "/lyrumelee",
+    "value" : [
+      [ 0, [
+        { "item": { "name": "tempesttype-1" }, "rarity" : 0.1 },
+        { "item": { "name": "twistertype-1" }, "rarity" : 0.1 },
+        { "item": { "name": "galetype-1" }, "rarity" : 0.1 },
+        { "item": { "name": "squalltype-1" }, "rarity" : 0.1 },
+        { "item": { "name": "surgetype-1" }, "rarity" : 0.1 }
+      ] ],
+      [ 2, [
+        { "item": { "name": "tempesttype-1", "data" : { "level" : 2, "shortdescription" : "Tempest Type-2" } }, "rarity" : 0.1 },
+        { "item": { "name": "twistertype-1", "data" : { "level" : 2, "shortdescription" : "Twister Type-2" } }, "rarity" : 0.1 },
+        { "item": { "name": "galetype-1", "data" : { "level" : 2, "shortdescription" : "Gale Type-2" } }, "rarity" : 0.1 },
+        { "item": { "name": "squalltype-1", "data" : { "level" : 2, "shortdescription" : "Squall Type-2" } }, "rarity" : 0.1 },
+        { "item": { "name": "surgetype-1", "data" : { "level" : 2, "shortdescription" : "Surge Type-2" } }, "rarity" : 0.1 }
+      ] ],
+      [ 3, [
+        { "item": { "name": "tempesttype-1b", "data" : { "level" : 3, "shortdescription" : "Tempest Type-3", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "twistertype-1b", "data" : { "level" : 3, "shortdescription" : "Twister Type-3", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "galetype-1b", "data" : { "level" : 3, "shortdescription" : "Gale Type-3", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "squalltype-1b", "data" : { "level" : 3, "shortdescription" : "Squall Type-3", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "surgetype-1b", "data" : { "level" : 3, "shortdescription" : "Surge Type-3", "rarity" : "Uncommon" } }, "rarity" : 0.1 }
+      ] ],  
+      [ 4, [
+        { "item": { "name": "tempesttype-1b", "data" : { "level" : 4, "shortdescription" : "Tempest Type-4", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "twistertype-1b", "data" : { "level" : 4, "shortdescription" : "Twister Type-4", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "galetype-1b", "data" : { "level" : 4, "shortdescription" : "Gale Type-4", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "squalltype-1b", "data" : { "level" : 4, "shortdescription" : "Squall Type-4", "rarity" : "Uncommon" } }, "rarity" : 0.1 },
+        { "item": { "name": "surgetype-1b", "data" : { "level" : 4, "shortdescription" : "Surge Type-4", "rarity" : "Uncommon" } }, "rarity" : 0.1 }
+      ] ],  
+      [ 5, [
+        { "item": { "name": "tempesttype-1c", "data" : { "level" : 5, "shortdescription" : "Tempest Type-5", "rarity" : "Rare" } }, "rarity" : 0.1 },
+        { "item": { "name": "twistertype-1c", "data" : { "level" : 5, "shortdescription" : "Twister Type-5", "rarity" : "Rare" } }, "rarity" : 0.1 },
+        { "item": { "name": "galetype-1c", "data" : { "level" : 5, "shortdescription" : "Gale Type-5", "rarity" : "Rare" } }, "rarity" : 0.1 },
+        { "item": { "name": "squalltype-1c", "data" : { "level" : 5, "shortdescription" : "Squall Type-5", "rarity" : "Rare" } }, "rarity" : 0.1 },
+        { "item": { "name": "surgetype-1c", "data" : { "level" : 5, "shortdescription" : "Surge Type-5", "rarity" : "Rare" } }, "rarity" : 0.1 }
+      ] ],  
+      [ 6, [
+        { "item": { "name": "tempesttype-1c", "data" : { "level" : 6, "shortdescription" : "Tempest Type-6", "rarity" : "Legendary" } }, "rarity" : 0.1 },
+        { "item": { "name": "twistertype-1c", "data" : { "level" : 6, "shortdescription" : "Twister Type-6", "rarity" : "Legendary" } }, "rarity" : 0.1 },
+        { "item": { "name": "galetype-1c", "data" : { "level" : 6, "shortdescription" : "Gale Type-6", "rarity" : "Legendary" } }, "rarity" : 0.1 },
+        { "item": { "name": "squalltype-1c", "data" : { "level" : 6, "shortdescription" : "Squall Type-6", "rarity" : "Legendary" } }, "rarity" : 0.1 },
+        { "item": { "name": "surgetype-1c", "data" : { "level" : 6, "shortdescription" : "Surge Type-6", "rarity" : "Legendary" } }, "rarity" : 0.1 }
+      ] ]
+    ]
+  },
+  { "op" : "add",
+    "path" : "/lyrumedicine",
+    "value" : [
+      [ 0, [
+        { "item": { "name": "antidote" }, "rarity" : 0.05 },
+        { "item": { "name": "burnspray" }, "rarity" : 0.05 },
+        { "item": { "name": "bluestim" }, "rarity" : 0.05 },
+        { "item": { "name": "greenstim" }, "rarity" : 0.05 },
+        { "item": { "name": "orangestim" }, "rarity" : 0.05 },
+        { "item": { "name": "redstim" }, "rarity" : 0.05 },
+        { "item": { "name": "yellowstim" }, "rarity" : 0.05 },
+        { "item": { "name": "bandage" } },
+        { "item": { "name": "medkit" } },
+        { "item": { "name": "nanowrap" } }
+      ] ]
+    ]
+  },
+  { "op" : "add",
+    "path" : "/lyrucloths",
+    "value" : [
+      [ 0, [
+        { "item": { "name": "avocatihead", "parameters" : { "colorIndex" : 4 } } },
+        { "item": { "name": "avocatichest", "parameters" : { "colorIndex" : 4 } } },
+        { "item": { "name": "avocatipants", "parameters" : { "colorIndex" : 4 } } },
+        { "item": { "name": "ldancerhead", "parameters" : { "colorIndex" : 9 } } },
+        { "item": { "name": "ldancerchest", "parameters" : { "colorIndex" : 9 } } },
+        { "item": { "name": "ldancerpants", "parameters" : { "colorIndex" : 9 } } },
+        { "item": { "name": "lplaincoatchest", "parameters" : { "colorIndex" : 11 } } },
+        { "item": { "name": "lplaincoatpants", "parameters" : { "colorIndex" : 11 } } },
+        { "item": { "name": "seekerchest", "parameters" : { "colorIndex" : 4 } } },
+        { "item": { "name": "seekerpants", "parameters" : { "colorIndex" : 4 } } },
+        { "item": { "name": "munifexpants", "parameters" : { "colorIndex" : 11 } } },
+        { "item": { "name": "ljumpsuitpants", "parameters" : { "colorIndex" : 9 } } },
+        { "item": { "name": "ljumpsuit2pants", "parameters" : { "colorIndex" : 9 } } },
+        { "item": { "name": "ltiechest", "parameters" : { "colorIndex" : 4 } } },
+        { "item": { "name": "lhat1head", "parameters" : { "colorIndex" : 6 } } },
+        { "item": { "name": "lgoggleshead", "parameters" : { "colorIndex" : 9 } } },
+        { "item": { "name": "lfancyhead", "parameters" : { "colorIndex" : 4 } } },
+        { "item": { "name": "lsunglasseshead", "parameters" : { "colorIndex" : 9 } } },
+        { "item" : { "name" : "fancyhead" }, "rarity" : 0.02 },
+        { "item" : { "name" : "captainshead" }, "rarity" : 0.02 },
+        { "item" : { "name" : "berethead" }, "rarity" : 0.02 },
+        { "item" : { "name" : "toptophathead" }, "rarity" : 0.02 },
+        { "item" : { "name" : "tophathead" }, "rarity" : 0.02 },
+        { "item" : { "name" : "coolfezhead" }, "rarity" : 0.02 },
+        { "item" : { "name" : "fedorahead" }, "rarity" : 0.02 },
+        { "item" : { "name" : "floppyhathead" }, "rarity" : 0.02 },
+        { "item" : { "name" : "glasses2head" }, "rarity" : 0.02 },
+        { "item" : { "name" : "visorhead" }, "rarity" : 0.02 },
+        { "item" : { "name" : "jesterhead" }, "rarity" : 0.02 },
+        { "item" : { "name" : "ladyhathead" }, "rarity" : 0.02 }
+      ] ]
+    ]
+  },
+  { "op" : "add",
+    "path" : "/lyruarmor",
+    "value" : [
+     [0, [
+      { "item" : { "name" : "lyrutier1chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier1head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier1pants" }, "rarity" : 0.1 }
+    ]],
+    [1.9, [
+      { "item" : { "name" : "lyrutier1chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier1head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier1pants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier2chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier2head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier2pants" }, "rarity" : 0.1 }
+    ]],
+    [2.9, [
+      { "item" : { "name" : "lyrutier2chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier2head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier2pants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier3chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier3head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier3pants" }, "rarity" : 0.1 }
+    ]],
+    [3.9, [
+      { "item" : { "name" : "lyrutier3chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier3head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier3pants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier4chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier4head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier4pants" }, "rarity" : 0.1 }
+    ]],
+    [4.9, [
+      { "item" : { "name" : "lyrutier4chest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier4head" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier4pants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier5achest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier5ahead" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier5apants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier5mchest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier5mhead" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier5mpants" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier5schest" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier5shead" }, "rarity" : 0.1 },
+      { "item" : { "name" : "lyrutier5spants" }, "rarity" : 0.1 }
+    ]]
+    ]
+  }
+]

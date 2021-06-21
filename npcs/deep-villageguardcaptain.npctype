@@ -1,0 +1,99 @@
+{
+  //Use this as a base for all guardcaptains of custom races. Quests are disabled by default
+  
+  "type" : "deep-villageguardcaptain",
+  "baseType" : "deep-villageguard",
+
+  "levelVariance" : [3, 3],
+  "persistent" : true,
+
+  "damageTeamType" : "friendly",
+
+  "dropPools" : [ "guardtreasure" ],
+
+  "scriptConfig" : {
+    "behavior" : "villageguard",
+
+    "behaviorConfig" : {
+      "greetingChance" : 0.67,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+    "dialog" : {
+      "greeting" : "/dialog/converse.config:greeting",
+      "converse" : "/dialog/converse.config:converse",
+
+      "attack" : "/dialog/combat.config:attack",
+      "reattack" : "/dialog/combat.config:reattack",
+      "killedTarget" : "/dialog/combat.config:killedTarget",
+      "lostTarget" : "/dialog/combat.config:lostTarget",
+      "outOfSight" : "/dialog/combat.config:outOfSight",
+      "cheerOn" : "/dialog/combat.config:cheerOn",
+      "cantReach" : "/dialog/combat.config:cantReach",
+
+      "hail" : "/dialog/guard.config:hail",
+
+      "accuse" : "/dialog/thief.config:accuse"
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+	//LYRU EQUIPMENT
+    "lyru" : [
+      [0, [
+		  {
+            "head" : [
+              { "name" : "lyrutier5ahead", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "lyrutier5shead", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "lyrutier5mhead", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+            ],
+            "chest" : [
+              { "name" : "lyrutier5achest", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "lyrutier5schest", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+              { "name" : "lyrutier5mchest", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+            ],
+            "legs" : [
+			  { "name" : "lyrutier5apants", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "lyrutier5spants", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+			  { "name" : "lyrutier5mpants", "data" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+            ],
+			"primary" : [
+			  { "name" : "hurricanetype-1", "data" : { "level" : 3 } },
+			  { "name" : "thunderbolttype-1", "data" : { "level" : 3 } }
+			],
+			"sheathedprimary" : [
+			  { "name" : "surgetype-1b", "data" : { "level" : 3 } },
+			  { "name" : "typhoontype-1b", "data" : { "level" : 3 } },
+			  { "name" : "tempesttype-1b", "data" : { "level" : 3 } }
+			],
+			"alt" : [
+			  { "name" : "galetype-1b", "data" : { "level" : 3 } }
+			]
+          }
+        ] ]
+    ]
+  },
+
+  "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 130.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "type" : "crewmemberavocati",
+  "baseType" : "crewmemberlyru",
+
+  // This npctype is a template. Do not use it for spawning NPCs directly
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : false
+    },
+
+	"crew" : {
+	  "role" : {
+        "type" : "S.S.D.",
+        "name" : "Avocati",
+        "field" : "Scout",
+        "uniformColorIndex" : 4
+      },
+
+      "ranks" : [
+        "First <role>",
+		"Secondary <role>",
+		"Head of <field> Operations",
+		"<field> of the S.S.D.",
+		"Backup <role>",
+		"Backup <field>",
+		"Officer <role>",
+		"Commander <role>",
+		"Private <role>",
+		"Experienced <role>",
+		"Legendary <role>",
+		"Assistant <field> Officer"
+      ],
+	  
+	  "defaultUniform" : {
+		"head" : "lyrutier2head",
+		"chest" : "lyrutier2chest",
+		"legs" : "lyrutier2pants"
+	  },
+	  
+	  "uniformSlots" : []
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "lyrutier2head", "data" : { "colorIndex" : 4 } } ],
+			"chest" : [ { "name" : "lyrutier2chest", "data" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "lyrutier2pants", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+			  { "name" : "shockwavetype-1", "data" : { "level" : 2 } },
+			  { "name" : "stormtype-1", "data" : { "level" : 2 } }
+			],
+            "sheathedprimary" : [
+			  { "name" : "tempesttype-1", "data" : { "level" : 2 } }
+			]
+          },
+          {
+            "head" : [ { "name" : "lyrutier2head", "data" : { "colorIndex" : 4 } } ],
+			"chest" : [ { "name" : "lyrutier2chest", "data" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "lyrutier2pants", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+			  { "name" : "thunderbolttype-1", "data" : { "level" : 2 } },
+			  { "name" : "stormtype-1", "data" : { "level" : 2 } }
+			],
+            "sheathedprimary" : [
+			  { "name" : "galetype-1", "data" : { "level" : 2 } }
+			]
+          }
+        ] ]
+    ]
+  }
+}

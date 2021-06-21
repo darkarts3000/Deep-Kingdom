@@ -1,0 +1,73 @@
+{
+  "type" : "crewmembertesserarius",
+  "baseType" : "crewmemberlyru",
+
+  // This npctype is a template. Do not use it for spawning NPCs directly
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : false
+    },
+
+	"crew" : {
+	  "role" : {
+        "type" : "U.E.D.",
+        "name" : "Tesserarius",
+        "field" : "Medic",
+        "uniformColorIndex" : 4,
+		
+        "benefits" : [
+          {
+            "type" : "Regeneration",
+            "value" : 2
+          }
+        ]
+      },
+
+      "ranks" : [
+        "First <role>",
+		"Secondary <role>",
+		"Head of <field> Operations",
+		"<field> of the U.E.D.",
+		"Backup <role>",
+		"Backup <field>",
+		"Officer <role>",
+		"Commander <role>",
+		"Private <role>",
+		"Experienced <role>",
+		"Legendary <role>",
+		"Assistant <field> Officer"
+      ],
+	  
+	  "defaultUniform" : {
+		"head" : "lyrutier5mhead",
+		"chest" : "lyrutier4chest",
+		"legs" : "lyrutier4pants"
+	  },
+	  
+	  "uniformSlots" : []
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "head" : [ { "name" : "lyrutier5mhead", "data" : { "colorIndex" : 4 } } ],
+			"chest" : [ { "name" : "lyrutier4chest", "data" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "lyrutier4pants", "data" : { "colorIndex" : 4 } } ],
+            "primary" : [
+			  { "name" : "stormtype-1b", "data" : { "level" : 5 } }
+			],
+            "sheathedprimary" : [
+			  { "name" : "twistertype-1c", "data" : { "level" : 5 } },
+			  { "name" : "galetype-1c", "data" : { "level" : 5 } }
+			],
+			"alt" : [
+			  { "name" : "galetype-1c", "data" : { "level" : 5 } }
+			]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "type" : "ldancer",
+  "baseType" : "villager",
+
+  "scriptConfig" : {
+   "questGenerator" : { "pools" : [], "enableParticipation" : false },
+   
+    "personalities" : [
+        [1.0, { "personality" : "socialite", "reactions" : {} }]
+    ],
+   
+    "dialog" : {
+	  "converse" : {
+        "lyru" : {
+          "default" : [
+            "Come to see me dance, have you?",
+			"Hello there, surface dweller.",
+			"Welcome to the party, traveller."
+          ],
+		  "human" : [
+            "Greetings, human.",
+			"Come to see me dance, have you?",
+			"Hello there, human.",
+			"Come to dance, human?"
+          ],
+          "apex" : [
+            "Can you dance, apex?",
+			"Greetings, rebel.",
+			"Come to dance, apex?",
+			"That fur must make you pretty tosty."
+          ],
+          "avian" : [
+            "I heard your kind likes shiny things.",
+			"Come to see me dance, have you?",
+			"Can you keep up, avian?",
+			"Enjoy the party, avian."
+          ],
+          "floran" : [
+            "Enjoy the party, floran.",
+			"You look thirsty, have a drink.",
+			"Come to see me dance, have you?",
+			"Greetings, floran."
+          ],
+          "glitch" : [
+            "Hello there, metal face.",
+			"Come to see me dance, have you?",
+			"Enjoy the party, glitch."
+          ],
+		  "hylotl" : [
+            "Does your people through good parties?",
+			"Greetings, hylotl.",
+			"Come to see me dance, have you?",
+			"I could use some of your beats here."
+          ],
+          "lyru" : [
+            "Come to see me dance, Ranger?",
+			"Anything new from above Ranger?",
+			"Greetings, Ranger! Looking for a drink?",
+			"Welcome to the party, Ranger."
+          ]
+        }
+      }
+    }
+  },
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [ "ldancerchest" ],
+            "legs" : [ "ldancerpants" ],
+            "head" : [ "ldancerhead" ]
+          }
+        ] ]
+    ]
+  }
+}

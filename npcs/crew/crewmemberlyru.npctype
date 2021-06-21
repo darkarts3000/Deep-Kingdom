@@ -1,0 +1,126 @@
+{
+  "type" : "crewmemberlyru",
+  "baseType" : "crewmember",
+
+  // This npctype is a template. Do not use it for spawning NPCs directly
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "emptyHands" : false
+    },
+
+	"crew" : {
+	  "defaultUniform" : {
+		"chest" : { "name" : "avocatichest", "parameters" : { "colorIndex" : 4 } },
+		"legs" : { "name" : "avocatipants", "parameters" : { "colorIndex" : 4 } }
+	  },
+	  
+	  "uniformSlots" : []
+    },
+
+    "dialog" : {
+      "crewmember" : {
+        "offer" : {
+          "lyru" : {
+            "default" : [
+              "Greetings, adventurer. Might I join your crew?",
+              "I'm <selfname>, and I'm looking to join a ship crew. Are you hiring?",
+              "You seem like a fine captain. Do you need anyone for your crew?",
+              "I'd like to join your crew! Are you interested?"
+            ],
+			"lyru" : [
+              "Greetings, Ranger. Might I join your crew?",
+              "I'm <selfname>, and I'd be honoured to join your crew!",
+              "I've always wanted to join a ship crew. Are you hiring, Ranger?",
+              "It would be an honour to join your crew, Ranger! Will you have me?"
+            ]
+          }
+        },
+		"roleDescription" : {
+          "lyru" : {
+            "default" : [
+              "I'll be here if you need a fighter, Captain!",
+              "Let us test our blades in battle, Captain!",
+              "I'm ready for combat, Captain!",
+              "I'll follow you into battle any day, Captain!"
+            ]
+          }
+        },
+		"respawned" : {
+          "lyru" : {
+            "default" : [
+              "That was a close call.",
+              "I thought that was the end of me!",
+              "The emergency teleport saved me."
+            ]
+          }
+        },
+		"unfollow" : {
+          "lyru" : {
+            "default" : [
+              "Understood, Captain.",
+              "Awaiting orders, Captain.",
+              "I'll wait for you, Captain.",
+              "Do you need me to stay here, Captain?"
+            ]
+          }
+        },
+		"follow" : {
+          "lyru" : {
+            "default" : [
+              "I'm ready, Captain!",
+              "Roger that!",
+              "Lead the way, Captain!",
+              "Onward, Captain!"
+            ]
+          }
+        },
+		"cantreach" : {
+          "lyru" : {
+            "default" : [
+              "I can't reach you!",
+              "I can't get over there!",
+              "Wait for me, Captain!",
+              "I'll find a way there, Captain!"
+            ]
+          }
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "default" : [
+      [0, [
+          {
+            "chest" : [ { "name" : "avocatichest", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "avocatipants", "parameters" : { "colorIndex" : 4 } } ],
+            "primary" : [ 
+			  { "name" : "shockwavetype-1", "data" : { "level" : 2 } },
+			  { "name" : "stormtype-1", "data" : { "level" : 2 } },
+			  { "name" : "thunderbolttype-1", "data" : { "level" : 2 } }
+			],
+            "sheathedprimary" : [
+			  { "name" : "galetype-1", "data" : { "level" : 2 } },
+			  { "name" : "tempesttype-1", "data" : { "level" : 2 } },
+			  { "name" : "twistertype-1", "data" : { "level" : 2 } }
+			]
+          },
+          {
+            "chest" : [ { "name" : "avocatichest", "parameters" : { "colorIndex" : 4 } } ],
+            "legs" : [ { "name" : "avocatipants", "parameters" : { "colorIndex" : 4 } } ],
+            "primary" : [ 
+			  { "name" : "tempesttype-1", "data" : { "level" : 2 } },
+			  { "name" : "galetype-1", "data" : { "level" : 2 } },
+			  { "name" : "squalltype-1", "data" : { "level" : 2 } },
+			  { "name" : "twistertype-1", "data" : { "level" : 2 } }
+			],
+            "sheathedprimary" : [
+			  { "name" : "shockwavetype-1", "data" : { "level" : 2 } },
+			  { "name" : "stormtype-1", "data" : { "level" : 2 } }
+			]
+          }
+        ] ]
+    ]
+  }
+}

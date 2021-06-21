@@ -1,0 +1,58 @@
+{
+  "type" : "ltesserarius",
+  "baseType" : "deep-villageguard",
+
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common", "guard"],
+      "enableParticipation" : true,
+
+      // Every 30 seconds, decide whether to generate a quest and if so, spend
+      // the rest of the 30s window trying to generate it.
+      "timeLimit" : 30,
+
+      // Don't generate new quests if there are already more than <nearbyQuestLimit>
+      // questmanager stagehands nearby, within a <nearbyQuestRange> tile range.
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50,
+      "questCountRange" : [1, 4],
+      
+      "graduation" : {
+        "nextNpcType" : [
+          [1, "crewmembertesserarius"]
+        ]
+      }
+    }
+  },
+  
+  "matchColorIndices" : true,
+    "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+			    { "name" : "lyrutier4chest", "data" : { "colorIndex" : [4, 5, 6] } }
+			],
+            "legs" : [
+			    { "name" : "lyrutier4pants", "data" : { "colorIndex" : [4, 5, 6] } }
+			],
+            "head" : [
+			    { "name" : "lyrutier5mhead", "data" : { "colorIndex" : [4, 5, 6] } }
+			],
+            "primary" : [
+			  { "name" : "stormtype-1b", "data" : { "level" : 5 } }
+			],
+			"sheathedprimary" : [
+			  { "name" : "twistertype-1c", "data" : { "level" : 5 } },
+			  { "name" : "galetype-1c", "data" : { "level" : 5 } }
+			],
+			"alt" : [
+			  { "name" : "galetype-1c", "data" : { "level" : 5 } }
+			]
+          }
+        ] ]
+    ]
+  }
+}

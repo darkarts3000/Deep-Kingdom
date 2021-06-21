@@ -1,0 +1,58 @@
+{
+  "type" : "limmune",
+  "baseType" : "deep-villageguard",
+
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "questGenerator" : {
+      "pools" : ["common", "guard"],
+      "enableParticipation" : true,
+
+      // Every 30 seconds, decide whether to generate a quest and if so, spend
+      // the rest of the 30s window trying to generate it.
+      "timeLimit" : 30,
+
+      // Don't generate new quests if there are already more than <nearbyQuestLimit>
+      // questmanager stagehands nearby, within a <nearbyQuestRange> tile range.
+      "nearbyQuestLimit" : 2,
+      "nearbyQuestRange" : 50,
+      "questCountRange" : [1, 4],
+      
+      "graduation" : {
+        "nextNpcType" : [
+          [1, "crewmemberimmune"]
+        ]
+      }
+    }
+  },
+  
+  "matchColorIndices" : true,
+    "items" : {
+    "override" : [
+      [0, [
+          {
+            "chest" : [
+			    { "name" : "lyrutier4chest", "data" : { "colorIndex" : [1, 8, 9] } }
+			],
+            "legs" : [
+			    { "name" : "lyrutier4pants", "data" : { "colorIndex" : [1, 8, 9] } }
+			],
+            "head" : [
+			    { "name" : "lyrutier4head", "data" : { "colorIndex" : [1, 8, 9] } }
+			],
+            "primary" : [
+			  { "name" : "shockwavetype-1b", "data" : { "level" : 4 } }
+			],
+			"sheathedprimary" : [
+			  { "name" : "tempesttype-1b", "data" : { "level" : 4 } },
+			  { "name" : "galetype-1b", "data" : { "level" : 4 } }
+			],
+			"alt" : [
+			  { "name" : "squalltype-1b", "data" : { "level" : 4 } }
+			]
+          }
+        ] ]
+    ]
+  }
+}
