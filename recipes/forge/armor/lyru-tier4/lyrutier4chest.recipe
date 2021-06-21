@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "techchip3", "count" : 4 },
+	{ "item" : "lyrutier3chest", "count" : 1 },
+    { "item" : "circuitplate2", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "lyrutier4chest", "count" : 1 },
+  "groups" : [ "lyruforge2", "sheilds", "all" ]
+}
