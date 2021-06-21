@@ -1,0 +1,272 @@
+{
+  "type" : "gianthydnora",
+  "shortdescription" : "Giant Hydnora",
+  "description" : "A large carnivorous plant that produces sticky and acidic sap.",
+
+  "categories" : [ "gianthydnora" ],
+  "parts" : [ "body" ],
+
+  "animation" : "gianthydnora.animation",
+
+  "dropPools" : [ {"default" : "gianthydnoraTreasure", "bow" : "gianthydnoraHunting" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+
+    "facingMode" : "transformation",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "hurtWaitForGround": false,
+
+      "targetQueryRange" : 2.5,
+      "targetQueryCooldown" : 0.2,
+      "targetOnDamage" : true,
+      "targetEntityTypes" : [ "player", "npc", "monster" ],
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 10,
+      "targetOutOfSightTime" : 2.5,
+
+      "foundTargetActions" : [
+        {
+          "name" : "action-charge",
+          "cooldown" : 0.0,
+          "parameters" : {
+            "maximumRange" : 5,
+            "windupState" : "",
+            "windupTime" : 0.0,
+
+            "chargeTime" : 0.0,
+            "chargeSpeed" : 0,
+            "chargeControlForce" : 200,
+            "chargeState" : "winddown",
+            "wallCollide" : false,
+            "wallCrashSound" : "",
+            "wallCrashEmitter" : "",
+
+            "winddownStopForce" : 200,
+            "winddownState" : "",
+            "winddownTime" : 0.5
+          }
+        }
+      ],
+      "fleeActions" : [ ],
+
+      "hostileActions" : [
+        {
+          "name" : "action-charge",
+          "cooldown" : 0.0,
+          "parameters" : {
+            "maximumRange" : 5,
+            "windupState" : "",
+            "windupTime" : 0.0,
+
+            "chargeTime" : 0.0,
+            "chargeSpeed" : 0,
+            "chargeControlForce" : 200,
+            "chargeState" : "slash",
+            "wallCollide" : false,
+            "wallCrashSound" : "",
+            "wallCrashEmitter" : "",
+
+            "winddownStopForce" : 200,
+            "winddownState" : "",
+            "winddownTime" : 0.5
+          }
+        },
+        {
+          "name" : "action-fire",
+          "cooldown" : 5.0,
+          "parameters" : {
+            "requireLineOfSight" : true,
+            "maximumRange" : 10,
+            "minimumRange" : 7,
+            "windupState" : "",
+            "windupTime" : 0.0,
+
+            "projectileType" : "plantspikes",
+            "projectileParameters" : {},
+            "fireOffset" : [0.0, 0.0],
+            "aimAtTarget" : false,
+            "aimDirection" : [0, 1],
+            "inaccuracy" : 0.5,
+            "projectileCount" : 2,
+            "projectileInterval" : 0.01,
+            "fireState" : "fire",
+            "fireDelay" : 0.5,
+            "fireSound" : "fire",
+
+            "winddownState" : "slash",
+            "winddownTime" : 0.2
+          }
+        }
+      ],
+
+      "periodicActions" : [
+        {
+          "name" : "action-invulnerable",
+          "cooldown" : [6, 12],
+          "parameters" : {
+            "windupTime" : 0,
+            "windupState" : "",
+            "winddownTime" : 0.7,
+            "winddownState" : "winddown",
+
+            "invulnerableState" : "windup",
+            "invulnerableTime" : 0.0
+          }
+        }
+      ],
+
+      "approachActions" : [],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport"
+        }
+      ],
+
+      "wanderActions" : [
+      ],
+
+      "concurrentActions" : [
+        {
+          "name" : "idle-crawl",
+          "parameters" : {
+            "stopForce" : 500,
+            "resetHeading" : false
+          }
+        }
+      ],
+
+      "concurrentHostileActions" : [
+        {
+          "name" : "idle-crawl",
+          "parameters" : {
+            "stopForce" : 500,
+            "resetHeading" : false
+          }
+        }
+      ]
+    },
+
+    "damageParts" : {
+      "body" : {
+        "damage" : 13,
+
+        "teamType" : "enemy",
+        "damageSourceKind" : "slash",
+        "knockback" : 0,
+        "statusEffects" : [ ]
+      }
+    },
+
+    "touchDamage" : {
+      "poly" : [ [0.82, 2.0],  [2.0, 0.82],  [2.0, -0.82],  [0.82, -2.0],  [-0.82, -2.0],  [-2.0, -0.82],  [-2.0, 0.82],  [-0.82, 2.0] ],
+      "damage" : 13,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 0,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4, -4, 4, 4],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [0.82, 2.0],  [2.0, 0.82],  [2.0, -0.82],  [0.82, -2.0],  [-0.82, -2.0],  [-2.0, -0.82],  [-2.0, 0.82],  [-0.82, 2.0] ],
+
+
+      "mass" : 1.0,
+      "walkSpeed" : 0,
+      "runSpeed" : 0,
+
+      "airFriction" : 0,
+
+      "airJumpProfile" : {
+        "jumpSpeed" : 0,
+        "jumpInitialPercentage" : 0,
+        "jumpHoldTime" : 0
+      },
+      "physicsEffectCategories" : ["stationarymonster"]
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesWeatherStatusEffects" : true,
+      "appliesEnvironmentStatusEffects" : false,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.2
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 9
+        },
+        "grit" : {
+          "baseValue" : 1.0
+        },          
+        "maxHealth" : {
+          "baseValue" : 45
+        },
+        "protection" : {
+          "baseValue" : 0.0
+        },
+        "fireResistance" : {
+          "baseValue" : -0.5
+        },
+        "poisonResistance" : {
+          "baseValue" : 0.5
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 1.0
+        },
+        "powerMultiplier" : {
+          "baseValue" : 1.0
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : false,
+    "captureHealthFraction" : 0.50,
+    "nametagColor" : [64, 200, 255]
+  }
+}

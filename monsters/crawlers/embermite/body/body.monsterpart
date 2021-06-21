@@ -1,0 +1,10 @@
+{
+  "name" : "embermite",
+  "category" : "embermite",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "embermite.png",
+	"bodylit" : "embermitelit.png"
+  }
+}

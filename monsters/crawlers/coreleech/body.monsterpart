@@ -1,0 +1,9 @@
+{
+  "name" : "coreleech",
+  "category" : "coreleech",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "coreleech.png"
+  }
+}

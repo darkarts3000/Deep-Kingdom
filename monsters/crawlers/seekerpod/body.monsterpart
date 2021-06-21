@@ -1,0 +1,9 @@
+{
+  "name" : "seekerpod-body",
+  "category" : "seekerpod",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "seekerpod-body.png"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "gianthydnora",
+  "category" : "gianthydnora",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "/monsters/crawlers/gianthydnora/gianthydnora.png"
+  }
+}

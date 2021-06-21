@@ -1,0 +1,9 @@
+{
+  "name" : "hazardcrab",
+  "category" : "hazardcrab",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "hazardcrab.png"
+  }
+}
