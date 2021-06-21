@@ -1,0 +1,45 @@
+[
+  //======================================================================================================================
+  //	MELEE ABILITIES
+  //======================================================================================================================
+  {
+	"op": "add",
+	"path": "/lbowstaffcombo",
+	"value": "/items/active/weapons/melee/abilities/bowstaff/lbowstaffcombo.weaponability"
+  },
+  {
+	"op": "add",
+	"path": "/lspearspin",
+	"value": "/items/active/weapons/melee/abilities/bowstaff/lspearspin.weaponability"
+  },
+  {
+	"op": "add",
+	"path": "/lbowstaffspin",
+	"value": "/items/active/weapons/melee/abilities/bowstaff/lbowstaffspin.weaponability"
+  },
+  {
+	"op": "add",
+	"path": "/lstaffspinslash",
+	"value": "/items/active/weapons/melee/abilities/bowstaff/lstaffspinslash.weaponability"
+  },
+  {
+	"op": "add",
+	"path": "/typhoonblast",
+	"value": "/items/active/weapons/melee/spear/typhoonblast.weaponability"
+  },
+  {
+	"op": "add",
+	"path": "/shatterpierce",
+	"value": "/items/active/weapons/ranged/abilities/shatterpierce/shatterpierce.weaponability"
+  },
+  {
+	"op": "add",
+	"path": "/lminerbeam",
+	"value": "/items/active/weapons/ranged/abilities/lminerbeam/lminerbeam.weaponability"
+  },
+  {
+	"op": "add",
+	"path": "/lminerbeamalt",
+	"value": "/items/active/weapons/ranged/abilities/lminerbeam/lminerbeamalt.weaponability"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "itemName" : "lyrujavelin",
+  "rarity" : "Uncommon",
+  "category" : "throwableItem",
+  "inventoryIcon" : "lyrujavelinicon.png",
+  "image" : "lyrujavelin.png",
+  "shortdescription" : "Lyru Javelin",
+  "description" : "A powerful javelin, suitable for hunting the most dangerous game.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 1.0,
+
+  "projectileType" : "lyrujavelin",
+  "projectileConfig" : {
+    "speed" : 60,
+    "power" : 180,
+    "knockback" : 20,
+
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

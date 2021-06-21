@@ -1,0 +1,21 @@
+{
+  "itemName" : "lyruhoe",
+  "price" : 250,
+  "category" : "Tool",
+  "inventoryIcon" : "lyruhoe.png",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A Lyru version of the classic hoe.",
+  "shortdescription" : "^orange;Lyru Hoe^white;",
+  "tooltipKind" : "tool",
+  "largeImage" : "lyruhoebig.png",
+  "image" : "lyruhoe.png",
+  "handPosition" : [-7, -15],
+  "fireTime" : 0.25,
+  "blockRadius" : 7,
+  "altBlockRadius" : 1,
+  "twoHanded" : true,
+  "strikeSounds" : [ "/sfx/tools/pickaxe_hit.ogg" ],
+
+  "pickupQuestTemplates" : [ "firstcrops" ]
+}
