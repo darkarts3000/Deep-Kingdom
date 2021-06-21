@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "prisiliteore", "count" : 4 },
+    { "item" : "liquidlava", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "lglass",
+    "count" : 10
+  },
+  "duration" : 0.05,
+  "groups"  : [ "lyrufabricator", "materials", "all" ]
+}

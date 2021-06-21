@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ltapestry", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "ltapestry2",
+    "count" : 10
+  },
+  "duration" : 0.05,
+  "groups"  : [ "lyrufabricator", "materials", "all" ]
+}

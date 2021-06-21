@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "solariumore", "count" : 2 },
+    { "item" : "obsidian", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "lancienttech",
+    "count" : 25
+  },
+  "duration" : 0.05,
+  "groups"  : [ "lyrufabricator2", "materials", "all" ]
+}

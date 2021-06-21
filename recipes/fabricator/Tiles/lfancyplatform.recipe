@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "circuitplate1", "count" : 2 },
+    { "item" : "lglass", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "lfancyplatform",
+    "count" : 10
+  },
+  "duration" : 0.05,
+  "groups"  : [ "lyrufabricator2", "materials", "all" ]
+}

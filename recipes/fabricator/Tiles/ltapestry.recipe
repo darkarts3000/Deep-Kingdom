@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "pryphorline", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "ltapestry",
+    "count" : 10
+  },
+  "duration" : 0.05,
+  "groups"  : [ "lyrufabricator", "materials", "all" ]
+}

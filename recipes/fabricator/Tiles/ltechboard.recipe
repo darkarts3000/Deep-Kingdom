@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "circuitplate2", "count" : 2 },
+	{ "item" : "lightcrystal", "count" : 2 },
+	{ "item" : "processor", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "ltechboard",
+    "count" : 10
+  },
+  "duration" : 0.05,
+  "groups"  : [ "lyrufabricator2", "materials", "all" ]
+}

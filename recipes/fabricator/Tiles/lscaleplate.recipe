@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "circuitplate3", "count" : 6 }
+  ],
+  "output" : {
+    "item" : "lscaleplate",
+    "count" : 20
+  },
+  "duration" : 0.05,
+  "groups"  : [ "lyrufabricator2", "materials", "all" ]
+}

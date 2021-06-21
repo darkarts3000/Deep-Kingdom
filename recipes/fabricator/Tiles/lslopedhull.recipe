@@ -1,0 +1,12 @@
+{
+  "input" : [
+	{ "item" : "lscaleplate", "count" : 5 },
+	{ "item" : "lpanel", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "lslopedhull",
+    "count" : 20
+  },
+  "duration" : 0.05,
+  "groups"  : [ "lyrufabricator2", "materials", "all" ]
+}

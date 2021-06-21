@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "pryphorline", "count" : 4 },
+	{ "item" : "lightcrystal", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "lpanel",
+    "count" : 10
+  },
+  "duration" : 0.05,
+  "groups"  : [ "lyrufabricator", "materials", "all" ]
+}

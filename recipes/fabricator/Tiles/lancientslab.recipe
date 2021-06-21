@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "obsidian", "count" : 2 },
+    { "item" : "firedclay", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "lancientslab",
+    "count" : 25
+  },
+  "duration" : 0.05,
+  "groups"  : [ "lyrufabricator2", "materials", "all" ]
+}

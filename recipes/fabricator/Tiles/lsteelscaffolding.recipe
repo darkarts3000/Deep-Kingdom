@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "circuitplate1", "count" : 4 },
+	{ "item" : "lpanel", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "lsteelscaffolding",
+    "count" : 10
+  },
+  "duration" : 0.05,
+  "groups"  : [ "lyrufabricator", "materials", "all" ]
+}

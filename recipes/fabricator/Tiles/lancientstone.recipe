@@ -1,0 +1,13 @@
+{
+  "input" : [
+	{ "item" : "solariumore", "count" : 1 },
+    { "item" : "obsidian", "count" : 1 },
+    { "item" : "firedclay", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "lancientstone",
+    "count" : 25
+  },
+  "duration" : 0.05,
+  "groups"  : [ "lyrufabricator2", "materials", "all" ]
+}

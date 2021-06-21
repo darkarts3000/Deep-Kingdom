@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "prisiliteore", "count" : 4 },
+    { "item" : "liquidlava", "count" : 1 },
+	{ "item" : "circuitplate1", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "lcrystaltube",
+    "count" : 5
+  },
+  "duration" : 0.05,
+  "groups"  : [ "lyrufabricator", "materials", "all" ]
+}

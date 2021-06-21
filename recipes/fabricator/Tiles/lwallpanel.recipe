@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "circuitplate1", "count" : 2 },
+    { "item" : "pryphorline", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "lwallpanel",
+    "count" : 20
+  },
+  "duration" : 0.05,
+  "groups"  : [ "lyrufabricator", "materials", "all" ]
+}
