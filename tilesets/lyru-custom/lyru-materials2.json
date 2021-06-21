@@ -1,0 +1,292 @@
+{ "margin":0,
+ "name":"lyru-materials",
+ "properties":
+    {
+
+    },
+ "spacing":0,
+ "tilecount":25,
+ "tileheight":8,
+ "tileproperties":
+    {
+     "0":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lancientpillar",
+         "\/\/shortdescription":"Ancient Lyru Pillar",
+         "material":"lancientpillar"
+        },
+     "1":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lancientslab",
+         "\/\/shortdescription":"Ancient Lyru Slab",
+         "material":"lancientslab"
+        },
+     "10":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lslopedhull",
+         "\/\/shortdescription":"Sloped Inset Plates",
+         "material":"lslopedhull"
+        },
+     "11":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lslopedpanel",
+         "\/\/shortdescription":"Structure Panel",
+         "material":"lslopedpanel"
+        },
+     "12":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lslopedplate",
+         "\/\/shortdescription":"Smooth Structure Panel",
+         "material":"lslopedplate"
+        },
+     "13":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lsteelscaffolding",
+         "\/\/shortdescription":"Plate Scaffolding",
+         "material":"lsteelscaffolding"
+        },
+     "14":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lstructureweave",
+         "\/\/shortdescription":"Pryphorline Insulaton",
+         "material":"lstructureweave"
+        },
+     "15":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"ltapestry",
+         "\/\/shortdescription":"Pryphorline Trim",
+         "material":"ltapestry"
+        },
+     "16":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"ltapestry2",
+         "\/\/shortdescription":"Pryphorline Tapestry",
+         "material":"ltapestry2"
+        },
+     "17":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"ltech",
+         "\/\/shortdescription":"Lyru Wall Plate",
+         "material":"ltech"
+        },
+     "18":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"ltechboard",
+         "\/\/shortdescription":"Crystal Circuit Board",
+         "material":"ltechboard"
+        },
+     "19":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lwallpanel",
+         "\/\/shortdescription":"Lyru Circuit Panel",
+         "material":"lwallpanel"
+        },
+     "2":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lancientstone",
+         "\/\/shortdescription":"Ancient Lyru Bricks",
+         "material":"lancientstone"
+        },
+     "20":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lfancyplatform",
+         "\/\/shortdescription":"Fancy Glass Platform",
+         "material":"lfancyplatform"
+        },
+     "21":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lplatform",
+         "\/\/shortdescription":"Plated Platform",
+         "material":"lplatform"
+        },
+     "22":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"ltilled",
+         "\/\/shortdescription":"Tilled",
+         "material":"ltilled"
+        },
+     "23":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lancienttech",
+         "\/\/shortdescription":"Ancient Lyru Pannels",
+         "material":"lancienttech"
+        },
+     "24":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lancientbrick",
+         "\/\/shortdescription":"Ancient Lyru Bricks",
+         "material":"lancientbrick"
+        },
+     "3":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lancientwall",
+         "\/\/shortdescription":"Ancient Lyru Wall",
+         "material":"lancientwall"
+        },
+     "4":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lcrystaltube",
+         "\/\/shortdescription":"Crystal Tube",
+         "material":"lcrystaltube"
+        },
+     "5":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lfloor",
+         "\/\/shortdescription":"Plated Floor",
+         "material":"lfloor"
+        },
+     "6":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lglass",
+         "\/\/shortdescription":"Lyru Glass",
+         "material":"lglass"
+        },
+     "7":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lpanel",
+         "\/\/shortdescription":"Dark Tech Panels",
+         "material":"lpanel"
+        },
+     "8":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lplatetiles",
+         "\/\/shortdescription":"Plated Roof",
+         "material":"lplatetiles"
+        },
+     "9":
+        {
+         "\/\/description":"A Lyru material",
+         "\/\/name":"lscaleplate",
+         "\/\/shortdescription":"Scale Plate",
+         "material":"lscaleplate"
+        }
+    },
+ "tiles":
+    {
+     "0":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lancientpillar.png"
+        },
+     "1":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lancientslab.png"
+        },
+     "10":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lslopedhull.png"
+        },
+     "11":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lslopedpanel.png"
+        },
+     "12":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lslopedplate.png"
+        },
+     "13":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lsteelscaffolding.png"
+        },
+     "14":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lstructureweave.png"
+        },
+     "15":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/ltapestry.png"
+        },
+     "16":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/ltapestry2.png"
+        },
+     "17":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/ltech.png"
+        },
+     "18":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/ltechboard.png"
+        },
+     "19":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lwallpanel.png"
+        },
+     "2":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lancientstone.png"
+        },
+     "20":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lfancyplatform.png"
+        },
+     "21":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lplatform.png"
+        },
+     "22":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/ltilled.png"
+        },
+     "23":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lancienttech.png"
+        },
+     "24":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lancientbrick.png"
+        },
+     "3":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lancientwall.png"
+        },
+     "4":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lcrystaltube.png"
+        },
+     "5":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lfloor.png"
+        },
+     "6":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lglass.png"
+        },
+     "7":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lpanel.png"
+        },
+     "8":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lplatetiles.png"
+        },
+     "9":
+        {
+         "image":"..\/..\/..\/..\/assets\/lyru-custom\/materials\/lscaleplate.png"
+        }
+    },
+ "tilewidth":8
+}

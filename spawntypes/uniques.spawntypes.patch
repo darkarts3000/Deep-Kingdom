@@ -1,0 +1,363 @@
+[
+  //===================================== LYRU UNDERGROUND =====================================
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "coreleech",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 1],
+	"spawnChance" : 0.2,
+	"monsterType" : "coreleech",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "coregazer",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 1],
+	"spawnChance" : 0.08,
+	"monsterType" : "coregazer",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "seekerpod",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 1],
+	"spawnChance" : 0.5,
+	"monsterType" : "seekerpod",
+	"monsterParameters" : {
+	  "aggressive" : false
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "crystalray",
+	"spawnParameters" : {
+	  "area" : "ceiling",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 1],
+	"spawnChance" : 0.08,
+	"monsterType" : "crystalray",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "shardspark",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 2],
+	"spawnChance" : 0.08,
+	"monsterType" : "shardspark",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "quelm",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 2],
+	"spawnChance" : 0.2,
+	"monsterType" : "quelm",
+	"monsterParameters" : {
+	  "aggressive" : false
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "creeper",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 1],
+	"spawnChance" : 0.2,
+	"monsterType" : "creeper",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "microcreeper",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 2],
+	"spawnChance" : 0.5,
+	"monsterType" : "microcreeper",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "slimepod",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 1],
+	"spawnChance" : 0.08,
+	"monsterType" : "slimepod",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "frozenphantasm",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 2],
+	"spawnChance" : 0.08,
+	"monsterType" : "frozenphantasm",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "gianthydnora",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 1],
+	"spawnChance" : 0.1,
+	"monsterType" : "gianthydnora",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "hydraflora",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 2],
+	"spawnChance" : 0.2,
+	"monsterType" : "hydraflora",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "hazardcrab",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 2],
+	"spawnChance" : 0.2,
+	"monsterType" : "hazardcrab",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "monomiun",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 2],
+	"spawnChance" : 0.2,
+	"monsterType" : "monomiun",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "trimiun",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 1],
+	"spawnChance" : 0.2,
+	"monsterType" : "trimiun",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "festerling",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 2],
+	"spawnChance" : 0.2,
+	"monsterType" : "festerling",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "scornet",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 3],
+	"spawnChance" : 0.1,
+	"monsterType" : "scornet",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "needleback",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 1],
+	"spawnChance" : 0.2,
+	"monsterType" : "needleback",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "hauntingangel",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 1],
+	"spawnChance" : 0.08,
+	"monsterType" : "hauntingangel",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+},
+{
+	"op" : "add",
+	"path" : "/-",
+	"value" : {
+	"name" : "embermite",
+	"spawnParameters" : {
+	  "area" : "surface",
+	  "region" : "all",
+	  "time" : "all"
+	},
+	"groupSize" : [1, 1],
+	"spawnChance" : 0.5,
+	"monsterType" : "embermite",
+	"monsterParameters" : {
+	  "aggressive" : true
+	}
+	}
+}
+]
