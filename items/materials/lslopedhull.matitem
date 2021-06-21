@@ -1,0 +1,11 @@
+{
+  "itemName" : "lslopedhull",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "price" : 100,
+  "inventoryIcon" : "lslopedhull.png",
+  "description" : "Tight inset plates made for lyru space ships.",
+  "shortdescription" : "Sloped Inset Plates",
+
+  "materialId" : 426
+}

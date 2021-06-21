@@ -1,0 +1,13 @@
+{
+  "itemName" : "lancientpillar",
+  "price" : 300,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "lancientpillar.png",
+  
+  "shortdescription" : "Ancient Lyru Pillar",
+  "description" : "Ancient red pillar. Just strong enough to hold the roof up.",
+  "lyruDescription" : "Looks like it will hold up this place for now.",
+
+  "materialId" : 435
+}

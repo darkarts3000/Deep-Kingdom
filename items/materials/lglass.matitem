@@ -1,0 +1,11 @@
+{
+  "itemName" : "lglass",
+  "price" : 500,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "lglass.png",
+  "shortdescription" : "Lyru Glass",
+  "description" : "Glass made from melted prisilite.",
+
+  "materialId" : 417
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "lpanel",
+  "price" : 100,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "lpanel.png",
+  "description" : "Blach pryphorline panels used to hide and protect electronics.",
+  "shortdescription" : "Dark Tech Panels",
+
+  "materialId" : 415
+}

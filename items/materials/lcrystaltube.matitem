@@ -1,0 +1,11 @@
+{
+  "itemName" : "lcrystaltube",
+  "price" : 1000,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "lcrystaltube.png",
+  "description" : "A large tube made from melted prisilite.",
+  "shortdescription" : "Crystal Tube",
+  
+  "materialId" : 418
+}

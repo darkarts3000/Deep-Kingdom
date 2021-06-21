@@ -1,0 +1,9 @@
+{
+  "itemName" : "ltapestry",
+  "rarity" : "Uncommon",
+  "price" : 500,
+  "inventoryIcon" : "ltapestry.png",
+  "description" : "An embroidered trim, ideal for wall hangings or providing some style",
+  "shortdescription" : "Pryphorline Trim",
+  "materialId" : 420
+}

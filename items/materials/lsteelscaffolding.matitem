@@ -1,0 +1,12 @@
+{
+  "itemName" : "lsteelscaffolding",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "lsteelscaffolding.png",
+  "shortdescription" : "Plate Scaffolding",
+  "description" : "Sturdy plated beams great for underground structures.",
+  "radioMessagesOnPickup" : [ "pickuplogblock" ],
+
+  "materialId" : 416
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "lslopedplate",
+  "rarity" : "Uncommon",
+  "category" : "block",
+  "price" : 100,
+  "inventoryIcon" : "lslopedplate.png",
+  "description" : "Smooth structure panels used to add detail.",
+  "shortdescription" : "Smooth Structure Panel",
+
+  "materialId" : 428
+}

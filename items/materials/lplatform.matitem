@@ -1,0 +1,14 @@
+{
+  "itemName" : "lplatform",
+  "price" : 50,
+  "category" : "platform",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "lplatform.png",
+  "description" : "Smooth and easy to clean platforms.",
+  "shortdescription" : "Plated Platform",
+  "glitchdescription" : "Approving. This platform is easy to clean.",
+  "florandescription" : "Smooth metal iss pretty.",
+  "novakiddescription" : "Some fancy lookin' metal platform.",
+
+  "materialId" : 429
+}

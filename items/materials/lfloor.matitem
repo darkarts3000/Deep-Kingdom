@@ -1,0 +1,15 @@
+{
+  "itemName" : "lfloor",
+  "price" : 100,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "lfloor.png",
+  "description" : "Smooth and easy to clean flooring.",
+  "shortdescription" : "Plated Floor",
+  "glitchDescription" : "Approving. This flooring is easy to clean.",
+  "floranDescription" : "Smooth metal iss pretty.",
+  "novakidDescription" : "Some fancy lookin' metal floorin'.",
+  "lyruDescription" : "This floor is easy to clean when there's a mess.",
+
+  "materialId" : 411
+}

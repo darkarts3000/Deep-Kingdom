@@ -1,0 +1,12 @@
+{
+  "itemName" : "lancienttech",
+  "price" : 300,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "lancienttech.png",
+  "description" : "Ancient red pannels powered by core fragments.",
+  "shortdescription" : "Ancient Lyru Pannels",
+  "lyruDescription" : "Is this place still active?",
+
+  "materialId" : 431
+}

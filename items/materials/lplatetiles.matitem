@@ -1,0 +1,15 @@
+{
+  "itemName" : "lplatetiles",
+  "price" : 100,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "lplatetiles.png",
+  "description" : "Sloped metal plates that allow easy run off.",
+  "shortdescription" : "Plated Roof",
+  "glitchDescription" : "Observant. These roof plates are sloped to allow for easy run off.",
+  "floranDescription" : "Metal roofing tiless.",
+  "novakidDescription" : "These tiles look perfect for makin' a roof.",
+  "lyruDescription" : "This roof allows any liquid to flow off easy. Plus it looks nice.",
+
+  "materialId" : 424
+}

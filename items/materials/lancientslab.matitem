@@ -1,0 +1,13 @@
+{
+  "itemName" : "lancientslab",
+  "price" : 300,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "lancientslab.png",
+  
+  "shortdescription" : "Ancient Lyru Slab",
+  "description" : "Large red slabs. They are really heavy.",
+  "lyruDescription" : "Must have been torture to cary these.",
+
+  "materialId" : 434
+}

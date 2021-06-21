@@ -1,0 +1,15 @@
+{
+  "itemName" : "ltechboard",
+  "price" : 100,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "ltechboard.png",
+  "description" : "Circuit boards powered by light crystals.",
+  "shortdescription" : "Crystal Circuit Board",
+  "glitchDescription" : "Amazed. This board is filled with energy.",
+  "floranDescription" : "Floran ssmash circuit board.",
+  "novakidDescription" : "Strange lookin' circuit board with a bunch of crystals.",
+  "lyruDescription" : "A lot of information flows through this circuit board.",
+
+  "materialId" : 423
+}

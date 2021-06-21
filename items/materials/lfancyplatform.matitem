@@ -1,0 +1,11 @@
+{
+  "itemName" : "lfancyplatform",
+  "price" : 50,
+  "category" : "platform",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "lfancyplatform.png",
+  "shortdescription" : "Fancy Glass Platform",
+  "description" : "A fancy yet sturdy glass platform.",
+
+  "materialId" : 430
+}

@@ -1,0 +1,13 @@
+{
+  "itemName" : "lancientstone",
+  "price" : 300,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "lancientstone.png",
+  
+  "shortdescription" : "Ancient Lyru Stone",
+  "description" : "Ancient carved stone. The markings are oddly furmiliar.",
+  "lyruDescription" : "The carvings on these stones are Lyru.",
+
+  "materialId" : 432
+}

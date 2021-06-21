@@ -1,0 +1,15 @@
+{
+  "itemName" : "lscaleplate",
+  "price" : 100,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "lscaleplate.png",
+  "description" : "Light plates of durasteel that lock together, forming strong walls and roofs.",
+  "shortdescription" : "Scale Plate",
+  "glitchDescription" : "Impressed. This plate is exceptionally strong.",
+  "floranDescription" : "Sstrong durasteel plate.",
+  "novakidDescription" : "Shiny lookin' durasteel plate.",
+  "lyruDescription" : "This plate protects our structures from the crushing weight of the earth.",
+
+  "materialId" : 425
+}

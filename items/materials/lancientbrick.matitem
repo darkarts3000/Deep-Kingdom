@@ -1,0 +1,13 @@
+{
+  "itemName" : "lancientbrick",
+  "price" : 300,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "lancientbrick.png",
+  
+  "shortdescription" : "Ancient Lyru Bricks",
+  "description" : "Ancient Lyru temple bricks. They are arranged quite nicely.",
+  "lyruDescription" : "Who knows how long this wall will hold up.",
+
+  "materialId" : 413
+}

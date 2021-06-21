@@ -1,0 +1,12 @@
+{
+  "itemName" : "ltapestry2",
+  "price" : 500,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "ltapestry2.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "A decorative tapestry often used indoors.",
+  "shortdescription" : "Pryphorline Tapestry",
+
+  "materialId" : 421
+}

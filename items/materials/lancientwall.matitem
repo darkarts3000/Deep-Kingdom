@@ -1,0 +1,13 @@
+{
+  "itemName" : "lancientwall",
+  "price" : 300,
+  "category" : "block",
+  "rarity" : "Rare",
+  "inventoryIcon" : "lancientwall.png",
+  
+  "shortdescription" : "Ancient Lyru Wall",
+  "description" : "Ancient Lyru temple stonework. It looks smooth.",
+  "lyruDescription" : "It still looks good after all this time.",
+
+  "materialId" : 433
+}

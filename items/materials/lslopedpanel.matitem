@@ -1,0 +1,15 @@
+{
+  "itemName" : "lslopedpanel",
+  "price" : 100,
+  "category" : "block",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "lslopedpanel.png",
+  "shortdescription" : "Structure Panel",
+  "description" : "Strong resilient panelling used in underground lyru structures.",
+  "glitchDescription" : "Observant. This panelling is very strong.",
+  "floranDescription" : "Shiny sssmooth metal.",
+  "novakidDescription" : "Some thick metal plating, looks mighty solid.",
+  "lyruDescription" : "Panels like these form sturdy beams that hold up many of our structures.",
+
+  "materialId" : 427
+}

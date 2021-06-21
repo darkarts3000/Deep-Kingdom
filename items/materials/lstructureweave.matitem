@@ -1,0 +1,9 @@
+{
+  "itemName" : "lstructureweave",
+  "price" : 500,
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "lstructureweave.png",
+  "description" : "Heat resistant and super strong. Lyru structures can hold up the weight of the earth.",
+  "shortdescription" : "Pryphorline Canvas",
+  "materialId" : 422
+}
