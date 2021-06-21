@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "circuitplate1", "count" : 6 },
+    { "item" : "geodeblock", "count" : 2 },
+	{ "item" : "lstructureweave", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "lyruceilingdecor",
+  "count" : 1
+  },
+  "groups" : [ "lyrufabricator", "decoration", "all" ]
+}

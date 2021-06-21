@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "stormtype-1", "count" : 1 },
+	{ "item" : "circuitplate1", "count" : 4 }
+  ],
+  "output" : { "item" : "lweaponrack3", "count" : 1 },
+  "groups" : [ "lyrufabricator", "decoration", "all" ]
+}

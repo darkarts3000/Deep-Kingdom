@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "galetype-1", "count" : 1 },
+	{ "item" : "circuitplate1", "count" : 1 }
+  ],
+  "output" : { "item" : "lweaponrack1", "count" : 1 },
+  "groups" : [ "lyrufabricator", "decoration", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "lstructureweave", "count" : 1 },
+    { "item" : "geodeblock", "count" : 1 }
+  ],
+  "output" : { "item" : "lyrusmallrings", "count" : 1 },
+  "groups" : [ "lyrufabricator", "decoration", "all" ]
+}

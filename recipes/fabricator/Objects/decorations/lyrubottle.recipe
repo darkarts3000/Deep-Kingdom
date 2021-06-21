@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "lglass", "count" : 2 }
+  ],
+  "output" : {
+    "item" : "lyrubottle",
+  "count" : 1
+  },
+  "groups" : [ "lyrufabricator", "decoration", "all" ]
+}

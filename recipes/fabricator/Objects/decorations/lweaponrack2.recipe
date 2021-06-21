@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "twistertype-1", "count" : 1 },
+	{ "item" : "circuitplate1", "count" : 2 }
+  ],
+  "output" : { "item" : "lweaponrack2", "count" : 1 },
+  "groups" : [ "lyrufabricator", "decoration", "all" ]
+}

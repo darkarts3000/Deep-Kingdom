@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "circuitplate1", "count" : 2 },
+    { "item" : "lyrufeast", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "lyrufoodplate2",
+  "count" : 1
+  },
+  "groups" : [ "lyrufabricator", "decoration", "all" ]
+}
