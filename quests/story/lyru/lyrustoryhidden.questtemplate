@@ -1,0 +1,28 @@
+{
+  "id" : "lyrustoryhidden",
+  "mainQuest" : true,
+  "prerequisites" : [],
+  "title" : "Lyru Story - Initial Setup",
+  "text" : "This quest acts as a prerequisite to the Lyru storyline. You shouldn't be able to see this in your log.",
+  "completionText" : "This quest acts as a prerequisite to the Lyru storyline. You shouldn't be able to see this in your log.",
+  "moneyRange" : [0, 0],
+  "canBeAbandoned" : false,
+  
+  "showInLog" : false,
+  "showAcceptDialog" : false,
+  "showCompleteDialog" : false,
+  "showFailDialog" : false,
+  
+  "rewards" : [ ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/deep-hiddenstorystart.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "player"
+    },
+    "followUp" : "forge",
+    "requireTurnIn" : false,
+    "conditions" : [ ]
+  }
+}

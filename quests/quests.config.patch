@@ -1,0 +1,3 @@
+[
+{ "op" : "add", "path" : "/initialquests/lyru", "value" : [ "protectorate", "lyrudisguise", "lyrustoryhidden" ] }
+]

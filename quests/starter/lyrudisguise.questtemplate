@@ -1,0 +1,41 @@
+{
+  "id" : "lyrudisguise",
+  "prerequisites" : [],
+  "title" : "^green;Disguise",
+  "text" : "My Protectorate disguise awaits for me in my locker. Fools they all are to let a Lyru into their ranks.",
+  "completionText" : "Now I look just like the rest. The Matter Manipulator is all I need now.",
+  "moneyRange" : [0, 0],
+  "canBeAbandoned" : false,
+  
+  "showInLog" : false,
+  "showAcceptDialog" : false,
+  "showCompleteDialog" : false,
+  "showFailDialog" : false,
+  
+  "rewards" : [
+    [ [ "lprotectoratechest", 1 ], [ "lprotectoratepants", 1 ], [ "lyruorders1-codex", 1 ] ]
+  ],
+
+  "updateDelta" : 10,
+  "script" : "/quests/scripts/lyrudisguise.lua",
+  "scriptConfig" : {
+    "portraits" : {
+      "default" : "player"
+    },
+    "requireTurnIn" : false,
+    "conditions" : [
+      {
+        "type" : "gatherItem",
+        "itemName" : "protectoratechest",
+        "count" : 1,
+        "consume" : false
+      },
+	  {
+        "type" : "gatherItem",
+        "itemName" : "protectoratepants",
+        "count" : 1,
+        "consume" : false
+      }
+    ]
+  }
+}
