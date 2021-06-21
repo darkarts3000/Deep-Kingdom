@@ -1,0 +1,87 @@
+{
+  "objectName" : "lmountedlight",
+  "colonyTags" : ["lyru", "light"],
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "printable" : false,
+  "lightColor" : [225, 155, 244],
+  "pointLight" : true,
+  "pointBeam" : 2,
+  "beamAmbience" : 0.15,
+  "unlit" : true,
+  "price" : 60,
+  "description" : "A crystal ceiling light.",
+  "shortdescription" : "Lyru Mounted Light",
+  "race" : "lyru",
+
+  "apexDescription" : "A simple crystal light.",
+  "avianDescription" : "A crystal light.",
+  "floranDescription" : "Light. Ssshiny.",
+  "glitchDescription" : "Observation. A simple crystal light.",
+  "humanDescription" : "A crystal light.",
+  "hylotlDescription" : "A simple crystal light.",
+
+  "lyruDescription" : "A mounted crystal light.",
+
+  "inventoryIcon" : "lmountedlighticon.png",
+  "orientations" : [
+    {
+      "image" : "lmountedlight.png:<color>.<frame>",
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "lightPosition" : [0, 0],
+      "beamAngle" : 270,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "lmountedlightright.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "light" : "lmountedlightright.png"
+      },
+
+      "lightPosition" : [0, 0],
+      "beamAngle" : 180,
+
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "right" ]
+    },
+    {
+      "image" : "lmountedlightleft.png:<color>.<frame>",
+      "direction" : "right",
+      "animationParts" : {
+        "light" : "lmountedlightleft.png"
+      },
+
+      "lightPosition" : [0, 0],
+      "beamAngle" : 360,
+
+      "imagePosition" : [0, 0],
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "left" ]
+    }
+  ],
+
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "lmountedlight.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

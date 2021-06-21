@@ -1,0 +1,65 @@
+{
+  "objectName" : "lyrucrystaltorch",
+  "colonyTags" : ["lyru","lyrubase","light"],
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "printable" : false,
+  "price" : 60,
+
+  "description" : "A light crystal mounted in a metal frame.",
+  "shortdescription" : "Lyru Crystal Torch",
+  "race" : "lyru",
+
+  "apexDescription" : "The crystal appears to be generating the light.",
+  "avianDescription" : "The Avians use crystals in place of torches. The Lyru seem to do the same.",
+  "floranDescription" : "Pretty glowing crystal.",
+  "glitchDescription" : "Intrigued. This crystal appears to generate its own gravitational field and also produces its own light.",
+  "humanDescription" : "This crystal glows like an Avian crystal.",
+  "hylotlDescription" : "Such beautiful technology. How did the Lyru create such a device?",
+  "novakidDescription" : "This shiny rock is glowin' just a like a torch.",
+  "lyruDescription" : "light crystals last longer than torches for perminate lighting.",
+
+  "lightColor" : [128, 0, 128],
+
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.825,
+  "flickerMaxIntensity" : 0.9,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "inventoryIcon" : "lyrucrystaltorchicon.png",
+  "orientations" : [
+    {
+      "image" : "lyrucrystaltorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "direction" : "left",
+      "flipImages" : true,
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "lyrucrystaltorch.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "direction" : "right",
+      "animationPosition" : [0, 0],
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "lyrucrystaltorch.animation",
+  "animationParts" : {
+    "bg" : "lyrucrystaltorch.png",
+    "fg" : "lyrucrystaltorchlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

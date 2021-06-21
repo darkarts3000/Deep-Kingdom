@@ -1,0 +1,57 @@
+{
+  "objectName" : "lyruminilamp",
+  "colonyTags" : ["lyru","lyrubase","light"],
+  "rarity" : "Uncommon",
+  "description" : "This strange lamp emits a low purple light.",
+  "shortdescription" : "Crystal Lamp Pod",
+  "race" : "lyru",
+  "printable" : false,
+
+  "apexDescription" : "These lamps seem to be common in the underground.",
+  "avianDescription" : "This device glows a pretty purple.",
+  "floranDescription" : "Pretty purple lightsss.",
+  "glitchDescription" : "Observant. The crystal in this lamp can be tapped on and off.",
+  "humanDescription" : "Tap on, tap off.",
+  "hylotlDescription" : "This device can be turned on and off by a single tap. Neat.",
+  "novakidDescription" : "A purple light.",
+  "lyruDescription" : "Traveling Lyru have these on hand.",
+
+  "category" : "light",
+  "price" : 50,
+  "lightColor" : [128, 0, 128],
+  
+  "flickerPeriod" : 0.5,
+  "flickerMinIntensity" : 0.825,
+  "flickerMaxIntensity" : 0.9,
+  "flickerPeriodVariance" : 0,
+  "flickerIntensityVariance" : 0,
+
+  "inventoryIcon" : "lyruminilampicon.png",
+  "orientations" : [
+    {
+      "image" : "lyruminilamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "lyruminilamp.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "lyruminilamp.animation",
+  "animationParts" : {
+    "bg" : "lyruminilamp.png",
+    "fg" : "lyruminilamplit.png"
+  },
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

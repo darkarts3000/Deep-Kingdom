@@ -1,0 +1,38 @@
+{
+  "objectName" : "lyrucrystal",
+  "colonyTags" : ["lyru","lyrubase","light"],
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "printable" : false,
+  "price" : 60,
+
+  "description" : "A crystal of light used by Lyru.",
+  "shortdescription" : "Lyru Crystal",
+  "race" : "lyru",
+
+  "apexDescription" : "This crystal seems to levitate on its own.",
+  "avianDescription" : "This crystal levitates like the ones in our crystal torches.",
+  "floranDescription" : "Shiny floating crystal.",
+  "glitchDescription" : "Intrigued. This crystal appears to float, generating its own gravitational field and also produces its own light.",
+  "humanDescription" : "The crystal glows and seems to be warm to the touch.",
+  "hylotlDescription" : "Purple crystal. Pretty.",
+  "novakidDescription" : "This floating shiny rock is glowin' just a like a torch.",
+  "lyruDescription" : "These crystals are used for many things.",
+
+  "statusEffects" : [ ],
+
+  "lightColor" : [225, 155, 244],
+  
+  "inventoryIcon" : "lyrucrystalicon.png",
+  "orientations" : [
+    {
+      "image" : "lyrucrystal.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 4,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1
+
+    }
+  ]
+}
