@@ -1,0 +1,34 @@
+{
+  "objectName" : "lyruancienttablet3",
+  "colonyTags" : [ "lyru" ], 
+  "rarity" : "Legendary",
+  "category" : "furniture",
+  "retainObjectParametersInItem" : true, 
+  "printable" : false,
+  "description" : "Its a large clay Lyru tablet. What does it mean?",
+  "shortdescription" : "Ancient Lyru Tablet",
+  "race" : "lyru",
+
+  "apexDescription" : "A large clay tablet. Could this be important?",
+  "avianDescription" : "I think this large tablet is descibeing something important.",
+  "floranDescription" : "Floran don't care what stone tablet ssays.",
+  "glitchDescription" : "Curious. The text on this large clay tablet seems to be important.",
+  "humanDescription" : "Some sort of story, or prophecy? Can't tell for sure.",
+  "hylotlDescription" : "If only the Lyru preserved their historical artifacts more, I could decipher this.",
+  "lyruDescription" : "Hm. A kingdom falling after a cataclysmic event. What could that mean?", 
+
+  "inventoryIcon" : "lyruancienttablet3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyruancienttablet3.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
+

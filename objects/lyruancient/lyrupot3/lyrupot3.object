@@ -1,0 +1,38 @@
+{
+  "objectName" : "lyrupot3",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Legendary",
+
+  "category" : "breakable",
+  "price" : 0,
+  "printable" : false,
+  "description" : "This old pot has a face. It is full of ash.",
+  "shortdescription" : "Lyru Sacrifice Pot",
+  "race" : "lyru",
+
+  "apexDescription" : "The pot has a face. Maybe the dust inside is a person.",
+  "avianDescription" : "This pot reminds me of Avian ash jars. I doubt it's to honour the dead though.",
+  "floranDescription" : "Sssmash face pot.",
+  "glitchDescription" : "Curious. The ash in this pot is Lyru, but this pot doesn't seem to be constructed for preservation.",
+  "humanDescription" : "It has a face... The pot has a face.",
+  "hylotlDescription" : "I've heard of stories telling of Lyrus sacrificing their dead to stay alive. Perhaps this pot is for that purpose.",
+  "novakidDescription" : "Tis' pot got a face!",
+  "lyruDescription" : "Most Lyrus stopped performing sacrificial cremation ages ago. Yet this pot is here for that.",
+
+  "inventoryIcon" : "lyrupot3icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyrupot3.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/ancient_pot_break_medium1.ogg", "/sfx/objects/ancient_pot_break_medium2.ogg", "/sfx/objects/ancient_pot_break_medium3.ogg", "/sfx/objects/ancient_pot_break_medium4.ogg", "/sfx/objects/ancient_pot_break_medium5.ogg", "/sfx/objects/ancient_pot_break_medium6.ogg" ],
+  "smashParticles" : [ { "count" : 6, "particle" : "ancientshard2" }, { "count" : 6, "particle" : "ancientenergy2" } ],
+  "smashDropPool" : "ancientPotMedium", 
+  "breakDropPool" : "ancientPotMedium"
+}

@@ -1,0 +1,31 @@
+{
+  "objectName" : "lyruancientball",
+  "colonyTags" : [ "lyru" ], 
+  "rarity" : "Legendary",
+  "category" : "furniture",
+  "printable" : false,
+  "description" : "Its a clay sphere. Looks oddly furmiliar.",
+  "shortdescription" : "Ancient Lyru Sphere",
+  "race" : "lyru",
+
+  "apexDescription" : "This clay sphere looks like a distortion tech of some kind.",
+  "avianDescription" : "I think I remember seeing one of these before.",
+  "floranDescription" : "Floran see ball roll. Then Floran chase ball.",
+  "glitchDescription" : "Statement. This sphere looks to be a recreation of a distortion tech.",
+  "humanDescription" : "Hey, I've seen a person turn one of these.",
+  "hylotlDescription" : "This isn't the real thing. But I wonder how the Lyru knew about distortion tech.",
+  "lyruDescription" : "Looks like an ancient model of a distortion tech.", 
+
+  "inventoryIcon" : "lyruancientballicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyruancientball.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
+

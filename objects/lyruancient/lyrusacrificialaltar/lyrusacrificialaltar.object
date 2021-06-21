@@ -1,0 +1,36 @@
+{
+  "objectName" : "lyrusacrificialaltar",
+  "colonyTags" : ["lyru","lyrutemple","evil"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "price" : 350,
+  "printable" : false,
+  "description" : "An old clay altar stained with blood.",
+  "shortdescription" : "Lyru Sacrificial Altar",
+  "race" : "lyru",
+
+  "apexDescription" : "How many lives were taken at this altar?",
+  "avianDescription" : "Sacrifices on an altar like this wouldn't go to Kluex. So what is taking them?",
+  "floranDescription" : "Good place to cut meatss.",
+  "glitchDescription" : "Observant. Altar is stained with the blood of different creatures.",
+  "humanDescription" : "What dark and terrible things happened here, I don't want to know.",
+  "hylotlDescription" : "It's facinating to know why the Lyru sacrificed to keep their kind alive.",
+  "novakidDescription" : "This altar is stained with blood. Hopein' I don't end up on this thing.",
+  "lyruDescription" : "There was a time when sacrifices happened every day to feed our fires and people.",
+
+  "inventoryIcon" : "lyrusacrificialaltaricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyrusacrificialaltar.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

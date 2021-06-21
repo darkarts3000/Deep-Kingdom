@@ -1,0 +1,31 @@
+{
+  "objectName" : "lyruancienttech",
+  "colonyTags" : [ "lyru" ], 
+  "rarity" : "Legendary",
+  "category" : "furniture",
+  "printable" : false,
+  "description" : "A strange clay sculpture. Seems almost mechanical.",
+  "shortdescription" : "Ancient Lyru Tech",
+  "race" : "lyru",
+
+  "apexDescription" : "This clay sculpture is shaped like a piece of machinery.",
+  "avianDescription" : "What a strange looking clay sculpture.",
+  "floranDescription" : "Sstrange clay object.",
+  "glitchDescription" : "Curious. What sort of technology could this sculpture be replicating?",
+  "humanDescription" : "This sculpture looks mechanical. Will it turn on if I touch it?",
+  "hylotlDescription" : "I never saw this type of sculpture before. It's appearance is very machine like.",
+  "lyruDescription" : "Now this looks interesting. Wonder where I can find that device.", 
+
+  "inventoryIcon" : "lyruancienttechicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyruancienttech.png:<color>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
+

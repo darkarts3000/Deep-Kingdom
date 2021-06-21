@@ -1,0 +1,38 @@
+{
+  "objectName" : "lyrupot4",
+  "colonyTags" : ["lyru"],
+  "rarity" : "Legendary",
+
+  "category" : "breakable",
+  "price" : 0,
+  "printable" : false,
+  "description" : "This old pot looks interesting. What could be inside?",
+  "shortdescription" : "Ancient Lyru Pot",
+  "race" : "lyru",
+
+  "apexDescription" : "Whatever is inside this pot must be valuable.",
+  "avianDescription" : "This pot looks ceremonial in nature. What could be inside?",
+  "floranDescription" : "Old potss ssmash and give Floran good things.",
+  "glitchDescription" : "Intreged. This old pot looks too interesting to ignore.",
+  "humanDescription" : "This pot looks really interesting. Something must be inside it.",
+  "hylotlDescription" : "This ceremonial pot is intising me to break it.",
+  "novakidDescription" : "Alright li' pot, I'll smash you.",
+  "lyruDescription" : "The shade won't mind if this is gone. Right?",
+
+  "inventoryIcon" : "lyrupot4icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyrupot4.png:<color>",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/ancient_pot_break_small1.ogg", "/sfx/objects/ancient_pot_break_small2.ogg", "/sfx/objects/ancient_pot_break_small3.ogg", "/sfx/objects/ancient_pot_break_small4.ogg", "/sfx/objects/ancient_pot_break_small5.ogg", "/sfx/objects/ancient_pot_break_small6.ogg", "/sfx/objects/ancient_pot_break_small7.ogg", "/sfx/objects/ancient_pot_break_small8.ogg", "/sfx/objects/ancient_pot_break_small9.ogg" ],
+  "smashParticles" : [ { "count" : 4, "particle" : "ancientshard2" }, { "count" : 4, "particle" : "ancientenergy2" } ],
+  "smashDropPool" : "ancientPotSmall", 
+  "breakDropPool" : "ancientPotSmall"
+}

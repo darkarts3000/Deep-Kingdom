@@ -1,0 +1,44 @@
+{
+  "objectName" : "lyruancientchest",
+  "colonyTags" : ["lyru", "storage"],
+  "rarity" : "Legendary",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "printable" : false,
+  "price" : 500,
+  "description" : "An old chest of Lyru origin.",
+  "shortdescription" : "Ancient Lyru Chest",
+  "race" : "lyru",
+  
+  "health" : 6,
+
+  "apexDescription" : "An old clay chest. What could be inside?",
+  "avianDescription" : "This clay chest looks old. Can I trust what it contains?",
+  "floranDescription" : "Floran wantsss to know whatss in clay box.",
+  "glitchDescription" : "Eager. This old chest is containing something valuable.",
+  "humanDescription" : "That clay chest looks old. Could something still be inside?",
+  "hylotlDescription" : "This chest is of Lyru design, though it's more of an artifact now.",
+  "novakidDescription" : "It's a mighty old chest. Maybe somethin' good be inside.",
+  "lyruDescription" : "These chest serve more as museum pieces in this age of the Lyru.",
+
+  "inventoryIcon" : "lyruancientchesticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyruancientchest.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+	  
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 30,
+  "autoCloseCooldown" : 3600
+}

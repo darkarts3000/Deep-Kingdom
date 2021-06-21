@@ -1,0 +1,59 @@
+{
+  "objectName" : "lyruancientlift",
+  "objectType" : "physics",
+  "colonyTags" : ["lyru"],
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "A strange mechanism provides a continous upwards force to anything nearby.",
+  "shortdescription" : "Ancient Lyru Lift",
+  "race" : "lyru",
+
+  "category" : "decorative",
+  "price" : 100,
+  
+  "apexDescription" : "Ancient transportation technology? How is it still functioning?",
+  "avianDescription" : "How does this old device work. I have so many questions!",
+  "floranDescription" : "flying makesss Floran feel uneasy.",
+  "glitchDescription" : "Fascinated. This ancient technology is still fully operational despite being damaged over time.",
+  "humanDescription" : "Who made this device, and what happened to them?",
+  "hylotlDescription" : "An ancient Lyru device once used to transport individuals upwards. Or maybe downwards.",
+  "lyruDescription" : "After who knows how long, this lift still seems to work.",
+
+  "inventoryIcon" : "lyruancientlifticon.png",
+  "orientations" : [
+    {
+      "image" : "lyruancientlift.png:<color>.up",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/scripts/deep-directionalforcelift.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/lyruancient/lyruancientlift/lyruancientlift.animation",
+
+  "animationParts" : {
+    "forceLift" : "lyruancientlift.png",
+	"forceLiftLights" : "lyruancientliftlight.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inputNodes" : [ [-1, 0] ],
+  "physicsForces" : {
+    "liftForceUp" : {
+      "type" : "DirectionalForceRegion",
+      "rectRegion" : [0, 0, 5, 27],
+      "yTargetVelocity" : 12,
+      "controlForce" : 1000
+    },
+	"liftForceDown" : {
+      "type" : "DirectionalForceRegion",
+      "rectRegion" : [0, 0, 5, 27],
+      "yTargetVelocity" : -12,
+      "controlForce" : 1000
+    }
+  }
+}

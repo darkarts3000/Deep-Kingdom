@@ -1,0 +1,35 @@
+{
+  "objectName" : "lyrupedestal",
+  "colonyTags" : ["lyru","lyrutemple"],
+  "rarity" : "Legendary",
+  "category" : "decorative",
+  "description" : "A clay pedestal. Maybe for placing offerings?",
+  "shortdescription" : "Ancient Lyru Pedestal",
+  "race" : "lyru",
+  "price" : 150,
+  "printable" : false,
+
+  "apexDescription" : "An old clay pedestal made to hold something special.",
+  "avianDescription" : "This clay pedestal looks like it's used for ceremonies.",
+  "floranDescription" : "Floran smellss blood on pedestal.",
+  "glitchDescription" : "Statement. This pedestal seems to be used for ceremonial purposes.",
+  "humanDescription" : "Looks like some interesting stuff was placed here.",
+  "hylotlDescription" : "No doubt this pedestal was used to hold sacrificial offerings.",
+  "novakidDescription" : "Looks like somethin' was put here once.",
+  "lyruDescription" : "These pedestals hold sacrificial offerings to the three spirits.",
+
+  "inventoryIcon" : "lyrupedestalicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyrupedestal.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}
