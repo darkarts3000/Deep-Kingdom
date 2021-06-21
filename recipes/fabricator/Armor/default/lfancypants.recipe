@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pryphorline", "count" : 8 },
+	{ "item" : "syntheticmaterial", "count" : 4 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "lfancypants", "count" : 1 },
+  "groups" : [ "lyrufabricator2", "armors" ]
+}

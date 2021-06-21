@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "circuitplate1", "count" : 5 },
+    { "item" : "pryphorline", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "avocatihead", "count" : 1 },
+  "groups" : [ "lyrufabricator", "armors" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pryphorline", "count" : 4 },
+	{ "item" : "ironbar", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "lgoggles", "count" : 1 },
+  "groups" : [ "lyrufabricator", "armors" ]
+}
