@@ -1,0 +1,45 @@
+{
+  "objectName" : "fancytail3",
+  "colonyTags" : ["underworld"],
+  "rarity" : "Common",
+  "description" : "A rare mushroom that looks like a tail.",
+  "shortdescription" : "Fancytail",
+  "race" : "generic",
+
+  "apexDescription" : "A rare and delicate cave mushroom.",
+  "avianDescription" : "Most Avians called these demon tails.",
+  "floranDescription" : "Mushroomss looks like tails.",
+  "glitchDescription" : "Statement. A rare fancytail.",
+  "humanDescription" : "This mushroom looks a bit fragile.",
+  "hylotlDescription" : "A rare cave mushroom that is quite delicate.",
+  "novakidDescription" : "This mushroom looks like a tail.",
+  "lyruDescription" : "It's hard to care for these fragile things.",
+
+  "category" : "decorative",
+  "printable" : false,
+  "hasObjectItem" : false,
+
+  "inventoryIcon" : "fancytail3.png",
+
+  "orientations" : [
+    {
+      "image" : "fancytail3.png:<color>",
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [0, 2.5]
+    },
+    {
+      "image" : "fancytail3.png:<color>",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [0, 2.5]
+    }
+  ],
+
+  "biomePlaced" : true
+}

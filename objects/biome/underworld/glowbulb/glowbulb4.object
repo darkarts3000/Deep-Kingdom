@@ -1,0 +1,52 @@
+{
+  "objectName" : "glowbulb4",
+  "colonyTags" : ["underworld"],
+  "rarity" : "Common",
+  "description" : "A small glowing plant orb.",
+  "shortdescription" : "Glowbulb",
+  "race" : "generic",
+
+  "apexDescription" : "Glowing cave plant.",
+  "avianDescription" : "A beautiful glowing cave plant.",
+  "floranDescription" : "Glowing plantss.",
+  "glitchDescription" : "Statement. A glowing plant orb.",
+  "humanDescription" : "This small glowing plant really lights up this cave.",
+  "hylotlDescription" : "This plant's glow calms anyone venturing these caves.",
+  "novakidDescription" : "Ain't that a pretty plant.",
+  "lyruDescription" : "I had one of these in my house back home.",
+
+  "category" : "light",
+  "printable" : false,
+
+  "lightColor" : [153, 38, 38],
+
+  "inventoryIcon" : "glowbulb4.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "glowbulb4.png", "fullbright" : true }, { "image" : "glowbulb4lit.png" } ],
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [0, 2.5]
+    },
+    {
+      "imageLayers" : [ { "image" : "glowbulb4.png", "fullbright" : true }, { "image" : "glowbulb4lit.png" } ],
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [0, 2.5]
+    }
+  ],
+
+  "smashOnBreak" : true,
+  "smashParticles" : [ { "count" : 8, "particle" : "bluevineshard" } ],
+  "smashDropOptions" : [
+    [ [ "glowfibre", 1, { } ] ]
+  ],
+  
+  "biomePlaced" : true
+}

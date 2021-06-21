@@ -1,0 +1,8 @@
+[
+  { "op" : "add",
+	"path" : "/smashDropOptions",
+	"value" : [
+    [ [ "prisiliteore", 1, { } ], [ "prisiliteore", 1, { } ], [ "prisiliteore", 1, { } ] ]
+	]
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "objectName" : "aquatube4",
+  "colonyTags" : ["underworld"],
+  "rarity" : "Common",
+  "description" : "A bright coral that grows in caves.",
+  "shortdescription" : "Glowing Aquatube",
+  "race" : "generic",
+
+  "apexDescription" : "Cave coral that glows blue.",
+  "avianDescription" : "A strang glowing cave coral.",
+  "floranDescription" : "Glowing cave corals.",
+  "glitchDescription" : "Approving. Another fine example of natural bioluminescence.",
+  "humanDescription" : "Some kind of cave coral that glows.",
+  "hylotlDescription" : "This coral species is only found in caves.",
+  "novakidDescription" : "Just be some strang coral.",
+  "lyruDescription" : "Sometimes Lyru grow these in planters for lighting.",
+
+  "category" : "light",
+  "printable" : false,
+  "hasObjectItem" : false,
+
+  "lightColor" : [60, 100, 100],
+  "flickerDistance" : 0.05,
+  "flickerStrength" : 0.0,
+
+  "inventoryIcon" : "aquatube4.png",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "aquatube4.png", "fullbright" : true }, { "image" : "aquatube4lit.png" } ],
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [0, 2.5]
+    },
+    {
+      "imageLayers" : [ { "image" : "aquatube4.png", "fullbright" : true }, { "image" : "aquatube4lit.png" } ],
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [0, 2.5]
+    }
+  ],
+
+  "smashOnBreak" : true,
+  "smashParticles" : [ { "count" : 8, "particle" : "iceeggshard" } ],
+  "smashDropOptions" : [
+    [ [ "glowfibre", 1, { } ] ]
+  ],
+
+  
+  "biomePlaced" : true
+}

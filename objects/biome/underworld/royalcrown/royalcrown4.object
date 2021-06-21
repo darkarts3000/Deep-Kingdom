@@ -1,0 +1,45 @@
+{
+  "objectName" : "royalcrown4",
+  "colonyTags" : ["underworld"],
+  "rarity" : "Common",
+  "description" : "A beautiful crown shaped coral.",
+  "shortdescription" : "Royalcrown",
+  "race" : "generic",
+
+  "apexDescription" : "This coral's shaped like a crown.",
+  "avianDescription" : "It looks like a crown of feathers.",
+  "floranDescription" : "Is plant, or animal?",
+  "glitchDescription" : "Observation. This coral looks like a crown.",
+  "humanDescription" : "Looks like a king lost his crown.",
+  "hylotlDescription" : "These once were found in oceans but were later transplanted in caves.",
+  "novakidDescription" : "Well ain't that a funny lookin' coral.",
+  "lyruDescription" : "Hylotls brought these underground during their time in hiding.",
+
+  "category" : "decorative",
+  "printable" : false,
+  "hasObjectItem" : false,
+
+  "inventoryIcon" : "royalcrown4.png",
+
+  "orientations" : [
+    {
+      "image" : "royalcrown4.png:<color>",
+      "flipImages" : true,
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "lightPosition" : [0, 2.5]
+    },
+    {
+      "image" : "royalcrown4.png:<color>",
+      "imagePosition" : [0, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "lightPosition" : [0, 2.5]
+    }
+  ],
+
+  "biomePlaced" : true
+}
