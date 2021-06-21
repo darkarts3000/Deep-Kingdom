@@ -1,0 +1,22 @@
+{
+  "projectileName" : "lyrucannonbullet",
+  "image" : "lyrucannonbullet.png",
+  "physics" : "laser",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "plasma",
+  "fullbright" : true,
+  "lightColor" : [255, 156, 244],
+  "flippable" : true,
+  "emitters" : [ "crystaltraillight" ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallshockwaveexplosion/smallshockwaveexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 5.0,
+  "speed" : 75,
+  "knockback" : 15
+}

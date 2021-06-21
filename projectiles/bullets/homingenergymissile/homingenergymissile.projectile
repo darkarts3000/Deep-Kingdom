@@ -1,0 +1,24 @@
+{
+  "projectileName" : "homingenergymissile",
+  "image" : "homingenergymissile.png",
+  "animationCycle" : 0.4,
+  "frameNumber" : 4,
+  "damageKindImage" : "icon.png",
+  "lightColor" : [255, 156, 244],
+  "pointLight" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/homingenergymissileexplosion/homingenergymissileexplosion.config"
+    }
+  ],
+  "emitters" : [ "crystaltraillight" ],
+  "power" : 20.0,
+  "speed" : 80.0,
+  "physics" : "grenade",
+  "damageKind" : "plasma",
+
+  "scripts" : [ "homingenergymissile.lua" ],
+  "controlForce" : 150,
+  "maxSpeed" : 150
+}

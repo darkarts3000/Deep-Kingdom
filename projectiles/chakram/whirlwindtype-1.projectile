@@ -1,0 +1,46 @@
+{
+  "projectileName" : "whirlwindtype-1",
+  "image" : "whirlwindtype-1.png",
+  "animationCycle" : 0.3,
+  "frameNumber" : 8,
+  "damageKindImage" : "icon.png",
+  "flippable" : false,
+  "orientationLocked" : true,
+  "actionOnReap" : [],
+  "statusEffects" : [],
+  "damagePoly" : [[-8, 4], [-4, 8], [4, 8], [8, 4], [8, -4], [4, -8], [-4, -8], [-8, -4]],
+  "power" : 6.0,
+  "speed" : 40,
+  "supportsProcessing" : true,
+  "emitters" : [ "crystaltraillight" ],
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "animated",
+        "animation" : "/projectiles/bullets/crystalenergy/trail.animation",
+        "position" : [-1.0, 0],
+        "layer" : "back",
+		"collidesForeground" : false,
+        "timeToLive" : 0.2,
+        "destructionTime" : 0.1,
+        "destructionAction" : "fade",
+        "fullbright" : true
+      }
+    }
+  ],
+  "lightColor" : [0, 75, 10],
+  "fullbright" : true,
+  "damageKind" : "dagger",
+  "physics" : "laser",
+  "bounces" : -1,
+  "piercing" : true,
+  "timeToLive" : 3,
+
+  "persistentAudio" : "/sfx/melee/spear_twirl_loop.ogg",
+
+  "scripts" : [ "chakramprojectile.lua" ]
+}

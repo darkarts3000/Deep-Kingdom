@@ -1,0 +1,27 @@
+{
+  "projectileName" : "weakeningplasma",
+  "image" : "weakeningplasma.png",
+  "animationCycle" : 0.2,
+  "lightColor" : [145, 0, 119],
+  "frameNumber" : 2,
+  "fullbright" : true,
+  "damageKindImage" : "icon.png",
+  "physics" : "boomerang",
+  "emitters" : ["weaknesstraillight"],
+  "periodicActions" : [
+    {
+      "time" : 0.05,
+      "repeat" : false,
+      "action" : "sound",
+      "options" : [ "/sfx/gun/pulsecannon_blast1.ogg" ]
+    }
+  ],
+  "statusEffects" : [
+    "elementalweakness"
+  ],
+  "actionOnReap" : [],
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "damageKind" : "plasma",
+
+  "speed" : 25
+}

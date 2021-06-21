@@ -1,0 +1,43 @@
+{
+  "projectileName" : "shatterbullet",
+  "physics" : "laser",
+  "bounces" : 0,
+  "image" : "shatterbullet.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "power" : 50,
+  "speed" : 90,
+  "supportsProcessing" : true,
+  "emitters" : [ "crystaltraillight" ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/crystalenergy/shatterimpact.config"
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "animated",
+        "animation" : "/projectiles/bullets/crystalenergy/trail.animation",
+        "position" : [-1.0, 0],
+        "layer" : "back",
+		"collidesForeground" : false,
+        "timeToLive" : 0.2,
+        "destructionTime" : 0.1,
+        "destructionAction" : "fade",
+        "fullbright" : true
+      }
+    }
+  ],
+  "statusEffects" : [
+    "shatter"
+  ],
+  "lightColor" : [255, 156, 244],
+  "fullbright" : true,
+  "damageKind" : "crystalenergy"
+}

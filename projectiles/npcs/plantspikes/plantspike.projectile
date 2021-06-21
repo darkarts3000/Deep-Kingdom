@@ -1,0 +1,19 @@
+{
+  "projectileName" : "plantspike",
+  "physics" : "plantspike",
+  "bounces" : -1,
+  "damageKindImage" : "icon.png",
+  "image" : "plantspike.png",
+  "orientationLocked" : true,
+  "flippable" : true,
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "emitters" : [ ],
+  "power" : 20,
+  "timeToLive" : 8,
+  "damageKind" : "slash",
+  "piercing" : true,
+  "hydrophobic" : false,
+  "scripts" : [ "/projectiles/scripts/deep-uprightprojectile.lua" ],
+  "rotateInAir" : true
+}

@@ -1,0 +1,41 @@
+{
+  "projectileName" : "weaknessbullet",
+  "physics" : "laser",
+  "bounces" : 0,
+  "image" : "weaknessbullet.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 1,
+  "power" : 50,
+  "speed" : 90,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/debuff/weaknessimpact.config"
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "textured",
+        "image" : "/projectiles/bullets/elementalweakness/trail.png",
+        "position" : [-1.5, 0],
+        "layer" : "middle",
+        "timeToLive" : 0.0,
+        "destructionTime" : 0.3,
+        "destructionAction" : "fade",
+        "fullbright" : true
+      }
+    }
+  ],
+  "statusEffects" : [
+    "elementalweakness"
+  ],
+  "lightColor" : [128, 0, 128],
+  "fullbright" : true,
+  "damageKind" : "crystalenergy"
+}

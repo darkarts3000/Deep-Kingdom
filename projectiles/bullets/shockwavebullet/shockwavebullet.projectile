@@ -1,0 +1,21 @@
+{
+  "projectileName" : "shockwavebullet",
+  "physics" : "laser",
+  "bounces" : 0,
+  "damageKindImage" : "icon.png",
+  "image" : "shockwavebullet.png",
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "power" : 8,
+  "speed" : 75,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smallshockwaveexplosion/smallshockwaveexplosion.config"
+    }
+  ],
+  "lightColor" : [255, 156, 244],
+  "fullbright" : true,
+  "damageKind" : "plasma"
+}

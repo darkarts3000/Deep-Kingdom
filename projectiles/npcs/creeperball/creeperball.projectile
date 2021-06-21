@@ -1,0 +1,23 @@
+{
+  "projectileName" : "creeperball",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "image" : "creeperball.png",
+  "damageKindImage" : "icon.png",
+  "speed" : 28,
+  "animationCycle" : 0.5,
+  "frameNumber" : 4,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/tarexplosion/tarexplosion.config"
+    },
+    {
+      "action" : "spawnmonster",
+      "type" : "creeper",
+      "offset" : [0,0]
+    }
+  ],
+  "power" : 5.0,
+  "damageKind" : "tarball"
+}

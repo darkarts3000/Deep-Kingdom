@@ -1,0 +1,17 @@
+{
+  "projectileName" : "smallshockwaveexplosion",
+  "image" : "smallshockwaveexplosion.png",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "lightColor" : [255, 156, 244],
+  "pointLight" : true,
+  "statusEffects" : [],
+  "damagePoly" : [ [-27, 0], [-18, -18], [0, -27], [18, -18], [27, 0], [18, 18], [0, 27], [-18, 18] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "bounces" : -1,
+  "flippable" : true,
+  "damageKind" : "fire",
+  "knockback" : 10
+}
