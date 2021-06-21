@@ -1,0 +1,81 @@
+{
+  "itemName" : "lyrutier6mchest",
+  "price" : 6400,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "chestarmour",
+  "description" : "A chest sheild generator worn by Legate. ^green;+Breath Protection, Radiation Immunity, Cold Immunity, Heat Immunity, Lava Immunity^reset;",
+  "shortdescription" : "Legate Necklace",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "Bsleeve.png",
+    "frontSleeve" : "Fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "Bsleeve.png",
+    "frontSleeve" : "Fsleeve.png"
+  },
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "manipulatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "manipulatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+  
+  "statusEffects" : [
+    {
+      "stat" : "biomeheatImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "biomecoldImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "biomeradiationImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "breathProtection",
+      "amount" : 1.0
+    },
+	{
+      "stat" : "lavaImmunity",
+      "amount" : 1.0
+    },
+	{
+      "stat" : "fireStatusImmunity",
+      "amount" : 1.0
+    }
+  ],
+
+  "itemTags" : [ "tier6armour" ],
+
+  "colorOptions" : [
+    // RED
+    { "ffca8a" : "f4988c", "e0975c" : "d93a3a", "a85636" : "932625", "6f2919" : "601119" }
+  ]
+}

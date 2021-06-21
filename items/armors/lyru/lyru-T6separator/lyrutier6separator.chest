@@ -1,0 +1,81 @@
+{
+  "itemName" : "lyrutier6schest",
+  "price" : 6400,
+  "inventoryIcon" : "icons.png:chest",
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "category" : "chestarmour",
+  "description" : "A chest sheild generator worn by Ceturion. ^green;+Breath Protection, Radiation Immunity, Cold Immunity, Heat Immunity, Lava Immunity^reset;",
+  "shortdescription" : "Ceturion Necklace",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "Bsleeve.png",
+    "frontSleeve" : "Fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chestf.png",
+    "backSleeve" : "Bsleeve.png",
+    "frontSleeve" : "Fsleeve.png"
+  },
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "separatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+  
+  "statusEffects" : [
+    {
+      "stat" : "biomeheatImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "biomecoldImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "biomeradiationImmunity",
+      "amount" : 1.0
+    },
+    {
+      "stat" : "breathProtection",
+      "amount" : 1.0
+    },
+	{
+      "stat" : "lavaImmunity",
+      "amount" : 1.0
+    },
+	{
+      "stat" : "fireStatusImmunity",
+      "amount" : 1.0
+    }
+  ],
+
+  "itemTags" : [ "tier6armour" ],
+
+  "colorOptions" : [
+    // BLACK
+    { "ffca8a" : "838383", "e0975c" : "555555", "a85636" : "383838", "6f2919" : "151515" }
+  ]
+}
