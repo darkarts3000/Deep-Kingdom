@@ -1,0 +1,11 @@
+{
+  "author" : "Darkarts3000",
+  "description" : "Introduces the Lyru into starbound. The most infamous cave dwellers.\n\nThe Lyru, are vast race of treasure hunters and thieves from the depths of a molten world. They evolved with incredible eyesight though sensitive to bright light, and have adapted well to life underground. However they can't resist the temptation for more wealth and power, which led them to search the far reaches of space.\n\nThe mod is still in development, and there's much to be done before it can be complete. As such many things are based off sprites by RyuujinZERO's Avali race mod and Aegonian's Elithian Races mod. Please be mindfull that I'm not as good as the previously mentioned creator, and it's only me working on this mod.\n\nThe Lyru have completely original sprites similar to a kangaroo.\n\nWith their own crafting stations Lyru have their own vanity and objects, quite like the Avali but with a different style.\n\nTheir structures are more metalic do to the fact that there's little organic material in caves.\n\nNo more heavy protection for Lyru armor is nothing more than sheild generators, and higher tiers even provide environment protection. Plus race specific mech.\n\nUnderground environments have more unique monsters that can be caught and some more crops. Some settlements above ground only(for now).\n\nIf anyone is fishing, there are treasurefish that can be caught in every ocean that contain special items.\n\nYou will need a race extender to use this mod.",
+  "friendlyName" : "Deep Kingdom Mod",
+  "includes" : ["avali", "FrackinRaces"],
+  "link" : "steam://url/CommunityFilePage/1528780956",
+  "name" : "Deep Kingdom Mod",
+  "steamContentId" : "1528780956",
+  "tags" : "Planets and Environments|NPCs and Creatures|Weapons|Species|Furniture and Objects|Armor and Clothes",
+  "version" : "3"
+}
