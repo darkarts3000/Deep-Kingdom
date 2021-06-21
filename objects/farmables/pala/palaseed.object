@@ -1,0 +1,50 @@
+{
+  "objectName" : "palaseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Uncommon",
+  "category" : "seed",
+  "description" : "This colorful cave vegtable is ice cold.",
+  "shortdescription" : "Pala Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 30,
+
+  "apexDescription" : "This vegtable will definitely give me frostbite.",
+  "avianDescription" : "A cold and colorful vegtable that gives me frostbite, no thanks.",
+  "floranDescription" : "Cold, cave vegtable.",
+  "glitchDescription" : "Cautious. This vegtable very cold.",
+  "humanDescription" : "It's ice cold.",
+  "hylotlDescription" : "It would be wise not to bite into one of these, or I'll become an ice cube.",
+  "novakidDescription" : "What kinda person would wana eat something this cold?",
+  "lyruDescription" : "Though these are quite cold, they make a decent snack when heated.",
+  
+  "inventoryIcon" : "palaseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "palaseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [240, 300]
+    },
+    {
+      "duration" : [240, 300]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "palaHarvest"
+    }
+  ],
+
+  "maxImmersion" : 0.125
+}

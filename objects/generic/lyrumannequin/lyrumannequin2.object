@@ -1,0 +1,42 @@
+{
+  "objectName" : "lyrumannequin2",
+  "colonyTags" : [],
+  "printable" : false,
+  "rarity" : "Uncommon",
+
+  "category" : "other",
+  "price" : 500,
+  "description" : "Display and easily equip armour sets!",
+  "shortdescription" : "Lyru Mannequin",
+  "race" : "generic",
+  
+  "lightColor" : [128, 0, 128],
+
+  "inventoryIcon" : "lyrumannequinicon2.png",
+  "orientations" : [
+    {
+      "dualImage" : "lyrumannequin2.png",
+      "imagePosition" : [-21, 0],
+
+      "spaces" : [[-1, 0], [-1, 1], [-1, 2], [-1, 3], [0, 0], [0, 1], [0, 2], [0, 3]],
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "lyrumannequin2.animation",
+  "animationPosition" : [-21, 0],
+
+  "health" : 1.5,
+
+  "objectType" : "container",
+
+  "openSounds" : [ "/sfx/objects/mannequin_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/mannequin_close.ogg" ],
+  "slotCount" : 4,
+  "uiConfig" : "/interface/scripted/mannequin/mannequingui.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "scripts" : [ "/objects/generic/lyrumannequin/scripts/lmannequin.lua" ],
+  "scriptDelta" : 5
+}

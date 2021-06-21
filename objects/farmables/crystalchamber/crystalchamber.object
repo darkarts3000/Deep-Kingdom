@@ -1,0 +1,75 @@
+{
+  "objectName" : "crystalchamber",
+  "colonyTags" : ["outdoor","light"],
+  "printable" : false,
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "price" : 110,
+  "description" : "Grows crystals. Growing crystals is fun!",
+  "shortdescription" : "Crystal Chamber",
+  "race" : "generic",
+
+  "apexDescription" : "This can be used to grow rare crystals, if you give it enough time.",
+  "avianDescription" : "I can use this to grow crystals.",
+  "floranDescription" : "Shiny crystalss grow inside box.",
+  "glitchDescription" : "Intrigued. I wonder what kind of crystals grow in this.",
+  "humanDescription" : "Can I use this to make diamonds?",
+  "hylotlDescription" : "Using this I can grow crystals, a process that usually takes a very long time.",
+  "novakidDescription":  "Everyone likes crystals, and they sell well too!",
+  "lyruDescription":  "Crystal chambers save Lyrus time, and grow ever important prisilite.",
+
+  "inventoryIcon" : "crystalchambericon.png",
+  "orientations" : [
+    {
+      "image" : "crystalchamber.png:1",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "crystalchamber.png:1",
+      "imagePosition" : [-8, 0],
+      "animationPosition" : [-8, 0],
+
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "crystalchamber.animation",
+  "animationParts" : {
+    "light" : "crystalchamberlit.png",
+    "post" : "crystalchamber.png"
+  },
+
+  "scripts" : [ "/objects/scripts/harvestable.lua" ],
+  "scriptDelta" : 60,
+  
+  "activeTimeRange" : [0.1, 2.0],
+  "activeAnimationStates" : {
+    "light" : "on"
+  },
+  "inactiveAnimationStates" : {
+    "light" : "off"
+  },
+
+  "itemDropOffset" : [0.5, 2.5],
+  "stages" : [
+    {
+      "duration" : [85, 95]
+    },
+    {
+      "duration" : [85, 95]
+    },
+    {
+      "harvestPool" : "lcrystalHarvest"
+    }
+  ]
+}

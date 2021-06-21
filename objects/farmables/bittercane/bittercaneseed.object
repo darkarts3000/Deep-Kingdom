@@ -1,0 +1,50 @@
+{
+  "objectName" : "bittercaneseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Uncommon",
+  "category" : "seed",
+  "description" : "Bittercane is a stiff crop that can be crushed to make a bitter powder.",
+  "shortdescription" : "Bittercane Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 23,
+
+  "apexDescription" : "This bitter relative to sugarcane is an incredible medical remedy.",
+  "avianDescription" : "Bitter stalks of the deep cure anything.",
+  "floranDescription" : "Bitter ssstick.",
+  "glitchDescription" : "Ponderous. This plant is sharp, and potentially deadly in the right hands.",
+  "humanDescription" : "Bittrcane. No cold for me today.",
+  "hylotlDescription" : "Can be used to create medicine, one would want to have this on hand.",
+  "novakidDescription" : "Bitter cave sticks.",
+  "lyruDescription" : "Bittercane is commonly used in lyru food and medicine.",
+
+  "inventoryIcon" : "bittercaneseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "bittercaneseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3], [1, 4], [0, 4] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [240, 300]
+    },
+    {
+      "duration" : [240, 300]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "bittercaneHarvest"
+    }
+  ],
+
+  "maxImmersion" : 0.125
+}

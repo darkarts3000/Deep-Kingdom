@@ -1,0 +1,65 @@
+{
+  "objectName" : "wilddeepshadeseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Uncommon",
+  "category" : "seed",
+  "description" : "Fruit of the deep. Careful they're poisonous.",
+  "shortdescription" : "Deepshade Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 50,
+  "hasObjectItem" : false,
+
+  "apexDescription" : "These large berries look tasty, but I doubt there edible.",
+  "avianDescription" : "A poisonous cave plant. Dangerous.",
+  "floranDescription" : "Sour, poisonous fruitsss. This plant makess many sick.",
+  "glitchDescription" : "Ponderous. Who would choose to eat a food that's poisonous?",
+  "humanDescription" : "I souldn't eat these if I want to live.",
+  "hylotlDescription" : "Though these are quite deadly raw, they can become safe to eat if properly prepared.",
+  "novakidDescription" : "I don't want anythin' to do with these poison berries.",
+  "lyruDescription" : "These are poisonous, but lyru like the challeng.",
+  
+  "lightColor" : [0, 90, 123],
+  "flickerDistance" : 0.05,
+  "flickerStrength" : 0.0,
+
+  "inventoryIcon" : "deepshadeseedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "deepshadeseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [1, 0], [0, 0], [1, 1], [0, 1], [1, 2], [0, 2], [1, 3], [0, 3], [1, 4], [0, 4] ],
+      "requireTilledAnchors" : false,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "stages" : [
+    {
+      "duration" : [240, 300]
+    },
+    {
+      "duration" : [240, 300]
+    },
+    {
+      "alts" : 5,
+      "duration" : [240, 300]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "deepshadeHarvest",
+      "resetToStage" : 2
+    }
+  ],
+
+  "breakDropOptions" : [
+    [ [ "deepshadeseed", 1, { } ] ]
+  ],
+
+  "maxImmersion" : 0.125,
+  "consumeSoilMoisture" : false
+}
