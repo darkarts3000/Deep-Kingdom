@@ -1,0 +1,11 @@
+[
+{
+"op" : "add",
+"path" : "/species/lyru",
+"value" : {
+"aiFrames" : "LyruAI.png",
+"portraitFrames" : "portraits/lyruportrait.png",
+"staticFrames" : "staticlyru.png"
+}
+}
+]
