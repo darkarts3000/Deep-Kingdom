@@ -1,0 +1,36 @@
+{
+  "objectName" : "lyrulightstripdim",
+  "colonyTags" : ["lyru", "light"],
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "printable" : false,
+  "lightColor" : [128, 0, 128],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 1,
+  "price" : 60,
+  "description" : "A simple light strip.",
+  "shortdescription" : "Dim Lyru Light",
+  "race" : "lyru",
+
+  "apexDescription" : "A simple light strip.",
+  "avianDescription" : "A light.",
+  "floranDescription" : "Light. Ssshiny.",
+  "glitchDescription" : "Observation. A simple light.",
+  "humanDescription" : "A standard light.",
+  "hylotlDescription" : "A simple light.",
+
+  "lyruDescription" : "A standard light.",
+
+  "inventoryIcon" : "lyrulightstripicon.png",
+  "orientations" : [
+    {
+      "image" : "lyrulightstrip.png:<color>.on",
+      "imagePosition" : [-8, 0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

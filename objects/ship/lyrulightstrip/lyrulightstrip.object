@@ -1,0 +1,54 @@
+{
+  "objectName" : "lyrulightstrip",
+  "colonyTags" : ["lyru", "light"],
+  "rarity" : "Uncommon",
+  "category" : "light",
+  "printable" : false,
+  "lightColor" : [255, 155, 255],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.05,
+  "flickerTiming" : 1,
+  "unlit" : true,
+  "price" : 60,
+  "description" : "A simple light strip.",
+  "shortdescription" : "Lyru Light",
+  "race" : "lyru",
+
+  "apexDescription" : "A simple light strip.",
+  "avianDescription" : "A light.",
+  "floranDescription" : "Light. Ssshiny.",
+  "glitchDescription" : "Observation. A simple light.",
+  "humanDescription" : "A standard light.",
+  "hylotlDescription" : "A simple light.",
+
+  "lyruDescription" : "A standard light.",
+
+  "inventoryIcon" : "lyrulightstripicon.png",
+  "orientations" : [
+    {
+      "image" : "lyrulightstrip.png:<color>.off",
+      "imagePosition" : [-8, 0],
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fluorescent_light_quiet.ogg",
+  "soundEffectRangeMultiplier" : 0.5,
+  
+  "animation" : "/objects/wired/light/lighttoggle.animation",
+  "animationParts" : {
+    "light" : "lyrulightstrip.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+  
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}
