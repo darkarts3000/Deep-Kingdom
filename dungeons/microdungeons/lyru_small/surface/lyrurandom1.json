@@ -434,12 +434,12 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"..\/..\/..\/..\/..\/..\/assets\/packed\/miscellaneous.json"
+         "source":"..\/..\/..\/..\/tilesets\/packed\/miscellaneous.json"
         }, 
         {
          "firstgid":23,
-         "source":"..\/..\/..\/..\/..\/..\/assets\/packed\/liquids.json"
-        }, 
+         "source":"..\/..\/..\/..\/tilesets\/packed\/liquids.json"
+        },
         {
          "firstgid":51,
          "source":"..\/..\/..\/..\/tilesets\/lyru-custom\/lyru-materials.json"
