@@ -8,8 +8,7 @@ function init()
 	{stat = "fireStatusImmunity", amount = -1},
 	{stat = "iceStatusImmunity", amount = -1},
 	{stat = "electricStatusImmunity", amount = -1},
-	{stat = "poisonStatusImmunity", amount = -1},
-	{stat = "crystalizeStatusImmunity", amount = -1}
+	{stat = "poisonStatusImmunity", amount = -1}
   })
 
    script.setUpdateDelta(0)
