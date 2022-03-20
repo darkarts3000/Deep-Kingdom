@@ -37,7 +37,7 @@ function update(dt)
 	animator.playSound("shock")
 	
 	local targetDamage = math.floor(status.resourceMax("health") * self.tickDamagePercentage) + 1
-	local actualDamage = math.min(targetDamage, 15)
+	local actualDamage = math.min(targetDamage, 10)
 	
 	--Apply damage to self
     status.applySelfDamageRequest({
