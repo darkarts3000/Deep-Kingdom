@@ -103,7 +103,7 @@
       "damageSourceKind" : "slash",
       "knockback" : 20,
       "statusEffects" : [
-        {"effect" : "melting", "duration" : 0.2 }
+        {"effect" : "burning", "duration" : 0.2 }
       ]
     },
 
